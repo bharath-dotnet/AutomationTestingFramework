@@ -1,0 +1,52 @@
+name: Automation Testing Framework - CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1 - Checkout code from GitHub
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    # Step 2 - Setup .NET 8
+    - name: Setup .NET 8
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+
+    # Step 3 - Install Chrome
+    - name: Install Google Chrome
+      run: |
+        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+
+    # Step 4 - Restore NuGet packages
+    - name: Restore Dependencies
+      run: dotnet restore
+
+    # Step 5 - Build the project
+    - name: Build Project
+      run: dotnet build --configuration Release
+
+    # Step 6 - Run all 34 tests
+    - name: Run Automation Tests
+      env:
+        CI: true
+      run: dotnet test --configuration Release --logger "trx;LogFileName=TestResults.trx" --results-directory ./TestResults
+
+    # Step 7 - Upload test results as artifact
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: test-results
+        path: ./TestResults/TestResults.trx
