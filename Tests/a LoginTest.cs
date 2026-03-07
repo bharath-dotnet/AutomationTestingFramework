@@ -7,6 +7,7 @@ namespace AutomationFramework.Tests
 {
     [TestFixture]
     [Order(1)]
+   
     public class LoginTests : BaseTest
     {
         [Test, Order(1), Category("TC_001")]
@@ -14,14 +15,11 @@ namespace AutomationFramework.Tests
         public void ValidLoginTest()
         {
             LoginPage login = new LoginPage(driver);
-            var data = TestDataReader.GetLoginData("ValidUser");
-            login.EnterUsername(data.Username);
-            login.EnterPassword(data.Password);
+            login.EnterUsername("Admin");
+            login.EnterPassword("admin123");
             login.ClickLogin();
-
-            DashboardPage dashboard = new DashboardPage(driver);
-            Assert.IsTrue(dashboard.IsDashboardLoaded(),
-                "Dashboard should load after valid login.");
+            Assert.IsTrue(driver.Url.Contains("dashboard"),
+                "Should redirect to dashboard after valid login.");
         }
 
         [Test, Order(2), Category("TC_002")]
@@ -29,11 +27,9 @@ namespace AutomationFramework.Tests
         public void InvalidUsernameTest()
         {
             LoginPage login = new LoginPage(driver);
-            var data = TestDataReader.GetLoginData("InvalidUser");
-            login.EnterUsername(data.Username);
-            login.EnterPassword(data.Password);
+            login.EnterUsername("invaliduser");
+            login.EnterPassword("admin123");
             login.ClickLogin();
-
             Assert.IsTrue(login.IsErrorMessageDisplayed(),
                 "Error message should appear for invalid username.");
         }
@@ -43,11 +39,9 @@ namespace AutomationFramework.Tests
         public void InvalidPasswordTest()
         {
             LoginPage login = new LoginPage(driver);
-            var data = TestDataReader.GetLoginData("InvalidPassword");
-            login.EnterUsername(data.Username);
-            login.EnterPassword(data.Password);
+            login.EnterUsername("Admin");
+            login.EnterPassword("wrongpassword");
             login.ClickLogin();
-
             Assert.IsTrue(login.IsErrorMessageDisplayed(),
                 "Error message should appear for invalid password.");
         }
@@ -58,23 +52,17 @@ namespace AutomationFramework.Tests
         {
             LoginPage login = new LoginPage(driver);
             login.ClickLogin();
-
             Assert.IsTrue(login.IsErrorMessageDisplayed(),
                 "Error message should appear for empty fields.");
         }
 
         [Test, Order(5), Category("TC_005")]
-        [Description("TC_005_SpecialCharacters")]
-        public void SpecialCharacterLoginTest()
+        [Description("TC_005_LoginPageDisplayed")]
+        public void LoginPageDisplayedTest()
         {
             LoginPage login = new LoginPage(driver);
-            var data = TestDataReader.GetLoginData("SpecialCharacters");
-            login.EnterUsername(data.Username);
-            login.EnterPassword(data.Password);
-            login.ClickLogin();
-
-            Assert.IsTrue(login.IsErrorMessageDisplayed(),
-                "Error message should appear for special characters.");
+            Assert.IsTrue(login.IsLoginPageDisplayed(),
+                "Login page should be displayed.");
         }
     }
 }

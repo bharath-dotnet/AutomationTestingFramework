@@ -123,3 +123,4 @@ C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\Automati
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.pdb
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.genruntimeconfig.cache
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\ref\AutomationFramework.dll
+C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.sourcelink.json

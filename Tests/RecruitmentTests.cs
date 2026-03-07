@@ -7,6 +7,7 @@ namespace AutomationFramework.Tests
 {
     [TestFixture]
     [Order(4)]
+    
     public class RecruitmentTests : BaseTest
     {
         [SetUp]

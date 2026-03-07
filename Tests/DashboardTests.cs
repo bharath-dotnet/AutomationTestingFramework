@@ -7,6 +7,7 @@ namespace AutomationFramework.Tests
 {
     [TestFixture]
     [Order(2)]
+   
     public class DashboardTests : BaseTest
     {
         [SetUp]

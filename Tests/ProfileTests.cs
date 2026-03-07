@@ -7,6 +7,7 @@ namespace AutomationFramework.Tests
 {
     [TestFixture]
     [Order(3)]
+    
     public class ProfileTests : BaseTest
     {
         [SetUp]
