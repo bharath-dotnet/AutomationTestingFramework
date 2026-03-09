@@ -1,352 +1,813 @@
-[2026-03-05 13:18:06] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
-[2026-03-05 13:18:08] [INFO ] Browser launched
-[2026-03-05 13:18:08] [INFO ] Browser window maximized
-[2026-03-05 13:18:11] [INFO ] Navigated to application URL
-[2026-03-05 13:18:12] [INFO ] Test execution completed for: TC_004_EmptyFields
-[2026-03-05 13:18:12] [DEBUG] Execution time: 6.03 sec
-[2026-03-05 13:18:12] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
-[2026-03-05 13:18:12] [INFO ] Closing browser
-[2026-03-05 13:18:13] [INFO ] Browser closed successfully
-[2026-03-05 13:18:13] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
-[2026-03-05 13:18:14] [INFO ] Browser launched
-[2026-03-05 13:18:14] [INFO ] Browser window maximized
-[2026-03-05 13:18:17] [INFO ] Navigated to application URL
-[2026-03-05 13:18:19] [INFO ] Test execution completed for: TC_003_InvalidPassword
-[2026-03-05 13:18:19] [DEBUG] Execution time: 6.00 sec
-[2026-03-05 13:18:19] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
-[2026-03-05 13:18:19] [INFO ] Closing browser
-[2026-03-05 13:18:19] [INFO ] Browser closed successfully
-[2026-03-05 13:18:19] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
-[2026-03-05 13:18:20] [INFO ] Browser launched
-[2026-03-05 13:18:20] [INFO ] Browser window maximized
-[2026-03-05 13:18:23] [INFO ] Navigated to application URL
-[2026-03-05 13:18:25] [INFO ] Test execution completed for: TC_002_InvalidUsername
-[2026-03-05 13:18:25] [DEBUG] Execution time: 5.94 sec
-[2026-03-05 13:18:25] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
-[2026-03-05 13:18:25] [INFO ] Closing browser
-[2026-03-05 13:18:25] [INFO ] Browser closed successfully
-[2026-03-05 13:18:25] [INFO ] ===== TEST STARTED: TC_005_SpecialCharacters =====
-[2026-03-05 13:18:26] [INFO ] Browser launched
-[2026-03-05 13:18:26] [INFO ] Browser window maximized
-[2026-03-05 13:18:30] [INFO ] Navigated to application URL
-[2026-03-05 13:18:31] [INFO ] Test execution completed for: TC_005_SpecialCharacters
-[2026-03-05 13:18:31] [DEBUG] Execution time: 6.55 sec
-[2026-03-05 13:18:31] [PASS ] ===== TEST PASSED: TC_005_SpecialCharacters =====
-[2026-03-05 13:18:31] [INFO ] Closing browser
-[2026-03-05 13:18:32] [INFO ] Browser closed successfully
-[2026-03-05 13:18:32] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
-[2026-03-05 13:18:33] [INFO ] Browser launched
-[2026-03-05 13:18:33] [INFO ] Browser window maximized
-[2026-03-05 13:18:36] [INFO ] Navigated to application URL
-[2026-03-05 13:18:37] [INFO ] Test execution completed for: TC_001_ValidLogin
-[2026-03-05 13:18:37] [DEBUG] Execution time: 5.88 sec
-[2026-03-05 13:18:37] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
-[2026-03-05 13:18:37] [INFO ] Closing browser
-[2026-03-05 13:18:38] [INFO ] Browser closed successfully
-[2026-03-05 13:18:38] [INFO ] ===== TEST STARTED: TC_006_VerifyLogoutButton =====
-[2026-03-05 13:18:39] [INFO ] Browser launched
-[2026-03-05 13:18:39] [INFO ] Browser window maximized
-[2026-03-05 13:18:42] [INFO ] Navigated to application URL
-[2026-03-05 13:18:44] [INFO ] Test execution completed for: TC_006_VerifyLogoutButton
-[2026-03-05 13:18:44] [DEBUG] Execution time: 6.59 sec
-[2026-03-05 13:18:44] [PASS ] ===== TEST PASSED: TC_006_VerifyLogoutButton =====
-[2026-03-05 13:18:44] [INFO ] Closing browser
-[2026-03-05 13:18:44] [INFO ] Browser closed successfully
-[2026-03-05 13:58:22] [INFO ] ===== TEST STARTED: TC_007_DashboardHeaderText =====
-[2026-03-05 13:58:26] [INFO ] Browser launched
-[2026-03-05 13:58:26] [INFO ] Browser window maximized
-[2026-03-05 13:58:29] [INFO ] Navigated to application URL
-[2026-03-05 13:58:30] [INFO ] Test execution completed for: TC_007_DashboardHeaderText
-[2026-03-05 13:58:30] [DEBUG] Execution time: 7.88 sec
-[2026-03-05 13:58:30] [PASS ] ===== TEST PASSED: TC_007_DashboardHeaderText =====
-[2026-03-05 13:58:30] [INFO ] Closing browser
-[2026-03-05 13:58:30] [INFO ] Browser closed successfully
-[2026-03-05 13:58:30] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
-[2026-03-05 13:58:32] [INFO ] Browser launched
-[2026-03-05 13:58:32] [INFO ] Browser window maximized
-[2026-03-05 13:58:35] [INFO ] Navigated to application URL
-[2026-03-05 13:58:36] [INFO ] Test execution completed for: TC_006_DashboardLoads
-[2026-03-05 13:58:36] [DEBUG] Execution time: 5.84 sec
-[2026-03-05 13:58:36] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
-[2026-03-05 13:58:36] [INFO ] Closing browser
-[2026-03-05 13:58:36] [INFO ] Browser closed successfully
-[2026-03-05 13:58:36] [INFO ] ===== TEST STARTED: TC_008_LogoutButtonVisible =====
-[2026-03-05 13:58:38] [INFO ] Browser launched
-[2026-03-05 13:58:38] [INFO ] Browser window maximized
-[2026-03-05 13:58:41] [INFO ] Navigated to application URL
-[2026-03-05 13:58:42] [INFO ] Test execution completed for: TC_008_LogoutButtonVisible
-[2026-03-05 13:58:42] [DEBUG] Execution time: 5.96 sec
-[2026-03-05 13:58:42] [PASS ] ===== TEST PASSED: TC_008_LogoutButtonVisible =====
-[2026-03-05 13:58:42] [INFO ] Closing browser
-[2026-03-05 13:58:42] [INFO ] Browser closed successfully
-[2026-03-05 13:58:42] [INFO ] ===== TEST STARTED: TC_009_LogoutRedirectsToLogin =====
-[2026-03-05 13:58:44] [INFO ] Browser launched
-[2026-03-05 13:58:44] [INFO ] Browser window maximized
-[2026-03-05 13:58:47] [INFO ] Navigated to application URL
-[2026-03-05 13:58:59] [INFO ] Test execution completed for: TC_009_LogoutRedirectsToLogin
-[2026-03-05 13:58:59] [DEBUG] Execution time: 16.38 sec
-[2026-03-05 13:58:59] [PASS ] ===== TEST PASSED: TC_009_LogoutRedirectsToLogin =====
-[2026-03-05 13:58:59] [INFO ] Closing browser
-[2026-03-05 13:58:59] [INFO ] Browser closed successfully
-[2026-03-05 13:58:59] [INFO ] ===== TEST STARTED: TC_010_SuccessMessageAfterLogin =====
-[2026-03-05 13:59:00] [INFO ] Browser launched
-[2026-03-05 13:59:00] [INFO ] Browser window maximized
-[2026-03-05 13:59:04] [INFO ] Navigated to application URL
-[2026-03-05 13:59:06] [INFO ] Test execution completed for: TC_010_SuccessMessageAfterLogin
-[2026-03-05 13:59:06] [DEBUG] Execution time: 6.73 sec
-[2026-03-05 13:59:06] [PASS ] ===== TEST PASSED: TC_010_SuccessMessageAfterLogin =====
-[2026-03-05 13:59:06] [INFO ] Closing browser
-[2026-03-05 13:59:06] [INFO ] Browser closed successfully
-[2026-03-05 13:59:06] [INFO ] ===== TEST STARTED: TC_011_SuccessMessageText =====
-[2026-03-05 13:59:07] [INFO ] Browser launched
-[2026-03-05 13:59:07] [INFO ] Browser window maximized
-[2026-03-05 13:59:11] [INFO ] Navigated to application URL
-[2026-03-05 13:59:12] [INFO ] Test execution completed for: TC_011_SuccessMessageText
-[2026-03-05 13:59:12] [DEBUG] Execution time: 5.89 sec
-[2026-03-05 13:59:12] [PASS ] ===== TEST PASSED: TC_011_SuccessMessageText =====
-[2026-03-05 13:59:12] [INFO ] Closing browser
-[2026-03-05 13:59:12] [INFO ] Browser closed successfully
-[2026-03-05 13:59:12] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
-[2026-03-05 13:59:13] [INFO ] Browser launched
-[2026-03-05 13:59:13] [INFO ] Browser window maximized
-[2026-03-05 13:59:17] [INFO ] Navigated to application URL
-[2026-03-05 13:59:18] [INFO ] Test execution completed for: TC_004_EmptyFields
-[2026-03-05 13:59:18] [DEBUG] Execution time: 5.90 sec
-[2026-03-05 13:59:18] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
-[2026-03-05 13:59:18] [INFO ] Closing browser
-[2026-03-05 13:59:18] [INFO ] Browser closed successfully
-[2026-03-05 13:59:18] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
-[2026-03-05 13:59:19] [INFO ] Browser launched
-[2026-03-05 13:59:19] [INFO ] Browser window maximized
-[2026-03-05 13:59:22] [INFO ] Navigated to application URL
-[2026-03-05 13:59:23] [INFO ] Test execution completed for: TC_003_InvalidPassword
-[2026-03-05 13:59:23] [DEBUG] Execution time: 5.70 sec
-[2026-03-05 13:59:23] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
-[2026-03-05 13:59:23] [INFO ] Closing browser
-[2026-03-05 13:59:24] [INFO ] Browser closed successfully
-[2026-03-05 13:59:24] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
-[2026-03-05 13:59:25] [INFO ] Browser launched
-[2026-03-05 13:59:25] [INFO ] Browser window maximized
-[2026-03-05 13:59:28] [INFO ] Navigated to application URL
-[2026-03-05 13:59:30] [INFO ] Test execution completed for: TC_002_InvalidUsername
-[2026-03-05 13:59:30] [DEBUG] Execution time: 5.99 sec
-[2026-03-05 13:59:30] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
-[2026-03-05 13:59:30] [INFO ] Closing browser
-[2026-03-05 13:59:30] [INFO ] Browser closed successfully
-[2026-03-05 13:59:30] [INFO ] ===== TEST STARTED: TC_005_SpecialCharacters =====
-[2026-03-05 13:59:31] [INFO ] Browser launched
-[2026-03-05 13:59:31] [INFO ] Browser window maximized
-[2026-03-05 13:59:35] [INFO ] Navigated to application URL
-[2026-03-05 13:59:36] [INFO ] Test execution completed for: TC_005_SpecialCharacters
-[2026-03-05 13:59:36] [DEBUG] Execution time: 6.26 sec
-[2026-03-05 13:59:36] [PASS ] ===== TEST PASSED: TC_005_SpecialCharacters =====
-[2026-03-05 13:59:36] [INFO ] Closing browser
-[2026-03-05 13:59:36] [INFO ] Browser closed successfully
-[2026-03-05 13:59:36] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
-[2026-03-05 13:59:37] [INFO ] Browser launched
-[2026-03-05 13:59:37] [INFO ] Browser window maximized
-[2026-03-05 13:59:41] [INFO ] Navigated to application URL
-[2026-03-05 13:59:42] [INFO ] Test execution completed for: TC_001_ValidLogin
-[2026-03-05 13:59:42] [DEBUG] Execution time: 5.77 sec
-[2026-03-05 13:59:42] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
-[2026-03-05 13:59:42] [INFO ] Closing browser
-[2026-03-05 13:59:42] [INFO ] Browser closed successfully
-[2026-03-05 14:06:22] [INFO ] ===== TEST STARTED: TC_007_DashboardHeaderText =====
-[2026-03-05 14:06:23] [INFO ] Browser launched
-[2026-03-05 14:06:23] [INFO ] Browser window maximized
-[2026-03-05 14:06:26] [INFO ] Navigated to application URL
-[2026-03-05 14:06:27] [INFO ] Test execution completed for: TC_007_DashboardHeaderText
-[2026-03-05 14:06:27] [DEBUG] Execution time: 5.46 sec
-[2026-03-05 14:06:27] [PASS ] ===== TEST PASSED: TC_007_DashboardHeaderText =====
-[2026-03-05 14:06:27] [INFO ] Closing browser
-[2026-03-05 14:06:27] [INFO ] Browser closed successfully
-[2026-03-05 14:06:27] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
-[2026-03-05 14:06:28] [INFO ] Browser launched
-[2026-03-05 14:06:28] [INFO ] Browser window maximized
-[2026-03-05 14:06:32] [INFO ] Navigated to application URL
-[2026-03-05 14:06:33] [INFO ] Test execution completed for: TC_006_DashboardLoads
-[2026-03-05 14:06:33] [DEBUG] Execution time: 5.70 sec
-[2026-03-05 14:06:33] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
-[2026-03-05 14:06:33] [INFO ] Closing browser
-[2026-03-05 14:06:33] [INFO ] Browser closed successfully
-[2026-03-05 14:06:33] [INFO ] ===== TEST STARTED: TC_008_LogoutButtonVisible =====
-[2026-03-05 14:06:34] [INFO ] Browser launched
-[2026-03-05 14:06:34] [INFO ] Browser window maximized
-[2026-03-05 14:06:37] [INFO ] Navigated to application URL
-[2026-03-05 14:06:39] [INFO ] Test execution completed for: TC_008_LogoutButtonVisible
-[2026-03-05 14:06:39] [DEBUG] Execution time: 5.57 sec
-[2026-03-05 14:06:39] [PASS ] ===== TEST PASSED: TC_008_LogoutButtonVisible =====
-[2026-03-05 14:06:39] [INFO ] Closing browser
-[2026-03-05 14:06:39] [INFO ] Browser closed successfully
-[2026-03-05 14:06:39] [INFO ] ===== TEST STARTED: TC_009_LogoutRedirectsToLogin =====
-[2026-03-05 14:06:40] [INFO ] Browser launched
-[2026-03-05 14:06:40] [INFO ] Browser window maximized
-[2026-03-05 14:06:44] [INFO ] Navigated to application URL
-[2026-03-05 14:06:55] [INFO ] Test execution completed for: TC_009_LogoutRedirectsToLogin
-[2026-03-05 14:06:55] [DEBUG] Execution time: 16.71 sec
-[2026-03-05 14:06:55] [PASS ] ===== TEST PASSED: TC_009_LogoutRedirectsToLogin =====
-[2026-03-05 14:06:55] [INFO ] Closing browser
-[2026-03-05 14:06:56] [INFO ] Browser closed successfully
-[2026-03-05 14:06:56] [INFO ] ===== TEST STARTED: TC_010_SuccessMessageAfterLogin =====
-[2026-03-05 14:06:57] [INFO ] Browser launched
-[2026-03-05 14:06:57] [INFO ] Browser window maximized
-[2026-03-05 14:07:00] [INFO ] Navigated to application URL
-[2026-03-05 14:07:02] [INFO ] Test execution completed for: TC_010_SuccessMessageAfterLogin
-[2026-03-05 14:07:02] [DEBUG] Execution time: 6.06 sec
-[2026-03-05 14:07:02] [PASS ] ===== TEST PASSED: TC_010_SuccessMessageAfterLogin =====
-[2026-03-05 14:07:02] [INFO ] Closing browser
-[2026-03-05 14:07:02] [INFO ] Browser closed successfully
-[2026-03-05 14:07:02] [INFO ] ===== TEST STARTED: TC_011_SuccessMessageText =====
-[2026-03-05 14:07:03] [INFO ] Browser launched
-[2026-03-05 14:07:03] [INFO ] Browser window maximized
-[2026-03-05 14:07:06] [INFO ] Navigated to application URL
-[2026-03-05 14:07:07] [INFO ] Test execution completed for: TC_011_SuccessMessageText
-[2026-03-05 14:07:07] [DEBUG] Execution time: 5.52 sec
-[2026-03-05 14:07:07] [PASS ] ===== TEST PASSED: TC_011_SuccessMessageText =====
-[2026-03-05 14:07:07] [INFO ] Closing browser
-[2026-03-05 14:07:07] [INFO ] Browser closed successfully
-[2026-03-05 14:07:07] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
-[2026-03-05 14:07:09] [INFO ] Browser launched
-[2026-03-05 14:07:09] [INFO ] Browser window maximized
-[2026-03-05 14:07:12] [INFO ] Navigated to application URL
-[2026-03-05 14:07:13] [INFO ] Test execution completed for: TC_004_EmptyFields
-[2026-03-05 14:07:13] [DEBUG] Execution time: 5.87 sec
-[2026-03-05 14:07:13] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
-[2026-03-05 14:07:13] [INFO ] Closing browser
-[2026-03-05 14:07:13] [INFO ] Browser closed successfully
-[2026-03-05 14:07:13] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
-[2026-03-05 14:07:15] [INFO ] Browser launched
-[2026-03-05 14:07:15] [INFO ] Browser window maximized
-[2026-03-05 14:07:18] [INFO ] Navigated to application URL
-[2026-03-05 14:07:19] [INFO ] Test execution completed for: TC_003_InvalidPassword
-[2026-03-05 14:07:19] [DEBUG] Execution time: 5.94 sec
-[2026-03-05 14:07:19] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
-[2026-03-05 14:07:19] [INFO ] Closing browser
-[2026-03-05 14:07:19] [INFO ] Browser closed successfully
-[2026-03-05 14:07:19] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
-[2026-03-05 14:07:21] [INFO ] Browser launched
-[2026-03-05 14:07:21] [INFO ] Browser window maximized
-[2026-03-05 14:07:24] [INFO ] Navigated to application URL
-[2026-03-05 14:07:25] [INFO ] Test execution completed for: TC_002_InvalidUsername
-[2026-03-05 14:07:25] [DEBUG] Execution time: 5.68 sec
-[2026-03-05 14:07:25] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
-[2026-03-05 14:07:25] [INFO ] Closing browser
-[2026-03-05 14:07:25] [INFO ] Browser closed successfully
-[2026-03-05 14:07:25] [INFO ] ===== TEST STARTED: TC_005_SpecialCharacters =====
-[2026-03-05 14:07:26] [INFO ] Browser launched
-[2026-03-05 14:07:27] [INFO ] Browser window maximized
-[2026-03-05 14:07:30] [INFO ] Navigated to application URL
-[2026-03-05 14:07:31] [INFO ] Test execution completed for: TC_005_SpecialCharacters
-[2026-03-05 14:07:31] [DEBUG] Execution time: 5.31 sec
-[2026-03-05 14:07:31] [PASS ] ===== TEST PASSED: TC_005_SpecialCharacters =====
-[2026-03-05 14:07:31] [INFO ] Closing browser
-[2026-03-05 14:07:31] [INFO ] Browser closed successfully
-[2026-03-05 14:07:31] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
-[2026-03-05 14:07:32] [INFO ] Browser launched
-[2026-03-05 14:07:32] [INFO ] Browser window maximized
-[2026-03-05 14:07:35] [INFO ] Navigated to application URL
-[2026-03-05 14:07:36] [INFO ] Test execution completed for: TC_001_ValidLogin
-[2026-03-05 14:07:36] [DEBUG] Execution time: 5.28 sec
-[2026-03-05 14:07:36] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
-[2026-03-05 14:07:36] [INFO ] Closing browser
-[2026-03-05 14:07:36] [INFO ] Browser closed successfully
-[2026-03-05 14:08:15] [INFO ] ===== TEST STARTED: TC_007_DashboardHeaderText =====
-[2026-03-05 14:08:16] [INFO ] Browser launched
-[2026-03-05 14:08:16] [INFO ] Browser window maximized
-[2026-03-05 14:08:19] [INFO ] Navigated to application URL
-[2026-03-05 14:08:21] [INFO ] Test execution completed for: TC_007_DashboardHeaderText
-[2026-03-05 14:08:21] [DEBUG] Execution time: 5.72 sec
-[2026-03-05 14:08:21] [PASS ] ===== TEST PASSED: TC_007_DashboardHeaderText =====
-[2026-03-05 14:08:21] [INFO ] Closing browser
-[2026-03-05 14:08:21] [INFO ] Browser closed successfully
-[2026-03-05 14:08:21] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
-[2026-03-05 14:08:22] [INFO ] Browser launched
-[2026-03-05 14:08:22] [INFO ] Browser window maximized
-[2026-03-05 14:08:25] [INFO ] Navigated to application URL
-[2026-03-05 14:08:27] [INFO ] Test execution completed for: TC_006_DashboardLoads
-[2026-03-05 14:08:27] [DEBUG] Execution time: 5.77 sec
-[2026-03-05 14:08:27] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
-[2026-03-05 14:08:27] [INFO ] Closing browser
-[2026-03-05 14:08:27] [INFO ] Browser closed successfully
-[2026-03-05 14:08:27] [INFO ] ===== TEST STARTED: TC_008_LogoutButtonVisible =====
-[2026-03-05 14:08:28] [INFO ] Browser launched
-[2026-03-05 14:08:28] [INFO ] Browser window maximized
-[2026-03-05 14:08:31] [INFO ] Navigated to application URL
-[2026-03-05 14:08:32] [INFO ] Test execution completed for: TC_008_LogoutButtonVisible
-[2026-03-05 14:08:32] [DEBUG] Execution time: 5.63 sec
-[2026-03-05 14:08:32] [PASS ] ===== TEST PASSED: TC_008_LogoutButtonVisible =====
-[2026-03-05 14:08:32] [INFO ] Closing browser
-[2026-03-05 14:08:32] [INFO ] Browser closed successfully
-[2026-03-05 14:08:32] [INFO ] ===== TEST STARTED: TC_009_LogoutRedirectsToLogin =====
-[2026-03-05 14:08:34] [INFO ] Browser launched
-[2026-03-05 14:08:34] [INFO ] Browser window maximized
-[2026-03-05 14:08:37] [INFO ] Navigated to application URL
-[2026-03-05 14:08:49] [INFO ] Test execution completed for: TC_009_LogoutRedirectsToLogin
-[2026-03-05 14:08:49] [DEBUG] Execution time: 16.63 sec
-[2026-03-05 14:08:49] [FAIL ] ===== TEST FAILED: TC_009_LogoutRedirectsToLogin  =====
-[2026-03-05 14:08:49] [WARN ] Screenshot captured for failed test
-[2026-03-05 14:08:49] [INFO ] Closing browser
-[2026-03-05 14:08:49] [INFO ] Browser closed successfully
-[2026-03-05 14:08:49] [INFO ] ===== TEST STARTED: TC_010_SuccessMessageAfterLogin =====
-[2026-03-05 14:08:50] [INFO ] Browser launched
-[2026-03-05 14:08:51] [INFO ] Browser window maximized
-[2026-03-05 14:08:54] [INFO ] Navigated to application URL
-[2026-03-05 14:08:55] [INFO ] Test execution completed for: TC_010_SuccessMessageAfterLogin
-[2026-03-05 14:08:55] [DEBUG] Execution time: 5.71 sec
-[2026-03-05 14:08:55] [PASS ] ===== TEST PASSED: TC_010_SuccessMessageAfterLogin =====
-[2026-03-05 14:08:55] [INFO ] Closing browser
-[2026-03-05 14:08:55] [INFO ] Browser closed successfully
-[2026-03-05 14:08:55] [INFO ] ===== TEST STARTED: TC_011_SuccessMessageText =====
-[2026-03-05 14:08:56] [INFO ] Browser launched
-[2026-03-05 14:08:56] [INFO ] Browser window maximized
-[2026-03-05 14:09:00] [INFO ] Navigated to application URL
-[2026-03-05 14:09:01] [INFO ] Test execution completed for: TC_011_SuccessMessageText
-[2026-03-05 14:09:01] [DEBUG] Execution time: 5.69 sec
-[2026-03-05 14:09:01] [PASS ] ===== TEST PASSED: TC_011_SuccessMessageText =====
-[2026-03-05 14:09:01] [INFO ] Closing browser
-[2026-03-05 14:09:01] [INFO ] Browser closed successfully
-[2026-03-05 14:09:01] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
-[2026-03-05 14:09:02] [INFO ] Browser launched
-[2026-03-05 14:09:02] [INFO ] Browser window maximized
-[2026-03-05 14:09:06] [INFO ] Navigated to application URL
-[2026-03-05 14:09:07] [INFO ] Test execution completed for: TC_004_EmptyFields
-[2026-03-05 14:09:07] [DEBUG] Execution time: 6.01 sec
-[2026-03-05 14:09:07] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
-[2026-03-05 14:09:07] [INFO ] Closing browser
-[2026-03-05 14:09:07] [INFO ] Browser closed successfully
-[2026-03-05 14:09:07] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
-[2026-03-05 14:09:08] [INFO ] Browser launched
-[2026-03-05 14:09:08] [INFO ] Browser window maximized
-[2026-03-05 14:09:12] [INFO ] Navigated to application URL
-[2026-03-05 14:09:13] [INFO ] Test execution completed for: TC_003_InvalidPassword
-[2026-03-05 14:09:13] [DEBUG] Execution time: 6.31 sec
-[2026-03-05 14:09:13] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
-[2026-03-05 14:09:13] [INFO ] Closing browser
-[2026-03-05 14:09:13] [INFO ] Browser closed successfully
-[2026-03-05 14:09:13] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
-[2026-03-05 14:09:15] [INFO ] Browser launched
-[2026-03-05 14:09:15] [INFO ] Browser window maximized
-[2026-03-05 14:09:18] [INFO ] Navigated to application URL
-[2026-03-05 14:09:19] [INFO ] Test execution completed for: TC_002_InvalidUsername
-[2026-03-05 14:09:19] [DEBUG] Execution time: 5.67 sec
-[2026-03-05 14:09:19] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
-[2026-03-05 14:09:19] [INFO ] Closing browser
-[2026-03-05 14:09:19] [INFO ] Browser closed successfully
-[2026-03-05 14:09:19] [INFO ] ===== TEST STARTED: TC_005_SpecialCharacters =====
-[2026-03-05 14:09:20] [INFO ] Browser launched
-[2026-03-05 14:09:21] [INFO ] Browser window maximized
-[2026-03-05 14:09:24] [INFO ] Navigated to application URL
-[2026-03-05 14:09:25] [INFO ] Test execution completed for: TC_005_SpecialCharacters
-[2026-03-05 14:09:25] [DEBUG] Execution time: 5.67 sec
-[2026-03-05 14:09:25] [PASS ] ===== TEST PASSED: TC_005_SpecialCharacters =====
-[2026-03-05 14:09:25] [INFO ] Closing browser
-[2026-03-05 14:09:25] [INFO ] Browser closed successfully
-[2026-03-05 14:09:25] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
-[2026-03-05 14:09:26] [INFO ] Browser launched
-[2026-03-05 14:09:26] [INFO ] Browser window maximized
-[2026-03-05 14:09:30] [INFO ] Navigated to application URL
-[2026-03-05 14:09:31] [INFO ] Test execution completed for: TC_001_ValidLogin
-[2026-03-05 14:09:31] [DEBUG] Execution time: 5.74 sec
-[2026-03-05 14:09:31] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
-[2026-03-05 14:09:31] [INFO ] Closing browser
-[2026-03-05 14:09:31] [INFO ] Browser closed successfully
+[2026-03-07 15:26:15] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:26:15] [INFO ] Browser: chrome
+[2026-03-07 15:26:16] [INFO ] Browser opened successfully
+[2026-03-07 15:26:16] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-07 15:26:35] [INFO ] Login page loaded
+[2026-03-07 15:26:38] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-07 15:26:38] [INFO ] Duration: 22.26 sec
+[2026-03-07 15:26:38] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:26:38] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-07 15:26:40] [INFO ] Login page loaded
+[2026-03-07 15:26:50] [FAIL ] ===== TEST FAILED: TC_002_InvalidUsername | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:26:50] [INFO ] Duration: 11.84 sec
+[2026-03-07 15:26:50] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:26:50] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-07 15:26:51] [INFO ] Login page loaded
+[2026-03-07 15:27:02] [FAIL ] ===== TEST FAILED: TC_003_InvalidPassword | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:27:02] [INFO ] Duration: 11.59 sec
+[2026-03-07 15:27:02] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:27:02] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-07 15:27:03] [INFO ] Login page loaded
+[2026-03-07 15:27:13] [FAIL ] ===== TEST FAILED: TC_004_EmptyFields | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:27:13] [INFO ] Duration: 11.35 sec
+[2026-03-07 15:27:13] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:27:13] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-07 15:27:15] [INFO ] Login page loaded
+[2026-03-07 15:27:25] [FAIL ] ===== TEST FAILED: TC_005_LoginPageDisplayed | Reason:   Login page should be displayed.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-07 15:27:25] [INFO ] Duration: 11.49 sec
+[2026-03-07 15:27:25] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:27:25] [INFO ] Browser closed
+[2026-03-07 15:27:25] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:27:25] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:27:25] [INFO ] Browser: chrome
+[2026-03-07 15:27:27] [INFO ] Browser opened successfully
+[2026-03-07 15:27:27] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-07 15:27:38] [INFO ] Login page loaded
+[2026-03-07 15:27:42] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-07 15:27:42] [INFO ] Duration: 15.42 sec
+[2026-03-07 15:27:42] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:27:42] [INFO ] ===== TEST STARTED: TC_007_DashboardHeaderText =====
+[2026-03-07 15:27:44] [INFO ] Login page loaded
+[2026-03-07 15:27:54] [FAIL ] ===== TEST FAILED: TC_007_DashboardHeaderText | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:27:54] [INFO ] Duration: 11.83 sec
+[2026-03-07 15:27:54] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:27:54] [INFO ] ===== TEST STARTED: TC_008_DashboardUrlContains =====
+[2026-03-07 15:27:55] [INFO ] Login page loaded
+[2026-03-07 15:28:06] [FAIL ] ===== TEST FAILED: TC_008_DashboardUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:28:06] [INFO ] Duration: 11.78 sec
+[2026-03-07 15:28:06] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:28:06] [INFO ] ===== TEST STARTED: TC_009_SidebarMenuVisible =====
+[2026-03-07 15:28:07] [INFO ] Login page loaded
+[2026-03-07 15:28:17] [FAIL ] ===== TEST FAILED: TC_009_SidebarMenuVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:28:17] [INFO ] Duration: 11.27 sec
+[2026-03-07 15:28:17] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:28:17] [INFO ] ===== TEST STARTED: TC_010_AdminMenuVisible =====
+[2026-03-07 15:28:19] [INFO ] Login page loaded
+[2026-03-07 15:28:29] [FAIL ] ===== TEST FAILED: TC_010_AdminMenuVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:28:29] [INFO ] Duration: 11.57 sec
+[2026-03-07 15:28:29] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:28:29] [INFO ] ===== TEST STARTED: TC_011_PimMenuVisible =====
+[2026-03-07 15:28:31] [INFO ] Login page loaded
+[2026-03-07 15:28:41] [FAIL ] ===== TEST FAILED: TC_011_PimMenuVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:28:41] [INFO ] Duration: 11.67 sec
+[2026-03-07 15:28:41] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:28:41] [INFO ] ===== TEST STARTED: TC_012_UserDropdownVisible =====
+[2026-03-07 15:28:44] [INFO ] Login page loaded
+[2026-03-07 15:28:54] [FAIL ] ===== TEST FAILED: TC_012_UserDropdownVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:28:54] [INFO ] Duration: 12.91 sec
+[2026-03-07 15:28:54] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:28:54] [INFO ] ===== TEST STARTED: TC_013_TimeAtWorkWidgetVisible =====
+[2026-03-07 15:28:56] [INFO ] Login page loaded
+[2026-03-07 15:29:06] [FAIL ] ===== TEST FAILED: TC_013_TimeAtWorkWidgetVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:29:07] [INFO ] Duration: 12.51 sec
+[2026-03-07 15:29:07] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:29:07] [INFO ] ===== TEST STARTED: TC_014_LogoutRedirectsToLogin =====
+[2026-03-07 15:29:09] [INFO ] Login page loaded
+[2026-03-07 15:29:19] [FAIL ] ===== TEST FAILED: TC_014_LogoutRedirectsToLogin | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:29:20] [INFO ] Duration: 12.88 sec
+[2026-03-07 15:29:20] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:29:20] [INFO ] Browser closed
+[2026-03-07 15:29:20] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:29:20] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:29:20] [INFO ] Browser: chrome
+[2026-03-07 15:29:21] [INFO ] Browser opened successfully
+[2026-03-07 15:29:21] [INFO ] ===== TEST STARTED: TC_015_ProfilePageLoaded =====
+[2026-03-07 15:29:41] [INFO ] Login page loaded
+[2026-03-07 15:29:48] [PASS ] ===== TEST PASSED: TC_015_ProfilePageLoaded =====
+[2026-03-07 15:29:48] [INFO ] Duration: 26.81 sec
+[2026-03-07 15:29:48] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:29:48] [INFO ] ===== TEST STARTED: TC_016_ProfileHeaderText =====
+[2026-03-07 15:29:50] [INFO ] Login page loaded
+[2026-03-07 15:30:00] [FAIL ] ===== TEST FAILED: TC_016_ProfileHeaderText | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:30:00] [INFO ] Duration: 12.02 sec
+[2026-03-07 15:30:00] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:30:00] [INFO ] ===== TEST STARTED: TC_017_ProfileUrlContains =====
+[2026-03-07 15:30:01] [INFO ] Login page loaded
+[2026-03-07 15:30:06] [PASS ] ===== TEST PASSED: TC_017_ProfileUrlContains =====
+[2026-03-07 15:30:06] [INFO ] Duration: 6.09 sec
+[2026-03-07 15:30:06] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:30:06] [INFO ] ===== TEST STARTED: TC_018_FirstNameFieldVisible =====
+[2026-03-07 15:30:08] [INFO ] Login page loaded
+[2026-03-07 15:30:18] [FAIL ] ===== TEST FAILED: TC_018_FirstNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:30:18] [INFO ] Duration: 11.96 sec
+[2026-03-07 15:30:18] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:30:18] [INFO ] ===== TEST STARTED: TC_019_LastNameFieldVisible =====
+[2026-03-07 15:30:20] [INFO ] Login page loaded
+[2026-03-07 15:30:30] [FAIL ] ===== TEST FAILED: TC_019_LastNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:30:30] [INFO ] Duration: 11.67 sec
+[2026-03-07 15:30:30] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:30:30] [INFO ] ===== TEST STARTED: TC_020_SaveButtonVisible =====
+[2026-03-07 15:30:31] [INFO ] Login page loaded
+[2026-03-07 15:30:41] [FAIL ] ===== TEST FAILED: TC_020_SaveButtonVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:30:42] [INFO ] Duration: 11.26 sec
+[2026-03-07 15:30:42] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:30:42] [INFO ] ===== TEST STARTED: TC_021_PersonalDetailsTabVisible =====
+[2026-03-07 15:30:43] [INFO ] Login page loaded
+[2026-03-07 15:30:53] [FAIL ] ===== TEST FAILED: TC_021_PersonalDetailsTabVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:30:53] [INFO ] Duration: 11.34 sec
+[2026-03-07 15:30:53] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:30:53] [INFO ] ===== TEST STARTED: TC_022_ContactDetailsTabVisible =====
+[2026-03-07 15:30:54] [INFO ] Login page loaded
+[2026-03-07 15:31:04] [FAIL ] ===== TEST FAILED: TC_022_ContactDetailsTabVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:31:05] [INFO ] Duration: 11.34 sec
+[2026-03-07 15:31:05] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:31:05] [INFO ] ===== TEST STARTED: TC_023_EmergencyContactsTabVisible =====
+[2026-03-07 15:31:06] [INFO ] Login page loaded
+[2026-03-07 15:31:16] [FAIL ] ===== TEST FAILED: TC_023_EmergencyContactsTabVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:31:16] [INFO ] Duration: 11.31 sec
+[2026-03-07 15:31:16] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:31:16] [INFO ] ===== TEST STARTED: TC_024_ProfileLogoutRedirectsToLogin =====
+[2026-03-07 15:31:17] [INFO ] Login page loaded
+[2026-03-07 15:31:27] [FAIL ] ===== TEST FAILED: TC_024_ProfileLogoutRedirectsToLogin | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:31:28] [INFO ] Duration: 11.35 sec
+[2026-03-07 15:31:28] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:31:28] [INFO ] Browser closed
+[2026-03-07 15:31:28] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:31:28] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:31:28] [INFO ] Browser: chrome
+[2026-03-07 15:31:29] [INFO ] Browser opened successfully
+[2026-03-07 15:31:29] [INFO ] ===== TEST STARTED: TC_025_VacanciesPageLoads =====
+[2026-03-07 15:31:50] [INFO ] Login page loaded
+[2026-03-07 15:31:56] [PASS ] ===== TEST PASSED: TC_025_VacanciesPageLoads =====
+[2026-03-07 15:31:56] [INFO ] Duration: 26.90 sec
+[2026-03-07 15:31:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:31:56] [INFO ] ===== TEST STARTED: TC_026_VacanciesUrlContains =====
+[2026-03-07 15:31:58] [INFO ] Login page loaded
+[2026-03-07 15:32:08] [FAIL ] ===== TEST FAILED: TC_026_VacanciesUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:32:08] [INFO ] Duration: 12.18 sec
+[2026-03-07 15:32:08] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:32:08] [INFO ] ===== TEST STARTED: TC_027_VacancyTableDisplayed =====
+[2026-03-07 15:32:10] [INFO ] Login page loaded
+[2026-03-07 15:32:20] [FAIL ] ===== TEST FAILED: TC_027_VacancyTableDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:32:20] [INFO ] Duration: 11.66 sec
+[2026-03-07 15:32:20] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:32:20] [INFO ] ===== TEST STARTED: TC_028_AddVacancyPageLoads =====
+[2026-03-07 15:32:22] [INFO ] Login page loaded
+[2026-03-07 15:32:32] [FAIL ] ===== TEST FAILED: TC_028_AddVacancyPageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:32:32] [INFO ] Duration: 11.43 sec
+[2026-03-07 15:32:32] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:32:32] [INFO ] ===== TEST STARTED: TC_029_VacancyNameFieldVisible =====
+[2026-03-07 15:32:33] [INFO ] Login page loaded
+[2026-03-07 15:32:43] [FAIL ] ===== TEST FAILED: TC_029_VacancyNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:32:43] [INFO ] Duration: 11.37 sec
+[2026-03-07 15:32:43] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:32:43] [INFO ] ===== TEST STARTED: TC_030_JobTitleDropdownVisible =====
+[2026-03-07 15:32:45] [INFO ] Login page loaded
+[2026-03-07 15:32:55] [FAIL ] ===== TEST FAILED: TC_030_JobTitleDropdownVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:32:55] [INFO ] Duration: 11.38 sec
+[2026-03-07 15:32:55] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:32:55] [INFO ] ===== TEST STARTED: TC_031_SaveButtonVisible =====
+[2026-03-07 15:32:56] [INFO ] Login page loaded
+[2026-03-07 15:33:06] [FAIL ] ===== TEST FAILED: TC_031_SaveButtonVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:33:06] [INFO ] Duration: 11.32 sec
+[2026-03-07 15:33:06] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:33:06] [INFO ] ===== TEST STARTED: TC_032_CancelButtonVisible =====
+[2026-03-07 15:33:08] [INFO ] Login page loaded
+[2026-03-07 15:33:18] [FAIL ] ===== TEST FAILED: TC_032_CancelButtonVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:33:18] [INFO ] Duration: 11.27 sec
+[2026-03-07 15:33:18] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:33:18] [INFO ] ===== TEST STARTED: TC_033_SaveWithoutFieldsShowsError =====
+[2026-03-07 15:33:19] [INFO ] Login page loaded
+[2026-03-07 15:33:29] [FAIL ] ===== TEST FAILED: TC_033_SaveWithoutFieldsShowsError | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:33:29] [INFO ] Duration: 11.42 sec
+[2026-03-07 15:33:29] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:33:29] [INFO ] ===== TEST STARTED: TC_034_CancelRedirectsToVacancies =====
+[2026-03-07 15:33:30] [INFO ] Login page loaded
+[2026-03-07 15:33:41] [FAIL ] ===== TEST FAILED: TC_034_CancelRedirectsToVacancies | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:33:41] [INFO ] Duration: 11.26 sec
+[2026-03-07 15:33:41] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:33:41] [INFO ] Browser closed
+[2026-03-07 15:33:41] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:33:41] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:33:41] [INFO ] Browser: chrome
+[2026-03-07 15:33:44] [INFO ] Browser opened successfully
+[2026-03-07 15:33:44] [INFO ] ===== TEST STARTED: TC_035_MyLeavePageLoads =====
+[2026-03-07 15:40:55] [FAIL ] ===== TEST FAILED: TC_035_MyLeavePageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:40:56] [INFO ] Duration: 431.98 sec
+[2026-03-07 15:40:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:40:56] [INFO ] ===== TEST STARTED: TC_036_MyLeaveUrlContains =====
+[2026-03-07 15:40:56] [FAIL ] ===== TEST FAILED: TC_036_MyLeaveUrlContains | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:40:56] [INFO ] Duration: 0.02 sec
+[2026-03-07 15:40:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:40:56] [INFO ] ===== TEST STARTED: TC_037_LeaveTableDisplayed =====
+[2026-03-07 15:40:56] [FAIL ] ===== TEST FAILED: TC_037_LeaveTableDisplayed | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:40:56] [INFO ] Duration: 0.04 sec
+[2026-03-07 15:40:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:40:56] [INFO ] ===== TEST STARTED: TC_038_ApplyLeavePageLoads =====
+[2026-03-07 15:40:56] [FAIL ] ===== TEST FAILED: TC_038_ApplyLeavePageLoads | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:40:56] [INFO ] Duration: 0.03 sec
+[2026-03-07 15:40:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:40:56] [INFO ] ===== TEST STARTED: TC_039_ApplyLeaveUrlContains =====
+[2026-03-07 15:40:56] [FAIL ] ===== TEST FAILED: TC_039_ApplyLeaveUrlContains | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:40:56] [INFO ] Duration: 0.02 sec
+[2026-03-07 15:40:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:40:56] [INFO ] ===== TEST STARTED: TC_040_ApplyLeaveFormDisplayed =====
+[2026-03-07 15:40:56] [FAIL ] ===== TEST FAILED: TC_040_ApplyLeaveFormDisplayed | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:40:56] [INFO ] Duration: 0.01 sec
+[2026-03-07 15:40:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:40:56] [INFO ] ===== TEST STARTED: TC_041_MyLeaveListUrlValid =====
+[2026-03-07 15:40:56] [FAIL ] ===== TEST FAILED: TC_041_MyLeaveListUrlValid | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:40:56] [INFO ] Duration: 0.02 sec
+[2026-03-07 15:40:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:40:56] [INFO ] ===== TEST STARTED: TC_042_LeaveModuleAccessible =====
+[2026-03-07 15:40:56] [FAIL ] ===== TEST FAILED: TC_042_LeaveModuleAccessible | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:40:56] [INFO ] Duration: 0.01 sec
+[2026-03-07 15:40:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:40:56] [INFO ] ===== TEST STARTED: TC_043_ApplyLeaveAccessible =====
+[2026-03-07 15:40:56] [FAIL ] ===== TEST FAILED: TC_043_ApplyLeaveAccessible | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:40:56] [INFO ] Duration: 0.03 sec
+[2026-03-07 15:40:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:40:56] [INFO ] ===== TEST STARTED: TC_044_LeaveTableVisible =====
+[2026-03-07 15:40:56] [FAIL ] ===== TEST FAILED: TC_044_LeaveTableVisible | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:40:56] [INFO ] Duration: 0.02 sec
+[2026-03-07 15:40:56] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:40:59] [INFO ] Browser closed
+[2026-03-07 15:40:59] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:40:59] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:40:59] [INFO ] Browser: chrome
+[2026-03-07 15:41:00] [INFO ] Browser opened successfully
+[2026-03-07 15:41:00] [INFO ] ===== TEST STARTED: TC_045_EmployeeListPageLoads =====
+[2026-03-07 15:41:04] [INFO ] Login page loaded
+[2026-03-07 15:41:10] [PASS ] ===== TEST PASSED: TC_045_EmployeeListPageLoads =====
+[2026-03-07 15:41:10] [INFO ] Duration: 9.84 sec
+[2026-03-07 15:41:10] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:41:10] [INFO ] ===== TEST STARTED: TC_046_EmployeeListUrlContains =====
+[2026-03-07 15:41:12] [INFO ] Login page loaded
+[2026-03-07 15:41:22] [FAIL ] ===== TEST FAILED: TC_046_EmployeeListUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:41:22] [INFO ] Duration: 11.72 sec
+[2026-03-07 15:41:22] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:41:22] [INFO ] ===== TEST STARTED: TC_047_EmployeeTableDisplayed =====
+[2026-03-07 15:41:24] [INFO ] Login page loaded
+[2026-03-07 15:41:34] [FAIL ] ===== TEST FAILED: TC_047_EmployeeTableDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:41:34] [INFO ] Duration: 11.86 sec
+[2026-03-07 15:41:34] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:41:34] [INFO ] ===== TEST STARTED: TC_048_SearchButtonDisplayed =====
+[2026-03-07 15:41:35] [INFO ] Login page loaded
+[2026-03-07 15:41:46] [FAIL ] ===== TEST FAILED: TC_048_SearchButtonDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:41:46] [INFO ] Duration: 11.31 sec
+[2026-03-07 15:41:46] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:41:46] [INFO ] ===== TEST STARTED: TC_049_AddButtonDisplayed =====
+[2026-03-07 15:41:47] [INFO ] Login page loaded
+[2026-03-07 15:41:59] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:41:59] [INFO ] Browser: chrome
+[2026-03-07 15:42:00] [INFO ] Browser opened successfully
+[2026-03-07 15:42:00] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-07 15:42:12] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:42:12] [INFO ] Browser: chrome
+[2026-03-07 15:42:13] [INFO ] Browser opened successfully
+[2026-03-07 15:42:13] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-07 15:42:27] [INFO ] Login page loaded
+[2026-03-07 15:42:30] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-07 15:42:30] [INFO ] Duration: 16.54 sec
+[2026-03-07 15:42:30] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:42:30] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-07 15:42:31] [INFO ] Login page loaded
+[2026-03-07 15:42:41] [FAIL ] ===== TEST FAILED: TC_002_InvalidUsername | Reason: OpenQA.Selenium.WebDriverException : invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:42:41] [INFO ] Duration: 11.37 sec
+[2026-03-07 15:42:41] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:42:41] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-07 15:42:41] [FAIL ] ===== TEST FAILED: TC_003_InvalidPassword | Reason: OpenQA.Selenium.WebDriverException : invalid session id =====
+[2026-03-07 15:42:41] [INFO ] Duration: 0.01 sec
+[2026-03-07 15:42:41] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:42:41] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-07 15:42:41] [FAIL ] ===== TEST FAILED: TC_004_EmptyFields | Reason: OpenQA.Selenium.WebDriverException : invalid session id =====
+[2026-03-07 15:42:41] [INFO ] Duration: 0.00 sec
+[2026-03-07 15:42:41] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:42:41] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-07 15:42:41] [FAIL ] ===== TEST FAILED: TC_005_LoginPageDisplayed | Reason: OpenQA.Selenium.WebDriverException : invalid session id =====
+[2026-03-07 15:42:41] [INFO ] Duration: 0.00 sec
+[2026-03-07 15:42:41] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:42:41] [INFO ] Browser closed
+[2026-03-07 15:42:41] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:42:55] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:42:55] [INFO ] Browser: chrome
+[2026-03-07 15:42:56] [INFO ] Browser opened successfully
+[2026-03-07 15:42:56] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-07 15:43:17] [INFO ] Login page loaded
+[2026-03-07 15:43:21] [FAIL ] ===== TEST FAILED: TC_001_ValidLogin | Reason:   Should redirect to dashboard after valid login.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-07 15:43:47] [INFO ] Duration: 25.05 sec
+[2026-03-07 15:43:47] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:43:47] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-07 15:43:47] [FAIL ] ===== TEST FAILED: TC_002_InvalidUsername | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:43:47] [INFO ] Duration: 0.01 sec
+[2026-03-07 15:43:47] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:43:47] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-07 15:43:47] [FAIL ] ===== TEST FAILED: TC_003_InvalidPassword | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:43:47] [INFO ] Duration: 0.00 sec
+[2026-03-07 15:43:47] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:43:47] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-07 15:43:47] [FAIL ] ===== TEST FAILED: TC_004_EmptyFields | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:43:47] [INFO ] Duration: 0.00 sec
+[2026-03-07 15:43:47] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:43:47] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-07 15:43:47] [FAIL ] ===== TEST FAILED: TC_005_LoginPageDisplayed | Reason: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-07 15:43:47] [INFO ] Duration: 0.01 sec
+[2026-03-07 15:43:47] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:43:48] [INFO ] Browser closed
+[2026-03-07 15:43:48] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:45:35] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:45:35] [INFO ] Browser: chrome
+[2026-03-07 15:45:36] [INFO ] Browser opened successfully
+[2026-03-07 15:45:36] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-07 15:45:47] [INFO ] Login page loaded
+[2026-03-07 15:46:06] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-07 15:46:06] [INFO ] Duration: 29.36 sec
+[2026-03-07 15:46:06] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:46:06] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-07 15:46:17] [INFO ] Login page loaded
+[2026-03-07 15:46:27] [FAIL ] ===== TEST FAILED: TC_002_InvalidUsername | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:46:27] [INFO ] Duration: 21.45 sec
+[2026-03-07 15:46:27] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:46:27] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-07 15:46:57] [INFO ] Login page loaded
+[2026-03-07 15:47:07] [FAIL ] ===== TEST FAILED: TC_003_InvalidPassword | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:47:07] [INFO ] Duration: 39.76 sec
+[2026-03-07 15:47:07] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:47:07] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-07 15:47:28] [INFO ] Login page loaded
+[2026-03-07 15:47:38] [FAIL ] ===== TEST FAILED: TC_004_EmptyFields | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:47:38] [INFO ] Duration: 30.30 sec
+[2026-03-07 15:47:38] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:47:38] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-07 15:47:57] [INFO ] Login page loaded
+[2026-03-07 15:48:08] [FAIL ] ===== TEST FAILED: TC_005_LoginPageDisplayed | Reason:   Login page should be displayed.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-07 15:48:08] [INFO ] Duration: 29.73 sec
+[2026-03-07 15:48:08] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:48:08] [INFO ] Browser closed
+[2026-03-07 15:48:08] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:48:08] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:48:08] [INFO ] Browser: chrome
+[2026-03-07 15:48:09] [INFO ] Browser opened successfully
+[2026-03-07 15:48:09] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-07 15:48:28] [INFO ] Login page loaded
+[2026-03-07 15:49:17] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-07 15:49:17] [INFO ] Duration: 67.68 sec
+[2026-03-07 15:49:17] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:49:17] [INFO ] ===== TEST STARTED: TC_007_DashboardHeaderText =====
+[2026-03-07 15:49:38] [INFO ] Login page loaded
+[2026-03-07 15:49:48] [FAIL ] ===== TEST FAILED: TC_007_DashboardHeaderText | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:49:49] [INFO ] Duration: 31.37 sec
+[2026-03-07 15:49:49] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:49:49] [INFO ] ===== TEST STARTED: TC_008_DashboardUrlContains =====
+[2026-03-07 15:49:54] [INFO ] Login page loaded
+[2026-03-07 15:50:04] [FAIL ] ===== TEST FAILED: TC_008_DashboardUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:50:05] [INFO ] Duration: 15.78 sec
+[2026-03-07 15:50:05] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:50:05] [INFO ] ===== TEST STARTED: TC_009_SidebarMenuVisible =====
+[2026-03-07 15:50:10] [INFO ] Login page loaded
+[2026-03-07 15:50:20] [FAIL ] ===== TEST FAILED: TC_009_SidebarMenuVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:50:20] [INFO ] Duration: 15.09 sec
+[2026-03-07 15:50:20] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:50:20] [INFO ] ===== TEST STARTED: TC_010_AdminMenuVisible =====
+[2026-03-07 15:50:26] [INFO ] Login page loaded
+[2026-03-07 15:50:36] [FAIL ] ===== TEST FAILED: TC_010_AdminMenuVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:50:36] [INFO ] Duration: 16.01 sec
+[2026-03-07 15:50:36] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:50:36] [INFO ] ===== TEST STARTED: TC_011_PimMenuVisible =====
+[2026-03-07 15:50:40] [INFO ] Login page loaded
+[2026-03-07 15:50:51] [FAIL ] ===== TEST FAILED: TC_011_PimMenuVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:50:51] [INFO ] Duration: 14.79 sec
+[2026-03-07 15:50:51] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:50:51] [INFO ] ===== TEST STARTED: TC_012_UserDropdownVisible =====
+[2026-03-07 15:50:58] [INFO ] Login page loaded
+[2026-03-07 15:51:08] [FAIL ] ===== TEST FAILED: TC_012_UserDropdownVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:51:08] [INFO ] Duration: 17.10 sec
+[2026-03-07 15:51:08] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:51:08] [INFO ] ===== TEST STARTED: TC_013_TimeAtWorkWidgetVisible =====
+[2026-03-07 15:51:13] [INFO ] Login page loaded
+[2026-03-07 15:51:24] [FAIL ] ===== TEST FAILED: TC_013_TimeAtWorkWidgetVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:51:24] [INFO ] Duration: 15.35 sec
+[2026-03-07 15:51:24] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:51:24] [INFO ] ===== TEST STARTED: TC_014_LogoutRedirectsToLogin =====
+[2026-03-07 15:51:28] [INFO ] Login page loaded
+[2026-03-07 15:51:38] [FAIL ] ===== TEST FAILED: TC_014_LogoutRedirectsToLogin | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:51:38] [INFO ] Duration: 14.52 sec
+[2026-03-07 15:51:38] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:51:39] [INFO ] Browser closed
+[2026-03-07 15:51:39] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:51:39] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:51:39] [INFO ] Browser: chrome
+[2026-03-07 15:51:40] [INFO ] Browser opened successfully
+[2026-03-07 15:51:40] [INFO ] ===== TEST STARTED: TC_015_ProfilePageLoaded =====
+[2026-03-07 15:52:05] [INFO ] Login page loaded
+[2026-03-07 15:52:21] [PASS ] ===== TEST PASSED: TC_015_ProfilePageLoaded =====
+[2026-03-07 15:52:21] [INFO ] Duration: 40.62 sec
+[2026-03-07 15:52:21] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:52:21] [INFO ] ===== TEST STARTED: TC_016_ProfileHeaderText =====
+[2026-03-07 15:52:30] [INFO ] Login page loaded
+[2026-03-07 15:52:40] [FAIL ] ===== TEST FAILED: TC_016_ProfileHeaderText | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:52:40] [INFO ] Duration: 19.09 sec
+[2026-03-07 15:52:40] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:52:40] [INFO ] ===== TEST STARTED: TC_017_ProfileUrlContains =====
+[2026-03-07 15:52:49] [INFO ] Login page loaded
+[2026-03-07 15:52:59] [FAIL ] ===== TEST FAILED: TC_017_ProfileUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:52:59] [INFO ] Duration: 18.89 sec
+[2026-03-07 15:52:59] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:52:59] [INFO ] ===== TEST STARTED: TC_018_FirstNameFieldVisible =====
+[2026-03-07 15:53:04] [INFO ] Login page loaded
+[2026-03-07 15:53:14] [FAIL ] ===== TEST FAILED: TC_018_FirstNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:53:14] [INFO ] Duration: 14.98 sec
+[2026-03-07 15:53:14] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:53:14] [INFO ] ===== TEST STARTED: TC_019_LastNameFieldVisible =====
+[2026-03-07 15:53:16] [INFO ] Login page loaded
+[2026-03-07 15:53:26] [FAIL ] ===== TEST FAILED: TC_019_LastNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:53:26] [INFO ] Duration: 11.64 sec
+[2026-03-07 15:53:26] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:53:26] [INFO ] ===== TEST STARTED: TC_020_SaveButtonVisible =====
+[2026-03-07 15:53:27] [INFO ] Login page loaded
+[2026-03-07 15:53:37] [FAIL ] ===== TEST FAILED: TC_020_SaveButtonVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:53:37] [INFO ] Duration: 11.34 sec
+[2026-03-07 15:53:37] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:53:37] [INFO ] ===== TEST STARTED: TC_021_PersonalDetailsTabVisible =====
+[2026-03-07 15:53:38] [INFO ] Login page loaded
+[2026-03-07 15:53:49] [FAIL ] ===== TEST FAILED: TC_021_PersonalDetailsTabVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:53:49] [INFO ] Duration: 11.35 sec
+[2026-03-07 15:53:49] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:53:49] [INFO ] ===== TEST STARTED: TC_022_ContactDetailsTabVisible =====
+[2026-03-07 15:53:51] [INFO ] Login page loaded
+[2026-03-07 15:54:01] [FAIL ] ===== TEST FAILED: TC_022_ContactDetailsTabVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:54:01] [INFO ] Duration: 12.12 sec
+[2026-03-07 15:54:01] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:54:01] [INFO ] ===== TEST STARTED: TC_023_EmergencyContactsTabVisible =====
+[2026-03-07 15:54:02] [INFO ] Login page loaded
+[2026-03-07 15:54:12] [FAIL ] ===== TEST FAILED: TC_023_EmergencyContactsTabVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:54:13] [INFO ] Duration: 11.43 sec
+[2026-03-07 15:54:13] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:54:13] [INFO ] ===== TEST STARTED: TC_024_ProfileLogoutRedirectsToLogin =====
+[2026-03-07 15:54:14] [INFO ] Login page loaded
+[2026-03-07 15:54:24] [FAIL ] ===== TEST FAILED: TC_024_ProfileLogoutRedirectsToLogin | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:54:24] [INFO ] Duration: 11.42 sec
+[2026-03-07 15:54:24] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:54:24] [INFO ] Browser closed
+[2026-03-07 15:54:24] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:54:24] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:54:24] [INFO ] Browser: chrome
+[2026-03-07 15:54:26] [INFO ] Browser opened successfully
+[2026-03-07 15:54:26] [INFO ] ===== TEST STARTED: TC_025_VacanciesPageLoads =====
+[2026-03-07 15:54:44] [INFO ] Login page loaded
+[2026-03-07 15:54:50] [PASS ] ===== TEST PASSED: TC_025_VacanciesPageLoads =====
+[2026-03-07 15:54:50] [INFO ] Duration: 24.88 sec
+[2026-03-07 15:54:50] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:54:50] [INFO ] ===== TEST STARTED: TC_026_VacanciesUrlContains =====
+[2026-03-07 15:54:52] [INFO ] Login page loaded
+[2026-03-07 15:55:03] [FAIL ] ===== TEST FAILED: TC_026_VacanciesUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:55:03] [INFO ] Duration: 12.07 sec
+[2026-03-07 15:55:03] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:55:03] [INFO ] ===== TEST STARTED: TC_027_VacancyTableDisplayed =====
+[2026-03-07 15:55:04] [INFO ] Login page loaded
+[2026-03-07 15:55:14] [FAIL ] ===== TEST FAILED: TC_027_VacancyTableDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:55:14] [INFO ] Duration: 11.67 sec
+[2026-03-07 15:55:14] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:55:14] [INFO ] ===== TEST STARTED: TC_028_AddVacancyPageLoads =====
+[2026-03-07 15:55:16] [INFO ] Login page loaded
+[2026-03-07 15:55:26] [FAIL ] ===== TEST FAILED: TC_028_AddVacancyPageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:55:26] [INFO ] Duration: 11.43 sec
+[2026-03-07 15:55:26] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:55:26] [INFO ] ===== TEST STARTED: TC_029_VacancyNameFieldVisible =====
+[2026-03-07 15:55:28] [INFO ] Login page loaded
+[2026-03-07 15:55:38] [FAIL ] ===== TEST FAILED: TC_029_VacancyNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:55:38] [INFO ] Duration: 11.68 sec
+[2026-03-07 15:55:38] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:55:38] [INFO ] ===== TEST STARTED: TC_030_JobTitleDropdownVisible =====
+[2026-03-07 15:55:39] [INFO ] Login page loaded
+[2026-03-07 15:55:49] [FAIL ] ===== TEST FAILED: TC_030_JobTitleDropdownVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:55:49] [INFO ] Duration: 11.39 sec
+[2026-03-07 15:55:49] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:55:49] [INFO ] ===== TEST STARTED: TC_031_SaveButtonVisible =====
+[2026-03-07 15:55:51] [INFO ] Login page loaded
+[2026-03-07 15:56:01] [FAIL ] ===== TEST FAILED: TC_031_SaveButtonVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:56:01] [INFO ] Duration: 11.50 sec
+[2026-03-07 15:56:01] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:56:01] [INFO ] ===== TEST STARTED: TC_032_CancelButtonVisible =====
+[2026-03-07 15:56:03] [INFO ] Login page loaded
+[2026-03-07 15:56:13] [FAIL ] ===== TEST FAILED: TC_032_CancelButtonVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:56:13] [INFO ] Duration: 11.69 sec
+[2026-03-07 15:56:13] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:56:13] [INFO ] ===== TEST STARTED: TC_033_SaveWithoutFieldsShowsError =====
+[2026-03-07 15:56:14] [INFO ] Login page loaded
+[2026-03-07 15:56:24] [FAIL ] ===== TEST FAILED: TC_033_SaveWithoutFieldsShowsError | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:56:24] [INFO ] Duration: 11.45 sec
+[2026-03-07 15:56:24] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:56:24] [INFO ] ===== TEST STARTED: TC_034_CancelRedirectsToVacancies =====
+[2026-03-07 15:56:26] [INFO ] Login page loaded
+[2026-03-07 15:56:36] [FAIL ] ===== TEST FAILED: TC_034_CancelRedirectsToVacancies | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:56:36] [INFO ] Duration: 11.65 sec
+[2026-03-07 15:56:36] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:56:36] [INFO ] Browser closed
+[2026-03-07 15:56:36] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:56:36] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:56:36] [INFO ] Browser: chrome
+[2026-03-07 15:56:38] [INFO ] Browser opened successfully
+[2026-03-07 15:56:38] [INFO ] ===== TEST STARTED: TC_035_MyLeavePageLoads =====
+[2026-03-07 15:56:50] [INFO ] Login page loaded
+[2026-03-07 15:56:58] [PASS ] ===== TEST PASSED: TC_035_MyLeavePageLoads =====
+[2026-03-07 15:56:58] [INFO ] Duration: 20.15 sec
+[2026-03-07 15:56:58] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:56:58] [INFO ] ===== TEST STARTED: TC_036_MyLeaveUrlContains =====
+[2026-03-07 15:57:00] [INFO ] Login page loaded
+[2026-03-07 15:57:10] [FAIL ] ===== TEST FAILED: TC_036_MyLeaveUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:57:10] [INFO ] Duration: 12.34 sec
+[2026-03-07 15:57:10] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:57:10] [INFO ] ===== TEST STARTED: TC_037_LeaveTableDisplayed =====
+[2026-03-07 15:57:12] [INFO ] Login page loaded
+[2026-03-07 15:57:22] [FAIL ] ===== TEST FAILED: TC_037_LeaveTableDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:57:22] [INFO ] Duration: 11.63 sec
+[2026-03-07 15:57:22] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:57:22] [INFO ] ===== TEST STARTED: TC_038_ApplyLeavePageLoads =====
+[2026-03-07 15:57:24] [INFO ] Login page loaded
+[2026-03-07 15:57:34] [FAIL ] ===== TEST FAILED: TC_038_ApplyLeavePageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:57:34] [INFO ] Duration: 11.83 sec
+[2026-03-07 15:57:34] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:57:34] [INFO ] ===== TEST STARTED: TC_039_ApplyLeaveUrlContains =====
+[2026-03-07 15:57:36] [INFO ] Login page loaded
+[2026-03-07 15:57:46] [FAIL ] ===== TEST FAILED: TC_039_ApplyLeaveUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:57:46] [INFO ] Duration: 11.51 sec
+[2026-03-07 15:57:46] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:57:46] [INFO ] ===== TEST STARTED: TC_040_ApplyLeaveFormDisplayed =====
+[2026-03-07 15:57:47] [INFO ] Login page loaded
+[2026-03-07 15:57:57] [FAIL ] ===== TEST FAILED: TC_040_ApplyLeaveFormDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:57:57] [INFO ] Duration: 11.48 sec
+[2026-03-07 15:57:57] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:57:57] [INFO ] ===== TEST STARTED: TC_041_MyLeaveListUrlValid =====
+[2026-03-07 15:58:00] [INFO ] Login page loaded
+[2026-03-07 15:58:10] [FAIL ] ===== TEST FAILED: TC_041_MyLeaveListUrlValid | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:58:10] [INFO ] Duration: 12.23 sec
+[2026-03-07 15:58:10] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:58:10] [INFO ] ===== TEST STARTED: TC_042_LeaveModuleAccessible =====
+[2026-03-07 15:58:11] [INFO ] Login page loaded
+[2026-03-07 15:58:21] [FAIL ] ===== TEST FAILED: TC_042_LeaveModuleAccessible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:58:21] [INFO ] Duration: 11.36 sec
+[2026-03-07 15:58:21] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:58:21] [INFO ] ===== TEST STARTED: TC_043_ApplyLeaveAccessible =====
+[2026-03-07 15:58:23] [INFO ] Login page loaded
+[2026-03-07 15:58:33] [FAIL ] ===== TEST FAILED: TC_043_ApplyLeaveAccessible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:58:33] [INFO ] Duration: 11.35 sec
+[2026-03-07 15:58:33] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:58:33] [INFO ] ===== TEST STARTED: TC_044_LeaveTableVisible =====
+[2026-03-07 15:58:36] [INFO ] Login page loaded
+[2026-03-07 15:58:46] [FAIL ] ===== TEST FAILED: TC_044_LeaveTableVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:58:46] [INFO ] Duration: 12.98 sec
+[2026-03-07 15:58:46] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:58:46] [INFO ] Browser closed
+[2026-03-07 15:58:46] [INFO ] ====== TEST CLASS FINISHED ======
+[2026-03-07 15:58:46] [INFO ] ====== TEST CLASS STARTED ======
+[2026-03-07 15:58:46] [INFO ] Browser: chrome
+[2026-03-07 15:58:48] [INFO ] Browser opened successfully
+[2026-03-07 15:58:48] [INFO ] ===== TEST STARTED: TC_045_EmployeeListPageLoads =====
+[2026-03-07 15:59:08] [INFO ] Login page loaded
+[2026-03-07 15:59:23] [PASS ] ===== TEST PASSED: TC_045_EmployeeListPageLoads =====
+[2026-03-07 15:59:23] [INFO ] Duration: 35.64 sec
+[2026-03-07 15:59:23] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:59:23] [INFO ] ===== TEST STARTED: TC_046_EmployeeListUrlContains =====
+[2026-03-07 15:59:29] [INFO ] Login page loaded
+[2026-03-07 15:59:40] [FAIL ] ===== TEST FAILED: TC_046_EmployeeListUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:59:40] [INFO ] Duration: 16.36 sec
+[2026-03-07 15:59:40] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:59:40] [INFO ] ===== TEST STARTED: TC_047_EmployeeTableDisplayed =====
+[2026-03-07 15:59:41] [INFO ] Login page loaded
+[2026-03-07 15:59:51] [FAIL ] ===== TEST FAILED: TC_047_EmployeeTableDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 15:59:52] [INFO ] Duration: 11.63 sec
+[2026-03-07 15:59:52] [INFO ] ─────────────────────────────────────────
+[2026-03-07 15:59:52] [INFO ] ===== TEST STARTED: TC_048_SearchButtonDisplayed =====
+[2026-03-07 15:59:53] [INFO ] Login page loaded
+[2026-03-07 16:00:03] [FAIL ] ===== TEST FAILED: TC_048_SearchButtonDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 16:00:03] [INFO ] Duration: 11.37 sec
+[2026-03-07 16:00:03] [INFO ] ─────────────────────────────────────────
+[2026-03-07 16:00:03] [INFO ] ===== TEST STARTED: TC_049_AddButtonDisplayed =====
+[2026-03-07 16:00:05] [INFO ] Login page loaded
+[2026-03-07 16:00:15] [FAIL ] ===== TEST FAILED: TC_049_AddButtonDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 16:00:15] [INFO ] Duration: 11.52 sec
+[2026-03-07 16:00:15] [INFO ] ─────────────────────────────────────────
+[2026-03-07 16:00:15] [INFO ] ===== TEST STARTED: TC_050_AddEmployeePageLoads =====
+[2026-03-07 16:00:16] [INFO ] Login page loaded
+[2026-03-07 16:00:27] [FAIL ] ===== TEST FAILED: TC_050_AddEmployeePageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 16:00:27] [INFO ] Duration: 11.79 sec
+[2026-03-07 16:00:27] [INFO ] ─────────────────────────────────────────
+[2026-03-07 16:00:27] [INFO ] ===== TEST STARTED: TC_051_AddEmployeeUrlContains =====
+[2026-03-07 16:00:29] [INFO ] Login page loaded
+[2026-03-07 16:00:39] [FAIL ] ===== TEST FAILED: TC_051_AddEmployeeUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 16:00:39] [INFO ] Duration: 12.03 sec
+[2026-03-07 16:00:39] [INFO ] ─────────────────────────────────────────
+[2026-03-07 16:00:39] [INFO ] ===== TEST STARTED: TC_052_AddEmployeeFormDisplayed =====
+[2026-03-07 16:00:41] [INFO ] Login page loaded
+[2026-03-07 16:00:51] [FAIL ] ===== TEST FAILED: TC_052_AddEmployeeFormDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 16:00:51] [INFO ] Duration: 12.07 sec
+[2026-03-07 16:00:51] [INFO ] ─────────────────────────────────────────
+[2026-03-07 16:00:51] [INFO ] ===== TEST STARTED: TC_053_FirstNameFieldVisible =====
+[2026-03-07 16:00:52] [INFO ] Login page loaded
+[2026-03-07 16:01:02] [FAIL ] ===== TEST FAILED: TC_053_FirstNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 16:01:03] [INFO ] Duration: 11.38 sec
+[2026-03-07 16:01:03] [INFO ] ─────────────────────────────────────────
+[2026-03-07 16:01:03] [INFO ] ===== TEST STARTED: TC_054_LastNameFieldVisible =====
+[2026-03-07 16:01:04] [INFO ] Login page loaded
+[2026-03-07 16:01:14] [FAIL ] ===== TEST FAILED: TC_054_LastNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-07 16:01:14] [INFO ] Duration: 11.29 sec
+[2026-03-07 16:01:14] [INFO ] ─────────────────────────────────────────
+[2026-03-07 16:01:14] [INFO ] Browser closed
+[2026-03-07 16:01:14] [INFO ] ====== TEST CLASS FINISHED ======

@@ -117,10 +117,10 @@ C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\Automati
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.AssemblyInfoInputs.cache
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.AssemblyInfo.cs
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.csproj.CoreCompileInputs.cache
+C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.sourcelink.json
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\Automati.99CAB719.Up2Date
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.dll
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\refint\AutomationFramework.dll
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.pdb
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.genruntimeconfig.cache
 C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\ref\AutomationFramework.dll
-C:\dotnet tutorial\full Automation framework\AutomationTestingFramework\AutomationFramework\obj\Debug\net8.0\AutomationFramework.sourcelink.json
