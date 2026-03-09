@@ -1,585 +1,387 @@
 
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
-<title>Automation Test Execution Report</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Automation Test Report</title>
+<script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
 <style>
-body{font-family:Arial;background:#f4f6f9;padding:20px;}
-h2{text-align:center;color:#2c3e50;}
-table{width:100%;border-collapse:collapse;margin-top:20px;}
-th,td{border:1px solid #ddd;padding:10px;text-align:center;}
-th{background:#2c3e50;color:white;}
-.pass{color:green;font-weight:bold;}
-.fail{color:red;font-weight:bold;}
-.summary{font-weight:bold;background:#ecf0f1;font-size:15px;}
-tr:hover{background:#f0f4f8;}
-.badge-pass{background:#27ae60;color:white;padding:3px 10px;border-radius:12px;}
-.badge-fail{background:#e74c3c;color:white;padding:3px 10px;border-radius:12px;}
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f1117; color: #e0e0e0; }
+
+  /* ── Header ── */
+  .header {
+    background: linear-gradient(135deg, #1a1f35 0%, #2d3561 100%);
+    padding: 30px 40px;
+    border-bottom: 3px solid #4f46e5;
+  }
+  .header h1 { font-size: 28px; color: #fff; letter-spacing: 1px; }
+  .header p  { color: #9ca3af; margin-top: 6px; font-size: 14px; }
+  .header .badge {
+    display: inline-block; background: #4f46e5;
+    color: white; padding: 4px 14px; border-radius: 20px;
+    font-size: 12px; margin-top: 8px;
+  }
+
+  /* ── Summary Cards ── */
+  .cards {
+    display: flex; gap: 20px;
+    padding: 30px 40px;
+    flex-wrap: wrap;
+  }
+  .card {
+    flex: 1; min-width: 160px;
+    background: #1e2235;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    border-top: 4px solid;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+  }
+  .card:hover { transform: translateY(-4px); }
+  .card.total  { border-color: #4f46e5; }
+  .card.passed { border-color: #10b981; }
+  .card.failed { border-color: #ef4444; }
+  .card.rate   { border-color: #f59e0b; }
+  .card .number { font-size: 42px; font-weight: 700; margin-bottom: 6px; }
+  .card.total  .number { color: #818cf8; }
+  .card.passed .number { color: #10b981; }
+  .card.failed .number { color: #ef4444; }
+  .card.rate   .number { color: #f59e0b; }
+  .card .label { font-size: 13px; color: #9ca3af; text-transform: uppercase; letter-spacing: 1px; }
+
+  /* ── Chart Section ── */
+  .chart-section {
+    display: flex; gap: 20px;
+    padding: 0 40px 30px;
+    flex-wrap: wrap;
+  }
+  .chart-box {
+    background: #1e2235;
+    border-radius: 16px;
+    padding: 24px;
+    flex: 1; min-width: 280px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+  .chart-box h3 { color: #c7d2fe; margin-bottom: 16px; font-size: 15px; }
+  .chart-container { position: relative; height: 220px; }
+
+  /* ── Progress Bar ── */
+  .progress-section { padding: 0 40px 30px; }
+  .progress-box {
+    background: #1e2235; border-radius: 16px; padding: 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+  .progress-box h3 { color: #c7d2fe; margin-bottom: 20px; font-size: 15px; }
+  .module-row { margin-bottom: 16px; }
+  .module-label { display: flex; justify-content: space-between; margin-bottom: 6px; }
+  .module-name { font-size: 13px; color: #e0e0e0; }
+  .module-count { font-size: 13px; color: #9ca3af; }
+  .progress-bar { background: #2d3561; border-radius: 8px; height: 10px; overflow: hidden; }
+  .progress-fill { height: 100%; border-radius: 8px; background: linear-gradient(90deg, #4f46e5, #10b981); }
+
+  /* ── Table ── */
+  .table-section { padding: 0 40px 40px; }
+  .table-section h3 { color: #c7d2fe; margin-bottom: 16px; font-size: 15px; }
+  .search-box {
+    width: 100%; padding: 10px 16px; margin-bottom: 16px;
+    background: #1e2235; border: 1px solid #374151;
+    border-radius: 8px; color: #e0e0e0; font-size: 14px;
+    outline: none;
+  }
+  .search-box:focus { border-color: #4f46e5; }
+  table { width: 100%; border-collapse: collapse; }
+  thead tr { background: #2d3561; }
+  th {
+    padding: 12px 16px; text-align: left;
+    font-size: 12px; color: #9ca3af;
+    text-transform: uppercase; letter-spacing: 1px;
+    border-bottom: 2px solid #374151;
+  }
+  td {
+    padding: 12px 16px; font-size: 13px;
+    border-bottom: 1px solid #1e2235;
+    background: #161929;
+  }
+  tr:hover td { background: #1e2235; }
+  .badge-pass {
+    background: #064e3b; color: #10b981;
+    padding: 4px 12px; border-radius: 20px;
+    font-size: 12px; font-weight: 600;
+    border: 1px solid #10b981;
+  }
+  .badge-fail {
+    background: #450a0a; color: #ef4444;
+    padding: 4px 12px; border-radius: 20px;
+    font-size: 12px; font-weight: 600;
+    border: 1px solid #ef4444;
+  }
+  .tc-badge {
+    background: #1e2235; color: #818cf8;
+    padding: 3px 10px; border-radius: 6px;
+    font-size: 12px; border: 1px solid #4f46e5;
+    font-family: monospace;
+  }
+  a { color: #818cf8; text-decoration: none; }
+  a:hover { color: #c7d2fe; text-decoration: underline; }
+
+  /* ── Footer ── */
+  .footer {
+    text-align: center; padding: 20px;
+    color: #6b7280; font-size: 12px;
+    border-top: 1px solid #1e2235;
+  }
+
+  /* ── Filter Buttons ── */
+  .filters { display: flex; gap: 10px; margin-bottom: 16px; }
+  .filter-btn {
+    padding: 6px 16px; border-radius: 20px; border: none;
+    cursor: pointer; font-size: 13px; font-weight: 500;
+    transition: all 0.2s;
+  }
+  .filter-btn.all    { background: #4f46e5; color: white; }
+  .filter-btn.pass   { background: #064e3b; color: #10b981; border: 1px solid #10b981; }
+  .filter-btn.fail   { background: #450a0a; color: #ef4444; border: 1px solid #ef4444; }
+  .filter-btn:hover  { opacity: 0.8; }
 </style>
 </head>
 <body>
-<h2>Automation Test Execution Report</h2>
-<p style='text-align:center;color:#666;'>Generated: 2026-03-09 13:23:16</p>
 
-<table>
-<tr>
-<th>#</th>
-<th>Test ID</th>
-<th>Test Name</th>
-<th>Browser</th>
-<th>Status</th>
-<th>Execution Time</th>
-<th>Execution Date</th>
-<th>Screenshot</th>
-</tr>
-<tr>
-<td>1</td>
-<td>TC_001</td>
-<td style='text-align:left'>TC_001_ValidLogin</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>15.82 sec</td>
-<td>2026-03-09 13:23:32</td>
-<td>-</td>
-</tr>
-<tr>
-<td>2</td>
-<td>TC_006</td>
-<td style='text-align:left'>TC_006_DashboardLoads</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>16.46 sec</td>
-<td>2026-03-09 13:23:32</td>
-<td>-</td>
-</tr>
-<tr>
-<td>3</td>
-<td>TC_015</td>
-<td style='text-align:left'>TC_015_ProfilePageLoaded</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>19.02 sec</td>
-<td>2026-03-09 13:23:35</td>
-<td>-</td>
-</tr>
-<tr>
-<td>4</td>
-<td>TC_002</td>
-<td style='text-align:left'>TC_002_InvalidUsername</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>12.16 sec</td>
-<td>2026-03-09 13:23:44</td>
-<td>-</td>
-</tr>
-<tr>
-<td>5</td>
-<td>TC_007</td>
-<td style='text-align:left'>TC_007_DashboardHeaderText</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>13.35 sec</td>
-<td>2026-03-09 13:23:46</td>
-<td>-</td>
-</tr>
-<tr>
-<td>6</td>
-<td>TC_016</td>
-<td style='text-align:left'>TC_016_ProfileHeaderText</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>14.81 sec</td>
-<td>2026-03-09 13:23:50</td>
-<td>-</td>
-</tr>
-<tr>
-<td>7</td>
-<td>TC_003</td>
-<td style='text-align:left'>TC_003_InvalidPassword</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>10.31 sec</td>
-<td>2026-03-09 13:23:55</td>
-<td>-</td>
-</tr>
-<tr>
-<td>8</td>
-<td>TC_008</td>
-<td style='text-align:left'>TC_008_DashboardUrlContains</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>10.98 sec</td>
-<td>2026-03-09 13:23:57</td>
-<td>-</td>
-</tr>
-<tr>
-<td>9</td>
-<td>TC_017</td>
-<td style='text-align:left'>TC_017_ProfileUrlContains</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>15.51 sec</td>
-<td>2026-03-09 13:24:06</td>
-<td>-</td>
-</tr>
-<tr>
-<td>10</td>
-<td>TC_009</td>
-<td style='text-align:left'>TC_009_SidebarMenuVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>12.55 sec</td>
-<td>2026-03-09 13:24:10</td>
-<td>-</td>
-</tr>
-<tr>
-<td>11</td>
-<td>TC_004</td>
-<td style='text-align:left'>TC_004_EmptyFields</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>18.75 sec</td>
-<td>2026-03-09 13:24:14</td>
-<td>-</td>
-</tr>
-<tr>
-<td>12</td>
-<td>TC_005</td>
-<td style='text-align:left'>TC_005_LoginPageDisplayed</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>8.35 sec</td>
-<td>2026-03-09 13:24:22</td>
-<td>-</td>
-</tr>
-<tr>
-<td>13</td>
-<td>TC_018</td>
-<td style='text-align:left'>TC_018_FirstNameFieldVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>17.07 sec</td>
-<td>2026-03-09 13:24:23</td>
-<td>-</td>
-</tr>
-<tr>
-<td>14</td>
-<td>TC_010</td>
-<td style='text-align:left'>TC_010_AdminMenuVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>14.58 sec</td>
-<td>2026-03-09 13:24:25</td>
-<td>-</td>
-</tr>
-<tr>
-<td>15</td>
-<td>TC_025</td>
-<td style='text-align:left'>TC_025_VacanciesPageLoads</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>14.75 sec</td>
-<td>2026-03-09 13:24:37</td>
-<td>-</td>
-</tr>
-<tr>
-<td>16</td>
-<td>TC_011</td>
-<td style='text-align:left'>TC_011_PimMenuVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>12.66 sec</td>
-<td>2026-03-09 13:24:38</td>
-<td>-</td>
-</tr>
-<tr>
-<td>17</td>
-<td>TC_019</td>
-<td style='text-align:left'>TC_019_LastNameFieldVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>16.48 sec</td>
-<td>2026-03-09 13:24:40</td>
-<td>-</td>
-</tr>
-<tr>
-<td>18</td>
-<td>TC_012</td>
-<td style='text-align:left'>TC_012_UserDropdownVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>11.93 sec</td>
-<td>2026-03-09 13:24:50</td>
-<td>-</td>
-</tr>
-<tr>
-<td>19</td>
-<td>TC_026</td>
-<td style='text-align:left'>TC_026_VacanciesUrlContains</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>13.31 sec</td>
-<td>2026-03-09 13:24:51</td>
-<td>-</td>
-</tr>
-<tr>
-<td>20</td>
-<td>TC_020</td>
-<td style='text-align:left'>TC_020_SaveButtonVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>14.26 sec</td>
-<td>2026-03-09 13:24:54</td>
-<td>-</td>
-</tr>
-<tr>
-<td>21</td>
-<td>TC_013</td>
-<td style='text-align:left'>TC_013_TimeAtWorkWidgetVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>11.72 sec</td>
-<td>2026-03-09 13:25:02</td>
-<td>-</td>
-</tr>
-<tr>
-<td>22</td>
-<td>TC_027</td>
-<td style='text-align:left'>TC_027_VacancyTableDisplayed</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>13.87 sec</td>
-<td>2026-03-09 13:25:05</td>
-<td>-</td>
-</tr>
-<tr>
-<td>23</td>
-<td>TC_021</td>
-<td style='text-align:left'>TC_021_PersonalDetailsTabVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>13.57 sec</td>
-<td>2026-03-09 13:25:08</td>
-<td>-</td>
-</tr>
-<tr>
-<td>24</td>
-<td>TC_014</td>
-<td style='text-align:left'>TC_014_LogoutRedirectsToLogin</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>17.63 sec</td>
-<td>2026-03-09 13:25:20</td>
-<td>-</td>
-</tr>
-<tr>
-<td>25</td>
-<td>TC_022</td>
-<td style='text-align:left'>TC_022_ContactDetailsTabVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>14.56 sec</td>
-<td>2026-03-09 13:25:23</td>
-<td>-</td>
-</tr>
-<tr>
-<td>26</td>
-<td>TC_028</td>
-<td style='text-align:left'>TC_028_AddVacancyPageLoads</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>18.35 sec</td>
-<td>2026-03-09 13:25:24</td>
-<td>-</td>
-</tr>
-<tr>
-<td>27</td>
-<td>TC_035</td>
-<td style='text-align:left'>TC_035_MyLeavePageLoads</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>16.63 sec</td>
-<td>2026-03-09 13:25:37</td>
-<td>-</td>
-</tr>
-<tr>
-<td>28</td>
-<td>TC_023</td>
-<td style='text-align:left'>TC_023_EmergencyContactsTabVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>15.95 sec</td>
-<td>2026-03-09 13:25:39</td>
-<td>-</td>
-</tr>
-<tr>
-<td>29</td>
-<td>TC_029</td>
-<td style='text-align:left'>TC_029_VacancyNameFieldVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>16.61 sec</td>
-<td>2026-03-09 13:25:41</td>
-<td>-</td>
-</tr>
-<tr>
-<td>30</td>
-<td>TC_036</td>
-<td style='text-align:left'>TC_036_MyLeaveUrlContains</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>13.71 sec</td>
-<td>2026-03-09 13:25:50</td>
-<td>-</td>
-</tr>
-<tr>
-<td>31</td>
-<td>TC_030</td>
-<td style='text-align:left'>TC_030_JobTitleDropdownVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>16.44 sec</td>
-<td>2026-03-09 13:25:57</td>
-<td>-</td>
-</tr>
-<tr>
-<td>32</td>
-<td>TC_024</td>
-<td style='text-align:left'>TC_024_ProfileLogoutRedirectsToLogin</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>19.73 sec</td>
-<td>2026-03-09 13:25:59</td>
-<td>-</td>
-</tr>
-<tr>
-<td>33</td>
-<td>TC_037</td>
-<td style='text-align:left'>TC_037_LeaveTableDisplayed</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>18.04 sec</td>
-<td>2026-03-09 13:26:09</td>
-<td>-</td>
-</tr>
-<tr>
-<td>34</td>
-<td>TC_045</td>
-<td style='text-align:left'>TC_045_EmployeeListPageLoads</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>16.41 sec</td>
-<td>2026-03-09 13:26:16</td>
-<td>-</td>
-</tr>
-<tr>
-<td>35</td>
-<td>TC_031</td>
-<td style='text-align:left'>TC_031_SaveButtonVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>21.67 sec</td>
-<td>2026-03-09 13:26:19</td>
-<td>-</td>
-</tr>
-<tr>
-<td>36</td>
-<td>TC_038</td>
-<td style='text-align:left'>TC_038_ApplyLeavePageLoads</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>23.09 sec</td>
-<td>2026-03-09 13:26:32</td>
-<td>-</td>
-</tr>
-<tr>
-<td>37</td>
-<td>TC_046</td>
-<td style='text-align:left'>TC_046_EmployeeListUrlContains</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>19.84 sec</td>
-<td>2026-03-09 13:26:36</td>
-<td>-</td>
-</tr>
-<tr>
-<td>38</td>
-<td>TC_032</td>
-<td style='text-align:left'>TC_032_CancelButtonVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>23.06 sec</td>
-<td>2026-03-09 13:26:43</td>
-<td>-</td>
-</tr>
-<tr>
-<td>39</td>
-<td>TC_047</td>
-<td style='text-align:left'>TC_047_EmployeeTableDisplayed</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>16.79 sec</td>
-<td>2026-03-09 13:26:53</td>
-<td>-</td>
-</tr>
-<tr>
-<td>40</td>
-<td>TC_039</td>
-<td style='text-align:left'>TC_039_ApplyLeaveUrlContains</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>23.29 sec</td>
-<td>2026-03-09 13:26:56</td>
-<td>-</td>
-</tr>
-<tr>
-<td>41</td>
-<td>TC_033</td>
-<td style='text-align:left'>TC_033_SaveWithoutFieldsShowsError</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>19.81 sec</td>
-<td>2026-03-09 13:27:03</td>
-<td>-</td>
-</tr>
-<tr>
-<td>42</td>
-<td>TC_048</td>
-<td style='text-align:left'>TC_048_SearchButtonDisplayed</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>16.22 sec</td>
-<td>2026-03-09 13:27:09</td>
-<td>-</td>
-</tr>
-<tr>
-<td>43</td>
-<td>TC_040</td>
-<td style='text-align:left'>TC_040_ApplyLeaveFormDisplayed</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>20.17 sec</td>
-<td>2026-03-09 13:27:16</td>
-<td>-</td>
-</tr>
-<tr>
-<td>44</td>
-<td>TC_034</td>
-<td style='text-align:left'>TC_034_CancelRedirectsToVacancies</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>18.72 sec</td>
-<td>2026-03-09 13:27:22</td>
-<td>-</td>
-</tr>
-<tr>
-<td>45</td>
-<td>TC_049</td>
-<td style='text-align:left'>TC_049_AddButtonDisplayed</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>15.54 sec</td>
-<td>2026-03-09 13:27:25</td>
-<td>-</td>
-</tr>
-<tr>
-<td>46</td>
-<td>TC_041</td>
-<td style='text-align:left'>TC_041_MyLeaveListUrlValid</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>14.59 sec</td>
-<td>2026-03-09 13:27:32</td>
-<td>-</td>
-</tr>
-<tr>
-<td>47</td>
-<td>TC_050</td>
-<td style='text-align:left'>TC_050_AddEmployeePageLoads</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>18.69 sec</td>
-<td>2026-03-09 13:27:44</td>
-<td>-</td>
-</tr>
-<tr>
-<td>48</td>
-<td>TC_042</td>
-<td style='text-align:left'>TC_042_LeaveModuleAccessible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>17.60 sec</td>
-<td>2026-03-09 13:27:49</td>
-<td>-</td>
-</tr>
-<tr>
-<td>49</td>
-<td>TC_051</td>
-<td style='text-align:left'>TC_051_AddEmployeeUrlContains</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>17.37 sec</td>
-<td>2026-03-09 13:28:02</td>
-<td>-</td>
-</tr>
-<tr>
-<td>50</td>
-<td>TC_043</td>
-<td style='text-align:left'>TC_043_ApplyLeaveAccessible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>18.43 sec</td>
-<td>2026-03-09 13:28:08</td>
-<td>-</td>
-</tr>
-<tr>
-<td>51</td>
-<td>TC_052</td>
-<td style='text-align:left'>TC_052_AddEmployeeFormDisplayed</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>16.63 sec</td>
-<td>2026-03-09 13:28:19</td>
-<td>-</td>
-</tr>
-<tr>
-<td>52</td>
-<td>TC_044</td>
-<td style='text-align:left'>TC_044_LeaveTableVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>18.20 sec</td>
-<td>2026-03-09 13:28:26</td>
-<td>-</td>
-</tr>
-<tr>
-<td>53</td>
-<td>TC_053</td>
-<td style='text-align:left'>TC_053_FirstNameFieldVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>27.68 sec</td>
-<td>2026-03-09 13:28:47</td>
-<td>-</td>
-</tr>
-<tr>
-<td>54</td>
-<td>TC_054</td>
-<td style='text-align:left'>TC_054_LastNameFieldVisible</td>
-<td>chrome</td>
-<td><span class='badge-pass'>PASS</span></td>
-<td>33.50 sec</td>
-<td>2026-03-09 13:29:20</td>
-<td>-</td>
-</tr>
-<tr class='summary'>
-<td colspan='8' style='text-align:left;padding:14px'>
-Total Tests: 54 |
-Passed: 54 |
-Failed: 0 |
-Pass Rate: 100%
-</td>
-</tr>
-</table>
+<!-- Header -->
+<div class='header'>
+  <h1>🤖 Automation Test Execution Report</h1>
+  <p>OrangeHRM HR Management System — Selenium WebDriver + C# + NUnit</p>
+  <span class='badge'>Generated: 2026-03-09 17:03:53</span>
+</div>
+
+<!-- Summary Cards -->
+<div class='cards'>
+  <div class='card total'>
+    <div class='number' id='totalCount'>0</div>
+    <div class='label'>Total Tests</div>
+  </div>
+  <div class='card passed'>
+    <div class='number' id='passCount'>0</div>
+    <div class='label'>Passed</div>
+  </div>
+  <div class='card failed'>
+    <div class='number' id='failCount'>0</div>
+    <div class='label'>Failed</div>
+  </div>
+  <div class='card rate'>
+    <div class='number' id='rateCount'>0%</div>
+    <div class='label'>Pass Rate</div>
+  </div>
+</div>
+
+<!-- Charts -->
+<div class='chart-section'>
+  <div class='chart-box'>
+    <h3>📊 Test Results Distribution</h3>
+    <div class='chart-container'>
+      <canvas id='doughnutChart'></canvas>
+    </div>
+  </div>
+  <div class='chart-box' style='flex:2'>
+    <h3>📈 Module-wise Results</h3>
+    <div class='chart-container'>
+      <canvas id='barChart'></canvas>
+    </div>
+  </div>
+</div>
+
+<!-- Module Progress -->
+<div class='progress-section'>
+  <div class='progress-box'>
+    <h3>🎯 Module Coverage</h3>
+    <div class='module-row'>
+      <div class='module-label'><span class='module-name'>Login Module</span><span class='module-count'>TC_001 - TC_005 (5 tests)</span></div>
+      <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
+    </div>
+    <div class='module-row'>
+      <div class='module-label'><span class='module-name'>Dashboard Module</span><span class='module-count'>TC_006 - TC_014 (9 tests)</span></div>
+      <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
+    </div>
+    <div class='module-row'>
+      <div class='module-label'><span class='module-name'>Profile Module</span><span class='module-count'>TC_015 - TC_024 (10 tests)</span></div>
+      <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
+    </div>
+    <div class='module-row'>
+      <div class='module-label'><span class='module-name'>Recruitment Module</span><span class='module-count'>TC_025 - TC_034 (10 tests)</span></div>
+      <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
+    </div>
+    <div class='module-row'>
+      <div class='module-label'><span class='module-name'>Leave Management Module</span><span class='module-count'>TC_035 - TC_044 (10 tests)</span></div>
+      <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
+    </div>
+    <div class='module-row'>
+      <div class='module-label'><span class='module-name'>PIM / Employee Module</span><span class='module-count'>TC_045 - TC_054 (10 tests)</span></div>
+      <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Test Results Table -->
+<div class='table-section'>
+  <h3>📋 Detailed Test Results</h3>
+  <input class='search-box' type='text' id='searchBox' placeholder='🔍 Search by test name or ID...' onkeyup='filterTable()'>
+  <div class='filters'>
+    <button class='filter-btn all' onclick='filterStatus("all")'>All</button>
+    <button class='filter-btn pass' onclick='filterStatus("PASS")'>✅ Passed</button>
+    <button class='filter-btn fail' onclick='filterStatus("FAIL")'>❌ Failed</button>
+  </div>
+  <table id='resultsTable'>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Test ID</th>
+        <th>Test Name</th>
+        <th>Browser</th>
+        <th>Status</th>
+        <th>Duration</th>
+        <th>Timestamp</th>
+        <th>Screenshot</th>
+      </tr>
+    </thead>
+    <tbody id='tableBody'>
+
+      <tr data-status='PASS'>
+        <td style='color:#6b7280'>1</td>
+        <td><span class='tc-badge'>TC_001</span></td>
+        <td>TC_001_ValidLogin</td>
+        <td style='color:#9ca3af'>chrome</td>
+        <td><span class='badge-pass'>✅ PASS</span></td>
+        <td style='color:#9ca3af'>14.50 sec</td>
+        <td style='color:#6b7280'>2026-03-09 17:04:07</td>
+        <td><span style='color:#6b7280'>—</span></td>
+      </tr>
+      <tr data-status='PASS'>
+        <td style='color:#6b7280'>2</td>
+        <td><span class='tc-badge'>TC_002</span></td>
+        <td>TC_002_InvalidUsername</td>
+        <td style='color:#9ca3af'>chrome</td>
+        <td><span class='badge-pass'>✅ PASS</span></td>
+        <td style='color:#9ca3af'>17.08 sec</td>
+        <td style='color:#6b7280'>2026-03-09 17:04:25</td>
+        <td><span style='color:#6b7280'>—</span></td>
+      </tr>
+      <tr data-status='PASS'>
+        <td style='color:#6b7280'>3</td>
+        <td><span class='tc-badge'>TC_003</span></td>
+        <td>TC_003_InvalidPassword</td>
+        <td style='color:#9ca3af'>chrome</td>
+        <td><span class='badge-pass'>✅ PASS</span></td>
+        <td style='color:#9ca3af'>17.17 sec</td>
+        <td style='color:#6b7280'>2026-03-09 17:04:42</td>
+        <td><span style='color:#6b7280'>—</span></td>
+      </tr>
+      <tr data-status='PASS'>
+        <td style='color:#6b7280'>4</td>
+        <td><span class='tc-badge'>TC_004</span></td>
+        <td>TC_004_EmptyFields</td>
+        <td style='color:#9ca3af'>chrome</td>
+        <td><span class='badge-pass'>✅ PASS</span></td>
+        <td style='color:#9ca3af'>20.68 sec</td>
+        <td style='color:#6b7280'>2026-03-09 17:05:03</td>
+        <td><span style='color:#6b7280'>—</span></td>
+      </tr>
+      <tr data-status='PASS'>
+        <td style='color:#6b7280'>5</td>
+        <td><span class='tc-badge'>TC_005</span></td>
+        <td>TC_005_LoginPageDisplayed</td>
+        <td style='color:#9ca3af'>chrome</td>
+        <td><span class='badge-pass'>✅ PASS</span></td>
+        <td style='color:#9ca3af'>8.28 sec</td>
+        <td style='color:#6b7280'>2026-03-09 17:05:11</td>
+        <td><span style='color:#6b7280'>—</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Footer -->
+<div class='footer'>
+  <p>🤖 AutomationFramework | OrangeHRM | Selenium + C# + NUnit | Total: 5 | Passed: 5 | Failed: 0 | Pass Rate: 100%</p>
+</div>
+
+<script>
+  // ── Update summary cards ──────────────────────────────────────────────────
+  document.getElementById('totalCount').textContent = '5';
+  document.getElementById('passCount').textContent  = '5';
+  document.getElementById('failCount').textContent  = '0';
+  document.getElementById('rateCount').textContent  = '100%';
+
+  // ── Doughnut Chart ────────────────────────────────────────────────────────
+  new Chart(document.getElementById('doughnutChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Passed', 'Failed'],
+      datasets: [{
+        data: [5, 0],
+        backgroundColor: ['#10b981', '#ef4444'],
+        borderColor: ['#064e3b', '#450a0a'],
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { labels: { color: '#9ca3af', font: { size: 13 } } }
+      }
+    }
+  });
+
+  // ── Bar Chart ─────────────────────────────────────────────────────────────
+  new Chart(document.getElementById('barChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Login', 'Dashboard', 'Profile', 'Recruitment', 'Leave', 'PIM'],
+      datasets: [
+        {
+          label: 'Passed',
+          data: [5, 9, 10, 10, 10, 10],
+          backgroundColor: '#10b981',
+          borderRadius: 6
+        },
+        {
+          label: 'Failed',
+          data: [0, 0, 0, 0, 0, 0],
+          backgroundColor: '#ef4444',
+          borderRadius: 6
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { labels: { color: '#9ca3af' } }
+      },
+      scales: {
+        x: { ticks: { color: '#9ca3af' }, grid: { color: '#1e2235' } },
+        y: { ticks: { color: '#9ca3af' }, grid: { color: '#2d3561' }, beginAtZero: true }
+      }
+    }
+  });
+
+  // ── Search Filter ─────────────────────────────────────────────────────────
+  function filterTable() {
+    var input = document.getElementById('searchBox').value.toLowerCase();
+    var rows = document.getElementById('tableBody').getElementsByTagName('tr');
+    for (var r of rows) {
+      r.style.display = r.innerText.toLowerCase().includes(input) ? '' : 'none';
+    }
+  }
+
+  // ── Status Filter ─────────────────────────────────────────────────────────
+  function filterStatus(status) {
+    var rows = document.getElementById('tableBody').getElementsByTagName('tr');
+    for (var r of rows) {
+      if (status === 'all') r.style.display = '';
+      else r.style.display = r.dataset.status === status ? '' : 'none';
+    }
+  }
+</script>
 </body>
 </html>

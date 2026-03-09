@@ -1,13 +1,11 @@
 ﻿using AutomationFramework.Base;
 using AutomationFramework.Pages;
-using AutomationFramework.Utilities;
 using NUnit.Framework;
 
 namespace AutomationFramework.Tests
 {
     [TestFixture]
     [Order(1)]
-   
     public class LoginTests : BaseTest
     {
         [Test, Order(1), Category("TC_001")]

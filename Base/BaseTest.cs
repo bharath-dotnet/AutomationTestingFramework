@@ -12,41 +12,35 @@ namespace AutomationFramework.Base
         protected IWebDriver driver;
         private DateTime testStartTime;
 
-        // ─── RUN BEFORE EACH TEST ─────────────────────────────────────────────────
         [SetUp]
         public void Setup()
         {
             testStartTime = DateTime.Now;
             driver = BrowserFactory.GetBrowser();
             driver.Manage().Window.Maximize();
-
-            // Set page load timeout for slow sites like OrangeHRM
             driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(60);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(0);
-
             driver.Navigate().GoToUrl(ConfigReader.GetUrl());
 
-            // Wait for OrangeHRM login page to fully load
-            // OrangeHRM is a React app — DOM loads after JS executes
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
             wait.Until(d =>
-            {
-                string state = ((IJavaScriptExecutor)d)
-                    .ExecuteScript("return document.readyState").ToString();
-                return state == "complete";
-            });
+                ((IJavaScriptExecutor)d)
+                .ExecuteScript("return document.readyState").ToString() == "complete");
+
+            string testName =
+                TestContext.CurrentContext.Test.Properties.Get("Description")?.ToString()
+                ?? TestContext.CurrentContext.Test.Name;
+            LoggerManager.TestStart(testName);
+            LoggerManager.Info("Browser opened and login page loaded");
         }
 
-        // ─── RUN AFTER EACH TEST ──────────────────────────────────────────────────
         [TearDown]
         public void TearDown()
         {
-            // ── Extract Test Name ─────────────────────────────────────────────────
             string testName =
                 TestContext.CurrentContext.Test.Properties.Get("Description")?.ToString()
                 ?? TestContext.CurrentContext.Test.Name;
 
-            // ── Extract Test ID from Category ─────────────────────────────────────
             string testId = "";
             var categories = TestContext.CurrentContext.Test.Properties["Category"];
             if (categories != null)
@@ -66,22 +60,35 @@ namespace AutomationFramework.Base
 
             if (status == TestStatus.Failed)
             {
-                screenshotPath = ScreenshotHelper.TakeScreenshot(driver, testName);
+                LoggerManager.TestFail(testName, TestContext.CurrentContext.Result.Message ?? "");
+                try
+                {
+                    if (driver != null)
+                        screenshotPath = ScreenshotHelper.TakeScreenshot(driver, testName);
+                }
+                catch (Exception ex)
+                {
+                    LoggerManager.Error("Screenshot failed", ex);
+                }
                 SimpleReportManager.AddTestResult(testName, browser, "FAIL",
                     screenshotPath, executionTime, testId);
             }
             else
             {
+                LoggerManager.TestPass(testName);
                 SimpleReportManager.AddTestResult(testName, browser, "PASS",
                     "", executionTime, testId);
             }
 
-            // ── Dispose WebDriver ─────────────────────────────────────────────────
+            LoggerManager.Info($"Duration: {executionTime}");
+            LoggerManager.Info("─────────────────────────────────────────");
+
             if (driver != null)
             {
                 driver.Quit();
                 driver.Dispose();
                 driver = null;
+                LoggerManager.Info("Browser closed");
             }
         }
     }
