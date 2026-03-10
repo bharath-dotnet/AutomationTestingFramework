@@ -1,4 +1,4 @@
-# 🤖 Full Stack Web Automation Framework for OrangeHRM using Selenium WebDriver & C#
+# 🤖UI Test Automation testing Framework for OrangeHRM using Selenium WebDriver & C#
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-purple?style=for-the-badge&logo=dotnet)
 ![C#](https://img.shields.io/badge/C%23-12.0-blue?style=for-the-badge&logo=csharp)
@@ -11,7 +11,7 @@
 
 ## 📌 Project Overview
 
-This project is a **full-stack automation testing framework** built using **C# and Selenium WebDriver** to automate testing of **OrangeHRM** — a real-world enterprise HR Management System used by companies worldwide.
+This project is a **Modular UI Test automation testing framework** built using **C# and Selenium WebDriver** to automate testing of **OrangeHRM** — a real-world enterprise HR Management System used by companies worldwide.
 
 The framework follows the **Page Object Model (POM)** design pattern and covers **30 automated test cases** across **6 critical modules** of the OrangeHRM application. It includes a custom **dark theme HTML report** with charts and graphs, auto screenshots on failure, detailed execution logs, Docker support, and a full CI/CD pipeline via GitHub Actions.
 
@@ -244,4 +244,3 @@ Prathyusha Engineering College, Thiruvallur
 ## 📄 License
 
 This project is for educational purposes.
-
