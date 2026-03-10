@@ -11,8 +11,7 @@
 
 ## 📌 Project Overview
 
-This project is a **Modular UI Test automation testing framework** built using **C# and Selenium WebDriver** to automate testing of **OrangeHRM** — a real-world enterprise HR Management System used by companies worldwide.
-
+This project is a **Modular UI Test Automation Framework** built using **C# and Selenium WebDriver** to automate testing of **OrangeHRM**, a real-world enterprise HR management system used by companies worldwide.
 The framework follows the **Page Object Model (POM)** design pattern and covers **30 automated test cases** across **6 critical modules** of the OrangeHRM application. It includes a custom **dark theme HTML report** with charts and graphs, auto screenshots on failure, detailed execution logs, Docker support, and a full CI/CD pipeline via GitHub Actions.
 
 🎯 **Target Application:** [OrangeHRM Live Demo](https://opensource-demo.orangehrmlive.com)
