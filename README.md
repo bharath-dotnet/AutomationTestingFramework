@@ -235,8 +235,8 @@ After execution, open `bin/Debug/net8.0/Reports/TestReport.html` in Chrome to vi
 
 ## 👨‍💻 Author
 
-**Bharath**
-Department of Information Technology
+**Bharath kumar N**
+Department of Information Technology,
 Prathyusha Engineering College, Thiruvallur
 
 ---
