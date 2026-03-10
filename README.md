@@ -1,6 +1,5 @@
 <<<<<<< HEAD
-# 🤖UI Test Automation testing Framework for OrangeHRM using Selenium WebDriver & C#
-=======
+
 # 🤖 Modular UI Test Automation Framework for OrangeHRM using Selenium WebDriver & C#
 >>>>>>> f5242785f9401adda11a14c5185080fad0e3df2e
 
