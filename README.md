@@ -1,4 +1,4 @@
-# 🤖 Full Stack Web Automation Framework for OrangeHRM using Selenium WebDriver & C#
+# 🤖 Modular UI Test Automation Framework for OrangeHRM using Selenium WebDriver & C#
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-purple?style=for-the-badge&logo=dotnet)
 ![C#](https://img.shields.io/badge/C%23-12.0-blue?style=for-the-badge&logo=csharp)
