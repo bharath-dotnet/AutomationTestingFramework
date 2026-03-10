@@ -13,11 +13,11 @@ jobs:
     steps:
     # Step 1 - Checkout code from GitHub
     - name: Checkout Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     # Step 2 - Setup .NET 8
     - name: Setup .NET 8
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x'
 
@@ -45,7 +45,7 @@ jobs:
 
     # Step 7 - Upload test results as artifact
     - name: Upload Test Results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: test-results

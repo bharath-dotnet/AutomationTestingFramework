@@ -1663,3 +1663,204 @@ from unknown error: web view not found
 [2026-03-09 17:05:11] [INFO ] Duration: 8.28 sec
 [2026-03-09 17:05:11] [INFO ] ─────────────────────────────────────────
 [2026-03-09 17:05:12] [INFO ] Browser closed
+[2026-03-10 14:21:29] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-10 14:21:29] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:21:57] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-10 14:21:57] [INFO ] Duration: 50.24 sec
+[2026-03-10 14:21:57] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:21:58] [INFO ] Browser closed
+[2026-03-10 14:22:16] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-10 14:22:16] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:22:44] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-03-10 14:22:44] [INFO ] Duration: 46.12 sec
+[2026-03-10 14:22:44] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:22:44] [INFO ] Browser closed
+[2026-03-10 14:23:01] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-10 14:23:01] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:23:35] [FAIL ] ===== TEST FAILED: TC_003_InvalidPassword | Reason:   Error message should appear for invalid password.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-10 14:23:36] [INFO ] Duration: 51.33 sec
+[2026-03-10 14:23:36] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:23:36] [INFO ] Browser closed
+[2026-03-10 14:24:04] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-10 14:24:04] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:24:20] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-10 14:24:20] [INFO ] Duration: 44.36 sec
+[2026-03-10 14:24:20] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:24:20] [INFO ] Browser closed
+[2026-03-10 14:24:37] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-10 14:24:37] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:24:45] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-03-10 14:24:45] [INFO ] Duration: 24.62 sec
+[2026-03-10 14:24:45] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:24:45] [INFO ] Browser closed
+[2026-03-10 14:24:59] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-10 14:24:59] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:25:31] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-10 14:25:31] [INFO ] Duration: 46.20 sec
+[2026-03-10 14:25:31] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:25:32] [INFO ] Browser closed
+[2026-03-10 14:25:47] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-10 14:25:47] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:26:09] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-10 14:26:09] [INFO ] Duration: 37.53 sec
+[2026-03-10 14:26:09] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:26:09] [INFO ] Browser closed
+[2026-03-10 14:26:27] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-10 14:26:27] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:26:58] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-10 14:26:58] [INFO ] Duration: 48.59 sec
+[2026-03-10 14:26:58] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:26:58] [INFO ] Browser closed
+[2026-03-10 14:27:24] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-10 14:27:24] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:27:35] [FAIL ] ===== TEST FAILED: TC_009_AdminMenuVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-10 14:27:35] [INFO ] Duration: 36.64 sec
+[2026-03-10 14:27:35] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:27:35] [INFO ] Browser closed
+[2026-03-10 14:27:53] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-10 14:27:53] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:28:29] [FAIL ] ===== TEST FAILED: TC_010_LogoutRedirectsToLogin | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":".oxd-userdropdown-tab"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-10 14:28:29] [INFO ] Duration: 53.53 sec
+[2026-03-10 14:28:29] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:28:29] [INFO ] Browser closed
+[2026-03-10 14:28:46] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-10 14:28:46] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:29:41] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-10 14:29:41] [INFO ] Duration: 72.51 sec
+[2026-03-10 14:29:41] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:29:42] [INFO ] Browser closed
+[2026-03-10 14:29:54] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-10 14:29:54] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:30:54] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-10 14:30:54] [INFO ] Duration: 72.88 sec
+[2026-03-10 14:30:54] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:30:55] [INFO ] Browser closed
+[2026-03-10 14:31:08] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-10 14:31:08] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:32:13] [FAIL ] ===== TEST FAILED: TC_013_FirstNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds =====
+[2026-03-10 14:32:13] [INFO ] Duration: 78.45 sec
+[2026-03-10 14:32:13] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:32:13] [INFO ] Browser closed
+[2026-03-10 14:32:32] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-10 14:32:32] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:33:48] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-10 14:33:48] [INFO ] Duration: 94.31 sec
+[2026-03-10 14:33:48] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:33:48] [INFO ] Browser closed
+[2026-03-10 14:34:00] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-10 14:34:00] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:35:37] [FAIL ] ===== TEST FAILED: TC_015_SaveButtonVisible | Reason: OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:51622/session/e7e6f0bfd60854b0eb36d564960e2267/url timed out after 60 seconds.
+  ----> System.Threading.Tasks.TaskCanceledException : The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing.
+  ----> System.TimeoutException : The operation was canceled.
+  ----> System.Threading.Tasks.TaskCanceledException : The operation was canceled.
+  ----> System.IO.IOException : Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+  ----> System.Net.Sockets.SocketException : The I/O operation has been aborted because of either a thread exit or an application request. =====
+[2026-03-10 14:35:37] [INFO ] Duration: 108.70 sec
+[2026-03-10 14:35:37] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:35:37] [INFO ] Browser closed
+[2026-03-10 14:35:53] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-10 14:35:53] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:36:45] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-10 14:36:45] [INFO ] Duration: 68.38 sec
+[2026-03-10 14:36:45] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:36:46] [INFO ] Browser closed
+[2026-03-10 14:36:59] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-10 14:36:59] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:37:09] [FAIL ] ===== TEST FAILED: TC_017_VacanciesUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-10 14:37:09] [INFO ] Duration: 23.35 sec
+[2026-03-10 14:37:09] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:37:09] [INFO ] Browser closed
+[2026-03-10 14:37:24] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-10 14:37:24] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:37:34] [FAIL ] ===== TEST FAILED: TC_018_VacancyTableDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-10 14:37:34] [INFO ] Duration: 24.84 sec
+[2026-03-10 14:37:34] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:37:35] [INFO ] Browser closed
+[2026-03-10 14:37:51] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-10 14:37:51] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:38:40] [FAIL ] ===== TEST FAILED: TC_019_AddVacancyPageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Add']"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-10 14:38:40] [INFO ] Duration: 65.61 sec
+[2026-03-10 14:38:40] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:38:40] [INFO ] Browser closed
+[2026-03-10 14:39:00] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-10 14:39:00] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:40:08] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-10 14:40:08] [INFO ] Duration: 87.63 sec
+[2026-03-10 14:40:08] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:40:09] [INFO ] Browser closed
+[2026-03-10 14:40:24] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-10 14:40:24] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:41:06] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-10 14:41:06] [INFO ] Duration: 57.80 sec
+[2026-03-10 14:41:06] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:41:07] [INFO ] Browser closed
+[2026-03-10 14:41:19] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-10 14:41:19] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:42:00] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-10 14:42:00] [INFO ] Duration: 53.04 sec
+[2026-03-10 14:42:00] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:42:00] [INFO ] Browser closed
+[2026-03-10 14:42:13] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-10 14:42:13] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:42:55] [FAIL ] ===== TEST FAILED: TC_023_LeaveTableDisplayed | Reason:   Leave table should be displayed.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-10 14:42:55] [INFO ] Duration: 54.59 sec
+[2026-03-10 14:42:55] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:42:55] [INFO ] Browser closed
+[2026-03-10 14:43:08] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-10 14:43:08] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:43:59] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-10 14:43:59] [INFO ] Duration: 64.56 sec
+[2026-03-10 14:43:59] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:44:00] [INFO ] Browser closed
+[2026-03-10 14:44:11] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-10 14:44:11] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:44:58] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-10 14:44:58] [INFO ] Duration: 58.10 sec
+[2026-03-10 14:44:58] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:44:58] [INFO ] Browser closed
+[2026-03-10 14:45:12] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-10 14:45:12] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:45:41] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-03-10 14:45:41] [INFO ] Duration: 42.55 sec
+[2026-03-10 14:45:41] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:45:41] [INFO ] Browser closed
+[2026-03-10 14:45:53] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-10 14:45:53] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:46:26] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-03-10 14:46:26] [INFO ] Duration: 45.22 sec
+[2026-03-10 14:46:26] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:46:26] [INFO ] Browser closed
+[2026-03-10 14:46:39] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-10 14:46:39] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:47:22] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-10 14:47:22] [INFO ] Duration: 55.55 sec
+[2026-03-10 14:47:22] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:47:22] [INFO ] Browser closed
+[2026-03-10 14:47:33] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-10 14:47:33] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:48:07] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-10 14:48:07] [INFO ] Duration: 44.51 sec
+[2026-03-10 14:48:07] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:48:07] [INFO ] Browser closed
+[2026-03-10 14:48:18] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-10 14:48:18] [INFO ] Browser opened and login page loaded
+[2026-03-10 14:48:56] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-10 14:48:56] [INFO ] Duration: 48.99 sec
+[2026-03-10 14:48:56] [INFO ] ─────────────────────────────────────────
+[2026-03-10 14:48:56] [INFO ] Browser closed
