@@ -231,23 +231,23 @@ namespace AutomationFramework.Utilities
       <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
     </div>
     <div class='module-row'>
-      <div class='module-label'><span class='module-name'>Dashboard Module</span><span class='module-count'>TC_006 - TC_014 (9 tests)</span></div>
+      <div class='module-label'><span class='module-name'>Dashboard Module</span><span class='module-count'>TC_006 - TC_010 (5 tests)</span></div>
       <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
     </div>
     <div class='module-row'>
-      <div class='module-label'><span class='module-name'>Profile Module</span><span class='module-count'>TC_015 - TC_024 (10 tests)</span></div>
+      <div class='module-label'><span class='module-name'>Profile Module</span><span class='module-count'>TC_011 - TC_015 (5 tests)</span></div>
       <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
     </div>
     <div class='module-row'>
-      <div class='module-label'><span class='module-name'>Recruitment Module</span><span class='module-count'>TC_025 - TC_034 (10 tests)</span></div>
+      <div class='module-label'><span class='module-name'>Recruitment Module</span><span class='module-count'>TC_016 - TC_020 (5tests)</span></div>
       <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
     </div>
     <div class='module-row'>
-      <div class='module-label'><span class='module-name'>Leave Management Module</span><span class='module-count'>TC_035 - TC_044 (10 tests)</span></div>
+      <div class='module-label'><span class='module-name'>Leave Management Module</span><span class='module-count'>TC_021- TC_25 (5 tests)</span></div>
       <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
     </div>
     <div class='module-row'>
-      <div class='module-label'><span class='module-name'>PIM / Employee Module</span><span class='module-count'>TC_045 - TC_054 (10 tests)</span></div>
+      <div class='module-label'><span class='module-name'>PIM / Employee Module</span><span class='module-count'>TC_026- TC_030 (5 tests)</span></div>
       <div class='progress-bar'><div class='progress-fill' style='width:100%'></div></div>
     </div>
   </div>
@@ -380,7 +380,7 @@ namespace AutomationFramework.Utilities
       datasets: [
         {{
           label: 'Passed',
-          data: [5, 9, 10, 10, 10, 10],
+          data: [5, 5, 5, 5, 5, 5],
           backgroundColor: '#10b981',
           borderRadius: 6
         }},

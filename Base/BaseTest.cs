@@ -22,6 +22,7 @@ namespace AutomationFramework.Base
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(0);
             driver.Navigate().GoToUrl(ConfigReader.GetUrl());
 
+            // Wait for page readyState complete
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
             wait.Until(d =>
                 ((IJavaScriptExecutor)d)

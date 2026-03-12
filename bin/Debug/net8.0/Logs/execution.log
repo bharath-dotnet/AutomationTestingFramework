@@ -1,0 +1,2277 @@
+[2026-03-11 11:21:15] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-11 11:21:15] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:21:26] [FAIL ] ===== TEST FAILED: TC_001_ValidLogin | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:21:26] [INFO ] Duration: 17.86 sec
+[2026-03-11 11:21:26] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:21:26] [INFO ] Browser closed
+[2026-03-11 11:21:28] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-11 11:21:28] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:21:39] [FAIL ] ===== TEST FAILED: TC_002_InvalidUsername | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:21:39] [INFO ] Duration: 12.51 sec
+[2026-03-11 11:21:39] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:21:39] [INFO ] Browser closed
+[2026-03-11 11:21:42] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-11 11:21:42] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:21:52] [FAIL ] ===== TEST FAILED: TC_003_InvalidPassword | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:21:52] [INFO ] Duration: 12.96 sec
+[2026-03-11 11:21:52] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:21:52] [INFO ] Browser closed
+[2026-03-11 11:21:55] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-11 11:21:55] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:22:05] [FAIL ] ===== TEST FAILED: TC_004_EmptyFields | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:22:05] [INFO ] Duration: 12.51 sec
+[2026-03-11 11:22:05] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:22:05] [INFO ] Browser closed
+[2026-03-11 11:22:08] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-11 11:22:08] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:22:18] [FAIL ] ===== TEST FAILED: TC_005_LoginPageDisplayed | Reason:   Login page should be displayed.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-11 11:22:18] [INFO ] Duration: 12.78 sec
+[2026-03-11 11:22:18] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:22:18] [INFO ] Browser closed
+[2026-03-11 11:22:22] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-11 11:22:22] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:22:32] [FAIL ] ===== TEST FAILED: TC_006_DashboardLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:22:32] [INFO ] Duration: 13.36 sec
+[2026-03-11 11:22:32] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:22:32] [INFO ] Browser closed
+[2026-03-11 11:22:37] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-11 11:22:37] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:22:47] [FAIL ] ===== TEST FAILED: TC_007_DashboardUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:22:47] [INFO ] Duration: 14.88 sec
+[2026-03-11 11:22:47] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:22:47] [INFO ] Browser closed
+[2026-03-11 11:22:51] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-11 11:22:51] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:23:02] [FAIL ] ===== TEST FAILED: TC_008_SidebarMenuVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:23:02] [INFO ] Duration: 14.52 sec
+[2026-03-11 11:23:02] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:23:02] [INFO ] Browser closed
+[2026-03-11 11:23:06] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-11 11:23:06] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:23:16] [FAIL ] ===== TEST FAILED: TC_009_AdminMenuVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:23:16] [INFO ] Duration: 13.96 sec
+[2026-03-11 11:23:16] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:23:17] [INFO ] Browser closed
+[2026-03-11 11:23:19] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-11 11:23:19] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:23:30] [FAIL ] ===== TEST FAILED: TC_010_LogoutRedirectsToLogin | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:23:30] [INFO ] Duration: 12.84 sec
+[2026-03-11 11:23:30] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:23:30] [INFO ] Browser closed
+[2026-03-11 11:23:33] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-11 11:23:33] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:23:43] [FAIL ] ===== TEST FAILED: TC_011_ProfilePageLoaded | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:23:43] [INFO ] Duration: 13.40 sec
+[2026-03-11 11:23:43] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:23:44] [INFO ] Browser closed
+[2026-03-11 11:23:46] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-11 11:23:46] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:23:56] [FAIL ] ===== TEST FAILED: TC_012_ProfileUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:23:56] [INFO ] Duration: 12.39 sec
+[2026-03-11 11:23:56] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:23:56] [INFO ] Browser closed
+[2026-03-11 11:23:59] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-11 11:23:59] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:24:09] [FAIL ] ===== TEST FAILED: TC_013_FirstNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:24:09] [INFO ] Duration: 12.76 sec
+[2026-03-11 11:24:09] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:24:10] [INFO ] Browser closed
+[2026-03-11 11:24:12] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-11 11:24:12] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:24:22] [FAIL ] ===== TEST FAILED: TC_014_LastNameFieldVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:24:22] [INFO ] Duration: 12.53 sec
+[2026-03-11 11:24:22] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:24:23] [INFO ] Browser closed
+[2026-03-11 11:24:25] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-11 11:24:25] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:24:35] [FAIL ] ===== TEST FAILED: TC_015_SaveButtonVisible | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:24:35] [INFO ] Duration: 12.53 sec
+[2026-03-11 11:24:35] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:24:35] [INFO ] Browser closed
+[2026-03-11 11:24:38] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-11 11:24:38] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:24:48] [FAIL ] ===== TEST FAILED: TC_016_VacanciesPageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:24:49] [INFO ] Duration: 12.94 sec
+[2026-03-11 11:24:49] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:24:49] [INFO ] Browser closed
+[2026-03-11 11:24:51] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-11 11:24:51] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:25:02] [FAIL ] ===== TEST FAILED: TC_017_VacanciesUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:25:02] [INFO ] Duration: 13.10 sec
+[2026-03-11 11:25:02] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:25:02] [INFO ] Browser closed
+[2026-03-11 11:25:05] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-11 11:25:05] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:25:15] [FAIL ] ===== TEST FAILED: TC_018_VacancyTableDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:25:15] [INFO ] Duration: 12.79 sec
+[2026-03-11 11:25:15] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:25:15] [INFO ] Browser closed
+[2026-03-11 11:25:18] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-11 11:25:18] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:25:28] [FAIL ] ===== TEST FAILED: TC_019_AddVacancyPageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:25:28] [INFO ] Duration: 12.51 sec
+[2026-03-11 11:25:28] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:25:28] [INFO ] Browser closed
+[2026-03-11 11:25:31] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-11 11:25:31] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:25:41] [FAIL ] ===== TEST FAILED: TC_020_SaveWithoutFieldsShowsError | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:25:41] [INFO ] Duration: 12.97 sec
+[2026-03-11 11:25:41] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:25:42] [INFO ] Browser closed
+[2026-03-11 11:25:44] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-11 11:25:44] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:25:54] [FAIL ] ===== TEST FAILED: TC_021_MyLeavePageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:25:54] [INFO ] Duration: 12.53 sec
+[2026-03-11 11:25:54] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:25:55] [INFO ] Browser closed
+[2026-03-11 11:25:58] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-11 11:25:58] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:26:08] [FAIL ] ===== TEST FAILED: TC_022_MyLeaveUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:26:08] [INFO ] Duration: 13.38 sec
+[2026-03-11 11:26:08] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:26:08] [INFO ] Browser closed
+[2026-03-11 11:26:11] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-11 11:26:11] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:26:21] [FAIL ] ===== TEST FAILED: TC_023_LeaveTableDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:26:21] [INFO ] Duration: 12.55 sec
+[2026-03-11 11:26:21] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:26:21] [INFO ] Browser closed
+[2026-03-11 11:26:24] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-11 11:26:24] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:26:35] [FAIL ] ===== TEST FAILED: TC_024_ApplyLeavePageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:26:35] [INFO ] Duration: 13.27 sec
+[2026-03-11 11:26:35] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:26:35] [INFO ] Browser closed
+[2026-03-11 11:26:37] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-11 11:26:37] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:26:48] [FAIL ] ===== TEST FAILED: TC_025_ApplyLeaveUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:26:48] [INFO ] Duration: 12.59 sec
+[2026-03-11 11:26:48] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:26:48] [INFO ] Browser closed
+[2026-03-11 11:26:50] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-11 11:26:50] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:27:01] [FAIL ] ===== TEST FAILED: TC_026_EmployeeListPageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:27:01] [INFO ] Duration: 12.89 sec
+[2026-03-11 11:27:01] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:27:01] [INFO ] Browser closed
+[2026-03-11 11:27:04] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-11 11:27:04] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:27:14] [FAIL ] ===== TEST FAILED: TC_027_EmployeeListUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:27:14] [INFO ] Duration: 12.83 sec
+[2026-03-11 11:27:14] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:27:14] [INFO ] Browser closed
+[2026-03-11 11:27:17] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-11 11:27:17] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:27:27] [FAIL ] ===== TEST FAILED: TC_028_EmployeeTableDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:27:27] [INFO ] Duration: 12.38 sec
+[2026-03-11 11:27:27] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:27:27] [INFO ] Browser closed
+[2026-03-11 11:27:30] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-11 11:27:30] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:27:40] [FAIL ] ===== TEST FAILED: TC_029_AddButtonDisplayed | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:27:40] [INFO ] Duration: 12.90 sec
+[2026-03-11 11:27:40] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:27:40] [INFO ] Browser closed
+[2026-03-11 11:27:43] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-11 11:27:43] [INFO ] Browser opened and login page loaded
+[2026-03-11 11:27:53] [FAIL ] ===== TEST FAILED: TC_030_AddEmployeePageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-11 11:27:53] [INFO ] Duration: 12.54 sec
+[2026-03-11 11:27:53] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:27:53] [INFO ] Browser closed
+[2026-03-11 11:42:38] [FAIL ] ===== TEST FAILED: TC_001_ValidLogin | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds =====
+[2026-03-11 11:42:38] [INFO ] Duration: 33.05 sec
+[2026-03-11 11:42:38] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:42:38] [INFO ] Browser closed
+[2026-03-11 11:43:11] [FAIL ] ===== TEST FAILED: TC_002_InvalidUsername | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds =====
+[2026-03-11 11:43:11] [INFO ] Duration: 32.83 sec
+[2026-03-11 11:43:11] [INFO ] ─────────────────────────────────────────
+[2026-03-11 11:43:12] [INFO ] Browser closed
+[2026-03-11 20:48:37] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-11 20:48:37] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:48:41] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-11 20:48:41] [INFO ] Duration: 17.52 sec
+[2026-03-11 20:48:41] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:48:41] [INFO ] Browser closed
+[2026-03-11 20:48:53] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-11 20:48:53] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:48:58] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-03-11 20:48:58] [INFO ] Duration: 16.83 sec
+[2026-03-11 20:48:58] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:48:59] [INFO ] Browser closed
+[2026-03-11 20:49:07] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-11 20:49:07] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:49:13] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-03-11 20:49:13] [INFO ] Duration: 14.42 sec
+[2026-03-11 20:49:13] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:49:13] [INFO ] Browser closed
+[2026-03-11 20:49:24] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-11 20:49:24] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:49:35] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-11 20:49:35] [INFO ] Duration: 21.64 sec
+[2026-03-11 20:49:35] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:49:35] [INFO ] Browser closed
+[2026-03-11 20:49:44] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-11 20:49:44] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:49:45] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-03-11 20:49:45] [INFO ] Duration: 9.62 sec
+[2026-03-11 20:49:45] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:49:45] [INFO ] Browser closed
+[2026-03-11 20:50:09] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-11 20:50:09] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:50:22] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-11 20:50:22] [INFO ] Duration: 37.25 sec
+[2026-03-11 20:50:22] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:50:22] [INFO ] Browser closed
+[2026-03-11 20:50:34] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-11 20:50:34] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:50:37] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-11 20:50:37] [INFO ] Duration: 14.92 sec
+[2026-03-11 20:50:37] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:50:37] [INFO ] Browser closed
+[2026-03-11 20:51:17] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-11 20:51:17] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:51:23] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-11 20:51:23] [INFO ] Duration: 45.88 sec
+[2026-03-11 20:51:23] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:51:23] [INFO ] Browser closed
+[2026-03-11 20:51:51] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-11 20:51:51] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:52:01] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-11 20:52:01] [INFO ] Duration: 37.71 sec
+[2026-03-11 20:52:01] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:52:01] [INFO ] Browser closed
+[2026-03-11 20:52:14] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-11 20:52:14] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:52:38] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-11 20:52:38] [INFO ] Duration: 36.61 sec
+[2026-03-11 20:52:38] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:52:38] [INFO ] Browser closed
+[2026-03-11 20:52:48] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-11 20:52:48] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:52:54] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-11 20:52:54] [INFO ] Duration: 16.09 sec
+[2026-03-11 20:52:54] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:52:54] [INFO ] Browser closed
+[2026-03-11 20:53:03] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-11 20:53:03] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:53:12] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-11 20:53:12] [INFO ] Duration: 17.60 sec
+[2026-03-11 20:53:12] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:53:12] [INFO ] Browser closed
+[2026-03-11 20:53:28] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-11 20:53:28] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:53:36] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-11 20:53:36] [INFO ] Duration: 23.63 sec
+[2026-03-11 20:53:36] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:53:36] [INFO ] Browser closed
+[2026-03-11 20:53:45] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-11 20:53:45] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:53:54] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-11 20:53:54] [INFO ] Duration: 18.59 sec
+[2026-03-11 20:53:54] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:53:55] [INFO ] Browser closed
+[2026-03-11 20:54:15] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-11 20:54:15] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:54:22] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-11 20:54:22] [INFO ] Duration: 27.25 sec
+[2026-03-11 20:54:22] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:54:22] [INFO ] Browser closed
+[2026-03-11 20:54:31] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-11 20:54:31] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:54:37] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-11 20:54:37] [INFO ] Duration: 14.79 sec
+[2026-03-11 20:54:37] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:54:37] [INFO ] Browser closed
+[2026-03-11 20:54:47] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-11 20:54:47] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:54:53] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-11 20:54:53] [INFO ] Duration: 16.42 sec
+[2026-03-11 20:54:53] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:54:54] [INFO ] Browser closed
+[2026-03-11 20:55:03] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-11 20:55:03] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:55:08] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-11 20:55:08] [INFO ] Duration: 14.35 sec
+[2026-03-11 20:55:08] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:55:08] [INFO ] Browser closed
+[2026-03-11 20:55:18] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-11 20:55:18] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:55:26] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-11 20:55:26] [INFO ] Duration: 17.52 sec
+[2026-03-11 20:55:26] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:55:26] [INFO ] Browser closed
+[2026-03-11 20:55:35] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-11 20:55:35] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:55:43] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-11 20:55:43] [INFO ] Duration: 17.10 sec
+[2026-03-11 20:55:43] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:55:44] [INFO ] Browser closed
+[2026-03-11 20:55:53] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-11 20:55:53] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:55:59] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-11 20:55:59] [INFO ] Duration: 15.05 sec
+[2026-03-11 20:55:59] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:55:59] [INFO ] Browser closed
+[2026-03-11 20:56:10] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-11 20:56:10] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:56:16] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-11 20:56:16] [INFO ] Duration: 16.98 sec
+[2026-03-11 20:56:16] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:56:16] [INFO ] Browser closed
+[2026-03-11 20:56:25] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-11 20:56:25] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:56:31] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-03-11 20:56:31] [INFO ] Duration: 14.56 sec
+[2026-03-11 20:56:31] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:56:31] [INFO ] Browser closed
+[2026-03-11 20:56:39] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-11 20:56:39] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:56:50] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-11 20:56:50] [INFO ] Duration: 19.08 sec
+[2026-03-11 20:56:50] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:56:50] [INFO ] Browser closed
+[2026-03-11 20:56:59] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-11 20:56:59] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:57:10] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-11 20:57:10] [INFO ] Duration: 19.65 sec
+[2026-03-11 20:57:10] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:57:10] [INFO ] Browser closed
+[2026-03-11 20:57:19] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-11 20:57:19] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:57:25] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-03-11 20:57:25] [INFO ] Duration: 14.61 sec
+[2026-03-11 20:57:25] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:57:25] [INFO ] Browser closed
+[2026-03-11 20:58:19] [FAIL ] ===== TEST FAILED: TC_027_EmployeeListUrlContains | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds =====
+[2026-03-11 20:58:19] [INFO ] Duration: 53.70 sec
+[2026-03-11 20:58:19] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:58:19] [INFO ] Browser closed
+[2026-03-11 20:58:49] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-11 20:58:49] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:58:58] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-11 20:58:58] [INFO ] Duration: 39.13 sec
+[2026-03-11 20:58:58] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:58:58] [INFO ] Browser closed
+[2026-03-11 20:59:11] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-11 20:59:11] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:59:28] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-11 20:59:28] [INFO ] Duration: 30.05 sec
+[2026-03-11 20:59:28] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:59:28] [INFO ] Browser closed
+[2026-03-11 20:59:38] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-11 20:59:38] [INFO ] Browser opened and login page loaded
+[2026-03-11 20:59:54] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-11 20:59:54] [INFO ] Duration: 25.15 sec
+[2026-03-11 20:59:54] [INFO ] ─────────────────────────────────────────
+[2026-03-11 20:59:54] [INFO ] Browser closed
+[2026-03-11 21:10:53] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-11 21:10:53] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:10:57] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-11 21:10:57] [INFO ] Duration: 12.68 sec
+[2026-03-11 21:10:57] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:10:57] [INFO ] Browser closed
+[2026-03-11 21:11:06] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-11 21:11:06] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:11:10] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-03-11 21:11:10] [INFO ] Duration: 12.24 sec
+[2026-03-11 21:11:10] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:11:10] [INFO ] Browser closed
+[2026-03-11 21:11:20] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-11 21:11:20] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:11:27] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-03-11 21:11:27] [INFO ] Duration: 16.75 sec
+[2026-03-11 21:11:27] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:11:27] [INFO ] Browser closed
+[2026-03-11 21:11:35] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-11 21:11:35] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:11:46] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-11 21:11:46] [INFO ] Duration: 19.46 sec
+[2026-03-11 21:11:46] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:11:46] [INFO ] Browser closed
+[2026-03-11 21:11:59] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-11 21:11:59] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:12:02] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-03-11 21:12:02] [INFO ] Duration: 15.26 sec
+[2026-03-11 21:12:02] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:12:02] [INFO ] Browser closed
+[2026-03-11 21:12:10] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-11 21:12:10] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:12:15] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-11 21:12:15] [INFO ] Duration: 13.08 sec
+[2026-03-11 21:12:15] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:12:15] [INFO ] Browser closed
+[2026-03-11 21:12:24] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-11 21:12:24] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:12:28] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-11 21:12:28] [INFO ] Duration: 13.29 sec
+[2026-03-11 21:12:28] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:12:28] [INFO ] Browser closed
+[2026-03-11 21:12:42] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-11 21:12:42] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:12:46] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-11 21:12:46] [INFO ] Duration: 17.99 sec
+[2026-03-11 21:12:46] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:12:47] [INFO ] Browser closed
+[2026-03-11 21:12:55] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-11 21:12:55] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:12:59] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-11 21:12:59] [INFO ] Duration: 12.75 sec
+[2026-03-11 21:12:59] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:13:00] [INFO ] Browser closed
+[2026-03-11 21:13:11] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-11 21:13:11] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:13:20] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-11 21:13:20] [INFO ] Duration: 20.91 sec
+[2026-03-11 21:13:20] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:13:21] [INFO ] Browser closed
+[2026-03-11 21:13:28] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-11 21:13:28] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:13:36] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-11 21:13:36] [INFO ] Duration: 15.04 sec
+[2026-03-11 21:13:36] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:13:36] [INFO ] Browser closed
+[2026-03-11 21:13:43] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-11 21:13:43] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:13:52] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-11 21:13:52] [INFO ] Duration: 16.21 sec
+[2026-03-11 21:13:52] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:13:52] [INFO ] Browser closed
+[2026-03-11 21:14:01] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-11 21:14:01] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:14:09] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-11 21:14:09] [INFO ] Duration: 16.54 sec
+[2026-03-11 21:14:09] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:14:09] [INFO ] Browser closed
+[2026-03-11 21:14:16] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-11 21:14:16] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:14:23] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-11 21:14:23] [INFO ] Duration: 14.41 sec
+[2026-03-11 21:14:23] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:14:24] [INFO ] Browser closed
+[2026-03-11 21:14:31] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-11 21:14:31] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:14:39] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-11 21:14:39] [INFO ] Duration: 15.25 sec
+[2026-03-11 21:14:39] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:14:39] [INFO ] Browser closed
+[2026-03-11 21:14:48] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-11 21:14:48] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:14:55] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-11 21:14:55] [INFO ] Duration: 16.14 sec
+[2026-03-11 21:14:55] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:14:55] [INFO ] Browser closed
+[2026-03-11 21:15:02] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-11 21:15:02] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:15:09] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-11 21:15:09] [INFO ] Duration: 13.65 sec
+[2026-03-11 21:15:09] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:15:09] [INFO ] Browser closed
+[2026-03-11 21:15:17] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-11 21:15:17] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:15:24] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-11 21:15:24] [INFO ] Duration: 14.69 sec
+[2026-03-11 21:15:24] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:15:24] [INFO ] Browser closed
+[2026-03-11 21:15:34] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-11 21:15:34] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:15:49] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-11 21:15:49] [INFO ] Duration: 25.00 sec
+[2026-03-11 21:15:49] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:15:49] [INFO ] Browser closed
+[2026-03-11 21:16:03] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-11 21:16:03] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:16:18] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-11 21:16:18] [INFO ] Duration: 28.51 sec
+[2026-03-11 21:16:18] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:16:18] [INFO ] Browser closed
+[2026-03-11 21:16:32] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-11 21:16:32] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:16:39] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-11 21:16:39] [INFO ] Duration: 20.98 sec
+[2026-03-11 21:16:39] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:16:39] [INFO ] Browser closed
+[2026-03-11 21:16:57] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-11 21:16:57] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:17:06] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-11 21:17:06] [INFO ] Duration: 27.11 sec
+[2026-03-11 21:17:06] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:17:06] [INFO ] Browser closed
+[2026-03-11 21:17:19] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-11 21:17:19] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:17:28] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-03-11 21:17:28] [INFO ] Duration: 21.70 sec
+[2026-03-11 21:17:28] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:17:28] [INFO ] Browser closed
+[2026-03-11 21:17:41] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-11 21:17:41] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:17:54] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-11 21:17:54] [INFO ] Duration: 26.15 sec
+[2026-03-11 21:17:54] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:17:54] [INFO ] Browser closed
+[2026-03-11 21:18:08] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-11 21:18:08] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:18:21] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-11 21:18:21] [INFO ] Duration: 26.59 sec
+[2026-03-11 21:18:21] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:18:21] [INFO ] Browser closed
+[2026-03-11 21:18:33] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-11 21:18:33] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:18:40] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-03-11 21:18:40] [INFO ] Duration: 18.70 sec
+[2026-03-11 21:18:40] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:18:40] [INFO ] Browser closed
+[2026-03-11 21:19:41] [FAIL ] ===== TEST FAILED: TC_027_EmployeeListUrlContains | Reason: OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:54905/session/985d80ad620e74912171676fd36f7370/url timed out after 60 seconds.
+  ----> System.Threading.Tasks.TaskCanceledException : The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing.
+  ----> System.TimeoutException : The operation was canceled.
+  ----> System.Threading.Tasks.TaskCanceledException : The operation was canceled.
+  ----> System.IO.IOException : Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+  ----> System.Net.Sockets.SocketException : The I/O operation has been aborted because of either a thread exit or an application request. =====
+[2026-03-11 21:19:41] [INFO ] Duration: 61.32 sec
+[2026-03-11 21:19:41] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:19:42] [INFO ] Browser closed
+[2026-03-11 21:19:43] [FAIL ] ===== TEST FAILED: TC_028_EmployeeTableDisplayed | Reason: OpenQA.Selenium.UnknownErrorException : unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-11 21:19:43] [INFO ] Duration: 1.44 sec
+[2026-03-11 21:19:43] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:19:43] [INFO ] Browser closed
+[2026-03-11 21:19:45] [FAIL ] ===== TEST FAILED: TC_029_AddButtonDisplayed | Reason: OpenQA.Selenium.UnknownErrorException : unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-11 21:19:45] [INFO ] Duration: 1.35 sec
+[2026-03-11 21:19:45] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:19:45] [INFO ] Browser closed
+[2026-03-11 21:19:46] [FAIL ] ===== TEST FAILED: TC_030_AddEmployeePageLoads | Reason: OpenQA.Selenium.UnknownErrorException : unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-11 21:19:47] [INFO ] Duration: 1.53 sec
+[2026-03-11 21:19:47] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:19:47] [INFO ] Browser closed
+[2026-03-11 21:34:36] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-11 21:34:36] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:34:43] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-03-11 21:34:43] [INFO ] Duration: 20.69 sec
+[2026-03-11 21:34:43] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:34:43] [INFO ] Browser closed
+[2026-03-11 21:34:52] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-11 21:34:52] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:34:59] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-11 21:34:59] [INFO ] Duration: 15.41 sec
+[2026-03-11 21:34:59] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:34:59] [INFO ] Browser closed
+[2026-03-11 21:35:15] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-11 21:35:15] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:35:24] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-11 21:35:24] [INFO ] Duration: 24.71 sec
+[2026-03-11 21:35:24] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:35:24] [INFO ] Browser closed
+[2026-03-11 21:35:34] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-11 21:35:34] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:35:44] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-11 21:35:44] [INFO ] Duration: 19.81 sec
+[2026-03-11 21:35:44] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:35:44] [INFO ] Browser closed
+[2026-03-11 21:36:58] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-11 21:36:58] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:37:02] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-11 21:37:02] [INFO ] Duration: 16.55 sec
+[2026-03-11 21:37:02] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:37:02] [INFO ] Browser closed
+[2026-03-11 21:37:16] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-11 21:37:16] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:37:21] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-03-11 21:37:21] [INFO ] Duration: 19.36 sec
+[2026-03-11 21:37:21] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:37:21] [INFO ] Browser closed
+[2026-03-11 21:37:35] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-11 21:37:35] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:37:40] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-03-11 21:37:40] [INFO ] Duration: 18.13 sec
+[2026-03-11 21:37:40] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:37:40] [INFO ] Browser closed
+[2026-03-11 21:37:50] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-11 21:37:50] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:38:01] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-11 21:38:01] [INFO ] Duration: 21.72 sec
+[2026-03-11 21:38:01] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:38:02] [INFO ] Browser closed
+[2026-03-11 21:38:11] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-11 21:38:11] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:38:13] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-03-11 21:38:13] [INFO ] Duration: 11.04 sec
+[2026-03-11 21:38:13] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:38:13] [INFO ] Browser closed
+[2026-03-11 21:38:25] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-11 21:38:25] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:38:30] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-11 21:38:30] [INFO ] Duration: 17.09 sec
+[2026-03-11 21:38:30] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:38:30] [INFO ] Browser closed
+[2026-03-11 21:38:46] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-11 21:38:46] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:38:52] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-11 21:38:52] [INFO ] Duration: 21.94 sec
+[2026-03-11 21:38:52] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:38:52] [INFO ] Browser closed
+[2026-03-11 21:39:02] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-11 21:39:02] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:39:09] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-11 21:39:09] [INFO ] Duration: 17.02 sec
+[2026-03-11 21:39:09] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:39:09] [INFO ] Browser closed
+[2026-03-11 21:39:30] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-11 21:39:30] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:39:36] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-11 21:39:36] [INFO ] Duration: 26.67 sec
+[2026-03-11 21:39:36] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:39:36] [INFO ] Browser closed
+[2026-03-11 21:39:52] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-11 21:39:52] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:40:14] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-11 21:40:14] [INFO ] Duration: 38.03 sec
+[2026-03-11 21:40:14] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:40:14] [INFO ] Browser closed
+[2026-03-11 21:40:43] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-11 21:40:43] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:40:55] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-11 21:40:55] [INFO ] Duration: 40.42 sec
+[2026-03-11 21:40:55] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:40:55] [INFO ] Browser closed
+[2026-03-11 21:41:21] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-11 21:41:21] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:41:33] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-11 21:41:33] [INFO ] Duration: 37.75 sec
+[2026-03-11 21:41:33] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:41:33] [INFO ] Browser closed
+[2026-03-11 21:41:50] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-11 21:41:50] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:41:58] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-11 21:41:58] [INFO ] Duration: 25.20 sec
+[2026-03-11 21:41:58] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:41:58] [INFO ] Browser closed
+[2026-03-11 21:42:09] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-11 21:42:09] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:42:17] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-11 21:42:17] [INFO ] Duration: 18.71 sec
+[2026-03-11 21:42:17] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:42:17] [INFO ] Browser closed
+[2026-03-11 21:42:28] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-11 21:42:28] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:42:34] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-11 21:42:34] [INFO ] Duration: 16.59 sec
+[2026-03-11 21:42:34] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:42:34] [INFO ] Browser closed
+[2026-03-11 21:42:55] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-11 21:42:55] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:43:01] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-11 21:43:01] [INFO ] Duration: 27.50 sec
+[2026-03-11 21:43:01] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:43:02] [INFO ] Browser closed
+[2026-03-11 21:43:18] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-11 21:43:18] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:43:29] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-11 21:43:29] [INFO ] Duration: 27.02 sec
+[2026-03-11 21:43:29] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:43:29] [INFO ] Browser closed
+[2026-03-11 21:43:45] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-11 21:43:45] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:43:53] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-11 21:43:53] [INFO ] Duration: 24.35 sec
+[2026-03-11 21:43:53] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:43:53] [INFO ] Browser closed
+[2026-03-11 21:44:08] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-11 21:44:08] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:44:19] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-11 21:44:19] [INFO ] Duration: 25.62 sec
+[2026-03-11 21:44:19] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:44:20] [INFO ] Browser closed
+[2026-03-11 21:44:53] [FAIL ] ===== TEST FAILED: TC_020_SaveWithoutFieldsShowsError | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds =====
+[2026-03-11 21:44:53] [INFO ] Duration: 33.13 sec
+[2026-03-11 21:44:53] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:44:53] [INFO ] Browser closed
+[2026-03-11 21:45:10] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-11 21:45:10] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:45:17] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-11 21:45:17] [INFO ] Duration: 24.02 sec
+[2026-03-11 21:45:17] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:45:17] [INFO ] Browser closed
+[2026-03-11 21:45:36] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-11 21:45:36] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:45:48] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-11 21:45:48] [INFO ] Duration: 30.49 sec
+[2026-03-11 21:45:48] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:45:48] [INFO ] Browser closed
+[2026-03-11 21:46:08] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-11 21:46:08] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:46:17] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-03-11 21:46:17] [INFO ] Duration: 29.47 sec
+[2026-03-11 21:46:17] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:46:17] [INFO ] Browser closed
+[2026-03-11 21:46:33] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-11 21:46:33] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:46:46] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-11 21:46:46] [INFO ] Duration: 28.06 sec
+[2026-03-11 21:46:46] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:46:46] [INFO ] Browser closed
+[2026-03-11 21:47:06] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-11 21:47:06] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:47:48] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-11 21:47:48] [INFO ] Duration: 62.37 sec
+[2026-03-11 21:47:48] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:47:48] [INFO ] Browser closed
+[2026-03-11 21:48:26] [FAIL ] ===== TEST FAILED: TC_026_EmployeeListPageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-11 21:48:26] [INFO ] Duration: 37.64 sec
+[2026-03-11 21:48:26] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:48:26] [INFO ] Browser closed
+[2026-03-11 21:48:43] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-11 21:48:43] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:48:45] [FAIL ] ===== TEST FAILED: TC_027_EmployeeListUrlContains | Reason: OpenQA.Selenium.WebDriverException : invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-11 21:48:45] [INFO ] Duration: 18.87 sec
+[2026-03-11 21:48:45] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:48:45] [INFO ] Browser closed
+[2026-03-11 21:49:55] [FAIL ] ===== TEST FAILED: TC_028_EmployeeTableDisplayed | Reason: OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:54639/session/65e994cff5e647b4e4ecf522865663be/url timed out after 60 seconds.
+  ----> System.Threading.Tasks.TaskCanceledException : The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing.
+  ----> System.TimeoutException : The operation was canceled.
+  ----> System.Threading.Tasks.TaskCanceledException : The operation was canceled.
+  ----> System.IO.IOException : Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+  ----> System.Net.Sockets.SocketException : The I/O operation has been aborted because of either a thread exit or an application request. =====
+[2026-03-11 21:49:55] [INFO ] Duration: 69.80 sec
+[2026-03-11 21:49:55] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:49:55] [INFO ] Browser closed
+[2026-03-11 21:50:10] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-11 21:50:10] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:50:18] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-11 21:50:18] [INFO ] Duration: 22.29 sec
+[2026-03-11 21:50:18] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:50:18] [INFO ] Browser closed
+[2026-03-11 21:50:29] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-11 21:50:29] [INFO ] Browser opened and login page loaded
+[2026-03-11 21:50:39] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-11 21:50:39] [INFO ] Duration: 20.83 sec
+[2026-03-11 21:50:39] [INFO ] ─────────────────────────────────────────
+[2026-03-11 21:50:39] [INFO ] Browser closed
+[2026-03-11 23:03:30] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-11 23:03:30] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:03:32] [FAIL ] ===== TEST FAILED: TC_001_ValidLogin | Reason:   Should redirect to dashboard after valid login.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-11 23:03:34] [INFO ] Duration: 12.30 sec
+[2026-03-11 23:03:34] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:03:34] [INFO ] Browser closed
+[2026-03-11 23:03:53] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-11 23:03:53] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:03:57] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-03-11 23:03:57] [INFO ] Duration: 23.10 sec
+[2026-03-11 23:03:57] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:03:57] [INFO ] Browser closed
+[2026-03-11 23:04:04] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-11 23:04:04] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:04:09] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-03-11 23:04:09] [INFO ] Duration: 11.43 sec
+[2026-03-11 23:04:09] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:04:09] [INFO ] Browser closed
+[2026-03-11 23:04:17] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-11 23:04:17] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:04:29] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-11 23:04:29] [INFO ] Duration: 19.80 sec
+[2026-03-11 23:04:29] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:04:29] [INFO ] Browser closed
+[2026-03-11 23:04:35] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-11 23:04:35] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:04:36] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-03-11 23:04:36] [INFO ] Duration: 7.13 sec
+[2026-03-11 23:04:36] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:04:36] [INFO ] Browser closed
+[2026-03-11 23:04:52] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-11 23:04:52] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:04:58] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-11 23:04:58] [INFO ] Duration: 22.18 sec
+[2026-03-11 23:04:58] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:04:59] [INFO ] Browser closed
+[2026-03-11 23:05:09] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-11 23:05:09] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:05:14] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-11 23:05:14] [INFO ] Duration: 15.20 sec
+[2026-03-11 23:05:14] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:05:14] [INFO ] Browser closed
+[2026-03-11 23:05:21] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-11 23:05:21] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:05:25] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-11 23:05:25] [INFO ] Duration: 11.57 sec
+[2026-03-11 23:05:25] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:05:26] [INFO ] Browser closed
+[2026-03-11 23:05:33] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-11 23:05:33] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:05:38] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-11 23:05:38] [INFO ] Duration: 12.59 sec
+[2026-03-11 23:05:38] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:05:38] [INFO ] Browser closed
+[2026-03-11 23:05:46] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-11 23:05:46] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:05:54] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-11 23:05:54] [INFO ] Duration: 15.49 sec
+[2026-03-11 23:05:54] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:05:54] [INFO ] Browser closed
+[2026-03-11 23:06:02] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-11 23:06:02] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:06:11] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-11 23:06:11] [INFO ] Duration: 17.03 sec
+[2026-03-11 23:06:11] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:06:11] [INFO ] Browser closed
+[2026-03-11 23:06:27] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-11 23:06:27] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:06:35] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-11 23:06:35] [INFO ] Duration: 23.37 sec
+[2026-03-11 23:06:35] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:06:35] [INFO ] Browser closed
+[2026-03-11 23:06:43] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-11 23:06:43] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:06:50] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-11 23:06:50] [INFO ] Duration: 15.27 sec
+[2026-03-11 23:06:50] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:06:50] [INFO ] Browser closed
+[2026-03-11 23:06:58] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-11 23:06:58] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:07:05] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-11 23:07:05] [INFO ] Duration: 14.63 sec
+[2026-03-11 23:07:05] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:07:05] [INFO ] Browser closed
+[2026-03-11 23:07:21] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-11 23:07:21] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:07:28] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-11 23:07:28] [INFO ] Duration: 22.58 sec
+[2026-03-11 23:07:28] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:07:28] [INFO ] Browser closed
+[2026-03-11 23:07:43] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-11 23:07:43] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:07:49] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-11 23:07:49] [INFO ] Duration: 21.30 sec
+[2026-03-11 23:07:49] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:07:49] [INFO ] Browser closed
+[2026-03-11 23:07:59] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-11 23:07:59] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:08:06] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-11 23:08:06] [INFO ] Duration: 16.77 sec
+[2026-03-11 23:08:06] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:08:06] [INFO ] Browser closed
+[2026-03-11 23:08:14] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-11 23:08:14] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:08:20] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-11 23:08:20] [INFO ] Duration: 13.65 sec
+[2026-03-11 23:08:20] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:08:20] [INFO ] Browser closed
+[2026-03-11 23:08:36] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-11 23:08:36] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:08:52] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-11 23:08:52] [INFO ] Duration: 31.92 sec
+[2026-03-11 23:08:52] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:08:52] [INFO ] Browser closed
+[2026-03-11 23:09:00] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-11 23:09:00] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:09:16] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-11 23:09:16] [INFO ] Duration: 24.16 sec
+[2026-03-11 23:09:16] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:09:16] [INFO ] Browser closed
+[2026-03-11 23:09:23] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-11 23:09:23] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:09:32] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-11 23:09:32] [INFO ] Duration: 15.51 sec
+[2026-03-11 23:09:32] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:09:32] [INFO ] Browser closed
+[2026-03-11 23:09:39] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-11 23:09:39] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:09:45] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-11 23:09:45] [INFO ] Duration: 13.43 sec
+[2026-03-11 23:09:45] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:09:45] [INFO ] Browser closed
+[2026-03-11 23:09:55] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-11 23:09:55] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:10:02] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-03-11 23:10:02] [INFO ] Duration: 16.83 sec
+[2026-03-11 23:10:02] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:10:02] [INFO ] Browser closed
+[2026-03-11 23:10:10] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-11 23:10:10] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:10:23] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-11 23:10:23] [INFO ] Duration: 20.20 sec
+[2026-03-11 23:10:23] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:10:23] [INFO ] Browser closed
+[2026-03-11 23:10:30] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-11 23:10:30] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:10:42] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-11 23:10:42] [INFO ] Duration: 19.18 sec
+[2026-03-11 23:10:42] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:10:42] [INFO ] Browser closed
+[2026-03-11 23:11:16] [FAIL ] ===== TEST FAILED: TC_026_EmployeeListPageLoads | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160) =====
+[2026-03-11 23:11:16] [INFO ] Duration: 33.50 sec
+[2026-03-11 23:11:16] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:11:16] [INFO ] Browser closed
+[2026-03-11 23:11:23] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-11 23:11:23] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:11:29] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-03-11 23:11:29] [INFO ] Duration: 13.21 sec
+[2026-03-11 23:11:29] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:11:29] [INFO ] Browser closed
+[2026-03-11 23:11:36] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-11 23:11:36] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:11:45] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-11 23:11:45] [INFO ] Duration: 16.51 sec
+[2026-03-11 23:11:45] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:11:46] [INFO ] Browser closed
+[2026-03-11 23:11:53] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-11 23:11:53] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:12:03] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-11 23:12:03] [INFO ] Duration: 17.08 sec
+[2026-03-11 23:12:03] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:12:03] [INFO ] Browser closed
+[2026-03-11 23:12:10] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-11 23:12:10] [INFO ] Browser opened and login page loaded
+[2026-03-11 23:12:21] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-11 23:12:21] [INFO ] Duration: 17.95 sec
+[2026-03-11 23:12:21] [INFO ] ─────────────────────────────────────────
+[2026-03-11 23:12:21] [INFO ] Browser closed
+[2026-03-12 11:23:14] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-12 11:23:14] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:23:34] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-12 11:23:34] [INFO ] Duration: 34.91 sec
+[2026-03-12 11:23:34] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:23:35] [INFO ] Browser closed
+[2026-03-12 11:23:44] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-12 11:23:44] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:24:11] [FAIL ] ===== TEST FAILED: TC_002_InvalidUsername | Reason:   Error message should appear for invalid username.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-12 11:24:11] [INFO ] Duration: 36.53 sec
+[2026-03-12 11:24:11] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:24:11] [INFO ] Browser closed
+[2026-03-12 11:24:21] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-12 11:24:21] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:24:31] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-03-12 11:24:31] [INFO ] Duration: 19.77 sec
+[2026-03-12 11:24:31] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:24:31] [INFO ] Browser closed
+[2026-03-12 11:24:39] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-12 11:24:39] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:24:51] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-12 11:24:51] [INFO ] Duration: 19.83 sec
+[2026-03-12 11:24:51] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:24:51] [INFO ] Browser closed
+[2026-03-12 11:24:58] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-12 11:24:58] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:24:59] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-03-12 11:24:59] [INFO ] Duration: 8.09 sec
+[2026-03-12 11:24:59] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:24:59] [INFO ] Browser closed
+[2026-03-12 11:25:07] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-12 11:25:07] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:25:13] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-12 11:25:13] [INFO ] Duration: 13.63 sec
+[2026-03-12 11:25:13] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:25:13] [INFO ] Browser closed
+[2026-03-12 11:25:20] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-12 11:25:20] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:25:26] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-12 11:25:26] [INFO ] Duration: 12.65 sec
+[2026-03-12 11:25:26] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:25:26] [INFO ] Browser closed
+[2026-03-12 11:25:34] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-12 11:25:34] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:25:39] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-12 11:25:39] [INFO ] Duration: 13.48 sec
+[2026-03-12 11:25:39] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:25:40] [INFO ] Browser closed
+[2026-03-12 11:25:56] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-12 11:25:56] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:26:06] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-12 11:26:06] [INFO ] Duration: 26.02 sec
+[2026-03-12 11:26:06] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:26:06] [INFO ] Browser closed
+[2026-03-12 11:26:15] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 11:26:15] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:26:40] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 11:26:40] [INFO ] Duration: 33.85 sec
+[2026-03-12 11:26:40] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:26:40] [INFO ] Browser closed
+[2026-03-12 11:26:56] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-12 11:26:56] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:27:14] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-12 11:27:14] [INFO ] Duration: 34.17 sec
+[2026-03-12 11:27:14] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:27:14] [INFO ] Browser closed
+[2026-03-12 11:27:23] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-12 11:27:23] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:27:31] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-12 11:27:31] [INFO ] Duration: 16.81 sec
+[2026-03-12 11:27:31] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:27:31] [INFO ] Browser closed
+[2026-03-12 11:27:39] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 11:27:39] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:27:49] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 11:27:49] [INFO ] Duration: 18.19 sec
+[2026-03-12 11:27:49] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:27:49] [INFO ] Browser closed
+[2026-03-12 11:27:58] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-12 11:27:58] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:28:14] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-12 11:28:14] [INFO ] Duration: 24.23 sec
+[2026-03-12 11:28:14] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:28:14] [INFO ] Browser closed
+[2026-03-12 11:28:21] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-12 11:28:21] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:28:32] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-12 11:28:32] [INFO ] Duration: 18.16 sec
+[2026-03-12 11:28:32] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:28:32] [INFO ] Browser closed
+[2026-03-12 11:28:39] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-12 11:28:39] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:28:51] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-12 11:28:51] [INFO ] Duration: 19.15 sec
+[2026-03-12 11:28:51] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:28:51] [INFO ] Browser closed
+[2026-03-12 11:29:00] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-12 11:29:00] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:29:21] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-12 11:29:21] [INFO ] Duration: 29.53 sec
+[2026-03-12 11:29:21] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:29:21] [INFO ] Browser closed
+[2026-03-12 11:29:31] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 11:29:31] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:30:04] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 11:30:04] [INFO ] Duration: 42.76 sec
+[2026-03-12 11:30:04] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:30:04] [INFO ] Browser closed
+[2026-03-12 11:30:10] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 11:30:10] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:30:21] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 11:30:21] [INFO ] Duration: 16.89 sec
+[2026-03-12 11:30:21] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:30:21] [INFO ] Browser closed
+[2026-03-12 11:30:28] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 11:30:28] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:30:59] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 11:30:59] [INFO ] Duration: 38.02 sec
+[2026-03-12 11:30:59] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:30:59] [INFO ] Browser closed
+[2026-03-12 11:31:08] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-12 11:31:08] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:31:36] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-12 11:31:36] [INFO ] Duration: 37.02 sec
+[2026-03-12 11:31:36] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:31:36] [INFO ] Browser closed
+[2026-03-12 11:31:45] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 11:31:45] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:32:12] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 11:32:12] [INFO ] Duration: 35.59 sec
+[2026-03-12 11:32:12] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:32:12] [INFO ] Browser closed
+[2026-03-12 11:32:23] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 11:32:23] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:32:51] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 11:32:51] [INFO ] Duration: 38.59 sec
+[2026-03-12 11:32:51] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:32:51] [INFO ] Browser closed
+[2026-03-12 11:33:04] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 11:33:04] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:33:43] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 11:33:43] [INFO ] Duration: 52.31 sec
+[2026-03-12 11:33:43] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:33:43] [INFO ] Browser closed
+[2026-03-12 11:33:54] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 11:33:54] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:34:43] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 11:34:43] [INFO ] Duration: 59.99 sec
+[2026-03-12 11:34:43] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:34:43] [INFO ] Browser closed
+[2026-03-12 11:34:56] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 11:34:56] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:35:31] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 11:35:31] [INFO ] Duration: 47.43 sec
+[2026-03-12 11:35:31] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:35:31] [INFO ] Browser closed
+[2026-03-12 11:35:43] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 11:35:43] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:36:04] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 11:36:04] [INFO ] Duration: 32.66 sec
+[2026-03-12 11:36:04] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:36:04] [INFO ] Browser closed
+[2026-03-12 11:36:14] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 11:36:14] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:36:50] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 11:36:50] [INFO ] Duration: 46.10 sec
+[2026-03-12 11:36:50] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:36:50] [INFO ] Browser closed
+[2026-03-12 11:37:02] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-12 11:37:02] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:37:32] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-12 11:37:32] [INFO ] Duration: 42.33 sec
+[2026-03-12 11:37:32] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:37:33] [INFO ] Browser closed
+[2026-03-12 11:37:42] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 11:37:42] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:38:06] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 11:38:06] [INFO ] Duration: 33.00 sec
+[2026-03-12 11:38:06] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:38:06] [INFO ] Browser closed
+[2026-03-12 11:42:16] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-12 11:42:16] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:42:26] [FAIL ] ===== TEST FAILED: TC_001_ValidLogin | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-12 11:42:27] [INFO ] Duration: 46.41 sec
+[2026-03-12 11:42:27] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:42:27] [INFO ] Browser closed
+[2026-03-12 11:42:59] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-12 11:42:59] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:43:09] [FAIL ] ===== TEST FAILED: TC_002_InvalidUsername | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-12 11:43:09] [INFO ] Duration: 42.42 sec
+[2026-03-12 11:43:09] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:43:09] [INFO ] Browser closed
+[2026-03-12 11:43:41] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-12 11:43:41] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:43:52] [FAIL ] ===== TEST FAILED: TC_003_InvalidPassword | Reason: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="username"]"}
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception =====
+[2026-03-12 11:43:52] [INFO ] Duration: 42.24 sec
+[2026-03-12 11:43:52] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:43:52] [INFO ] Browser closed
+[2026-03-12 11:44:37] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-12 11:44:37] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:44:57] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-12 11:44:57] [INFO ] Duration: 65.38 sec
+[2026-03-12 11:44:57] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:44:57] [INFO ] Browser closed
+[2026-03-12 11:45:10] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-12 11:45:10] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:45:21] [FAIL ] ===== TEST FAILED: TC_005_LoginPageDisplayed | Reason:   Login page should be displayed.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-12 11:45:21] [INFO ] Duration: 23.43 sec
+[2026-03-12 11:45:21] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:45:21] [INFO ] Browser closed
+[2026-03-12 11:45:31] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-12 11:45:31] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:45:46] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-12 11:45:46] [INFO ] Duration: 25.23 sec
+[2026-03-12 11:45:46] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:45:46] [INFO ] Browser closed
+[2026-03-12 11:45:55] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-12 11:45:55] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:46:04] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-12 11:46:04] [INFO ] Duration: 17.96 sec
+[2026-03-12 11:46:04] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:46:04] [INFO ] Browser closed
+[2026-03-12 11:46:12] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-12 11:46:12] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:46:19] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-12 11:46:19] [INFO ] Duration: 14.52 sec
+[2026-03-12 11:46:19] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:46:19] [INFO ] Browser closed
+[2026-03-12 11:46:28] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-12 11:46:28] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:46:33] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-12 11:46:33] [INFO ] Duration: 14.13 sec
+[2026-03-12 11:46:33] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:46:33] [INFO ] Browser closed
+[2026-03-12 11:46:41] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 11:46:41] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:46:51] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 11:46:51] [INFO ] Duration: 17.94 sec
+[2026-03-12 11:46:51] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:46:51] [INFO ] Browser closed
+[2026-03-12 11:47:01] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-12 11:47:01] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:47:14] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-12 11:47:14] [INFO ] Duration: 22.12 sec
+[2026-03-12 11:47:14] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:47:14] [INFO ] Browser closed
+[2026-03-12 11:47:21] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-12 11:47:21] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:47:51] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-12 11:47:51] [INFO ] Duration: 37.57 sec
+[2026-03-12 11:47:51] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:47:51] [INFO ] Browser closed
+[2026-03-12 11:48:04] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 11:48:04] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:48:19] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 11:48:19] [INFO ] Duration: 28.10 sec
+[2026-03-12 11:48:19] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:48:20] [INFO ] Browser closed
+[2026-03-12 11:48:28] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-12 11:48:28] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:48:37] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-12 11:48:37] [INFO ] Duration: 17.02 sec
+[2026-03-12 11:48:37] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:48:37] [INFO ] Browser closed
+[2026-03-12 11:48:44] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-12 11:48:44] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:49:00] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-12 11:49:00] [INFO ] Duration: 23.39 sec
+[2026-03-12 11:49:00] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:49:00] [INFO ] Browser closed
+[2026-03-12 11:49:09] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-12 11:49:09] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:49:22] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-12 11:49:22] [INFO ] Duration: 22.12 sec
+[2026-03-12 11:49:22] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:49:23] [INFO ] Browser closed
+[2026-03-12 11:49:33] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-12 11:49:33] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:50:00] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-12 11:50:00] [INFO ] Duration: 37.01 sec
+[2026-03-12 11:50:00] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:50:00] [INFO ] Browser closed
+[2026-03-12 11:50:14] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 11:50:14] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:50:52] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 11:50:52] [INFO ] Duration: 52.41 sec
+[2026-03-12 11:50:52] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:50:52] [INFO ] Browser closed
+[2026-03-12 11:51:01] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 11:51:01] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:51:11] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 11:51:11] [INFO ] Duration: 18.36 sec
+[2026-03-12 11:51:11] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:51:11] [INFO ] Browser closed
+[2026-03-12 11:51:17] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 11:51:17] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:51:27] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 11:51:27] [INFO ] Duration: 16.06 sec
+[2026-03-12 11:51:27] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:51:27] [INFO ] Browser closed
+[2026-03-12 11:51:36] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-12 11:51:36] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:51:43] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-12 11:51:43] [INFO ] Duration: 16.49 sec
+[2026-03-12 11:51:43] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:51:44] [INFO ] Browser closed
+[2026-03-12 11:52:00] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 11:52:00] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:52:06] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 11:52:06] [INFO ] Duration: 22.61 sec
+[2026-03-12 11:52:06] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:52:06] [INFO ] Browser closed
+[2026-03-12 11:52:14] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 11:52:14] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:52:24] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 11:52:24] [INFO ] Duration: 17.60 sec
+[2026-03-12 11:52:24] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:52:24] [INFO ] Browser closed
+[2026-03-12 11:52:31] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 11:52:31] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:52:43] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 11:52:43] [INFO ] Duration: 18.89 sec
+[2026-03-12 11:52:43] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:52:43] [INFO ] Browser closed
+[2026-03-12 11:52:50] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 11:52:50] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:53:02] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 11:53:02] [INFO ] Duration: 18.64 sec
+[2026-03-12 11:53:02] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:53:02] [INFO ] Browser closed
+[2026-03-12 11:53:09] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 11:53:09] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:53:15] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 11:53:15] [INFO ] Duration: 13.14 sec
+[2026-03-12 11:53:15] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:53:15] [INFO ] Browser closed
+[2026-03-12 11:53:25] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 11:53:25] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:53:31] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 11:53:31] [INFO ] Duration: 16.36 sec
+[2026-03-12 11:53:31] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:53:32] [INFO ] Browser closed
+[2026-03-12 11:53:39] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 11:53:39] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:53:47] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 11:53:47] [INFO ] Duration: 15.44 sec
+[2026-03-12 11:53:47] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:53:47] [INFO ] Browser closed
+[2026-03-12 11:53:55] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-12 11:53:55] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:54:05] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-12 11:54:05] [INFO ] Duration: 17.89 sec
+[2026-03-12 11:54:05] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:54:05] [INFO ] Browser closed
+[2026-03-12 11:54:19] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 11:54:19] [INFO ] Browser opened and login page loaded
+[2026-03-12 11:54:29] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 11:54:29] [INFO ] Duration: 23.60 sec
+[2026-03-12 11:54:29] [INFO ] ─────────────────────────────────────────
+[2026-03-12 11:54:29] [INFO ] Browser closed
+[2026-03-12 12:00:39] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-12 12:00:39] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:00:43] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-12 12:00:43] [INFO ] Duration: 9.12 sec
+[2026-03-12 12:00:43] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:00:43] [INFO ] Browser closed
+[2026-03-12 12:00:49] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-12 12:00:49] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:00:53] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-03-12 12:00:53] [INFO ] Duration: 10.04 sec
+[2026-03-12 12:00:53] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:00:53] [INFO ] Browser closed
+[2026-03-12 12:00:59] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-12 12:00:59] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:01:03] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-03-12 12:01:03] [INFO ] Duration: 9.65 sec
+[2026-03-12 12:01:03] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:01:03] [INFO ] Browser closed
+[2026-03-12 12:01:10] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-12 12:01:10] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:01:32] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-12 12:01:32] [INFO ] Duration: 28.77 sec
+[2026-03-12 12:01:32] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:01:32] [INFO ] Browser closed
+[2026-03-12 12:01:37] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-12 12:01:37] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:01:58] [FAIL ] ===== TEST FAILED: TC_005_LoginPageDisplayed | Reason:   Login page should be displayed.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-12 12:01:58] [INFO ] Duration: 25.83 sec
+[2026-03-12 12:01:58] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:01:58] [INFO ] Browser closed
+[2026-03-12 12:02:05] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-12 12:02:05] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:02:09] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-12 12:02:09] [INFO ] Duration: 11.22 sec
+[2026-03-12 12:02:09] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:02:09] [INFO ] Browser closed
+[2026-03-12 12:02:16] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-12 12:02:16] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:02:19] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-12 12:02:19] [INFO ] Duration: 9.48 sec
+[2026-03-12 12:02:19] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:02:19] [INFO ] Browser closed
+[2026-03-12 12:02:24] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-12 12:02:24] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:02:28] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-12 12:02:28] [INFO ] Duration: 9.72 sec
+[2026-03-12 12:02:28] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:02:29] [INFO ] Browser closed
+[2026-03-12 12:02:35] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-12 12:02:35] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:02:39] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-12 12:02:39] [INFO ] Duration: 10.46 sec
+[2026-03-12 12:02:39] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:02:39] [INFO ] Browser closed
+[2026-03-12 12:02:49] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 12:02:49] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:02:55] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 12:02:55] [INFO ] Duration: 16.01 sec
+[2026-03-12 12:02:55] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:02:55] [INFO ] Browser closed
+[2026-03-12 12:03:01] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-12 12:03:01] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:03:08] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-12 12:03:08] [INFO ] Duration: 12.75 sec
+[2026-03-12 12:03:08] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:03:08] [INFO ] Browser closed
+[2026-03-12 12:03:14] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-12 12:03:14] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:03:20] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-12 12:03:20] [INFO ] Duration: 12.37 sec
+[2026-03-12 12:03:20] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:03:21] [INFO ] Browser closed
+[2026-03-12 12:03:27] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 12:03:27] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:03:32] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 12:03:32] [INFO ] Duration: 11.87 sec
+[2026-03-12 12:03:32] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:03:33] [INFO ] Browser closed
+[2026-03-12 12:03:39] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-12 12:03:39] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:03:46] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-12 12:03:46] [INFO ] Duration: 13.22 sec
+[2026-03-12 12:03:46] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:03:46] [INFO ] Browser closed
+[2026-03-12 12:03:52] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-12 12:03:52] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:03:59] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-12 12:03:59] [INFO ] Duration: 12.73 sec
+[2026-03-12 12:03:59] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:03:59] [INFO ] Browser closed
+[2026-03-12 12:04:05] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-12 12:04:05] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:04:11] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-12 12:04:11] [INFO ] Duration: 12.71 sec
+[2026-03-12 12:04:11] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:04:12] [INFO ] Browser closed
+[2026-03-12 12:04:18] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-12 12:04:18] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:04:24] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-12 12:04:24] [INFO ] Duration: 12.45 sec
+[2026-03-12 12:04:24] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:04:24] [INFO ] Browser closed
+[2026-03-12 12:04:30] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 12:04:30] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:04:36] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 12:04:36] [INFO ] Duration: 11.91 sec
+[2026-03-12 12:04:36] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:04:36] [INFO ] Browser closed
+[2026-03-12 12:04:42] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 12:04:42] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:04:51] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 12:04:51] [INFO ] Duration: 14.41 sec
+[2026-03-12 12:04:51] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:04:51] [INFO ] Browser closed
+[2026-03-12 12:04:57] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 12:04:57] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:05:05] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 12:05:05] [INFO ] Duration: 14.33 sec
+[2026-03-12 12:05:05] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:05:05] [INFO ] Browser closed
+[2026-03-12 12:05:11] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-12 12:05:11] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:05:17] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-12 12:05:17] [INFO ] Duration: 11.89 sec
+[2026-03-12 12:05:17] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:05:17] [INFO ] Browser closed
+[2026-03-12 12:05:23] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 12:05:23] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:05:29] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 12:05:29] [INFO ] Duration: 11.73 sec
+[2026-03-12 12:05:29] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:05:29] [INFO ] Browser closed
+[2026-03-12 12:05:36] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 12:05:36] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:05:45] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 12:05:45] [INFO ] Duration: 16.26 sec
+[2026-03-12 12:05:45] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:05:45] [INFO ] Browser closed
+[2026-03-12 12:05:51] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 12:05:51] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:06:09] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 12:06:09] [INFO ] Duration: 23.72 sec
+[2026-03-12 12:06:09] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:06:09] [INFO ] Browser closed
+[2026-03-12 12:06:15] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 12:06:15] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:06:27] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 12:06:27] [INFO ] Duration: 17.47 sec
+[2026-03-12 12:06:27] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:06:27] [INFO ] Browser closed
+[2026-03-12 12:06:33] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 12:06:33] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:06:39] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 12:06:39] [INFO ] Duration: 11.98 sec
+[2026-03-12 12:06:39] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:06:39] [INFO ] Browser closed
+[2026-03-12 12:06:55] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 12:06:55] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:07:02] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 12:07:02] [INFO ] Duration: 22.94 sec
+[2026-03-12 12:07:02] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:07:02] [INFO ] Browser closed
+[2026-03-12 12:07:08] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 12:07:08] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:07:14] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 12:07:14] [INFO ] Duration: 11.97 sec
+[2026-03-12 12:07:14] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:07:14] [INFO ] Browser closed
+[2026-03-12 12:07:22] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-12 12:07:22] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:07:29] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-12 12:07:29] [INFO ] Duration: 14.95 sec
+[2026-03-12 12:07:29] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:07:29] [INFO ] Browser closed
+[2026-03-12 12:07:35] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 12:07:35] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:07:46] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 12:07:46] [INFO ] Duration: 16.44 sec
+[2026-03-12 12:07:46] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:07:46] [INFO ] Browser closed
+[2026-03-12 12:10:52] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-12 12:10:52] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:10:55] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-12 12:10:55] [INFO ] Duration: 9.73 sec
+[2026-03-12 12:10:55] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:10:55] [INFO ] Browser closed
+[2026-03-12 12:11:01] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-12 12:11:01] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:11:05] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-03-12 12:11:05] [INFO ] Duration: 9.94 sec
+[2026-03-12 12:11:05] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:11:05] [INFO ] Browser closed
+[2026-03-12 12:11:11] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-12 12:11:11] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:11:16] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-03-12 12:11:16] [INFO ] Duration: 10.21 sec
+[2026-03-12 12:11:16] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:11:16] [INFO ] Browser closed
+[2026-03-12 12:11:26] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-12 12:11:26] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:11:56] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-12 12:11:56] [INFO ] Duration: 40.60 sec
+[2026-03-12 12:11:56] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:11:56] [INFO ] Browser closed
+[2026-03-12 12:12:16] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-12 12:12:16] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:12:16] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-03-12 12:12:16] [INFO ] Duration: 19.09 sec
+[2026-03-12 12:12:16] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:12:16] [INFO ] Browser closed
+[2026-03-12 12:12:31] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-12 12:12:31] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:13:02] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-12 12:13:02] [INFO ] Duration: 45.88 sec
+[2026-03-12 12:13:02] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:13:02] [INFO ] Browser closed
+[2026-03-12 12:13:26] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-12 12:13:26] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:13:29] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-12 12:13:29] [INFO ] Duration: 27.70 sec
+[2026-03-12 12:13:29] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:13:30] [INFO ] Browser closed
+[2026-03-12 12:13:37] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-12 12:13:37] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:13:41] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-12 12:13:41] [INFO ] Duration: 11.61 sec
+[2026-03-12 12:13:41] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:13:41] [INFO ] Browser closed
+[2026-03-12 12:13:47] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-12 12:13:47] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:13:51] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-12 12:13:51] [INFO ] Duration: 9.97 sec
+[2026-03-12 12:13:51] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:13:51] [INFO ] Browser closed
+[2026-03-12 12:13:57] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 12:13:57] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:14:10] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 12:14:10] [INFO ] Duration: 18.14 sec
+[2026-03-12 12:14:10] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:14:10] [INFO ] Browser closed
+[2026-03-12 12:14:16] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-12 12:14:16] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:14:23] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-12 12:14:23] [INFO ] Duration: 13.77 sec
+[2026-03-12 12:14:23] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:14:24] [INFO ] Browser closed
+[2026-03-12 12:14:30] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-12 12:14:30] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:14:36] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-12 12:14:36] [INFO ] Duration: 12.54 sec
+[2026-03-12 12:14:36] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:14:36] [INFO ] Browser closed
+[2026-03-12 12:14:42] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 12:14:42] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:14:49] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 12:14:49] [INFO ] Duration: 13.02 sec
+[2026-03-12 12:14:49] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:14:49] [INFO ] Browser closed
+[2026-03-12 12:14:57] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-12 12:14:57] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:15:04] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-12 12:15:04] [INFO ] Duration: 14.92 sec
+[2026-03-12 12:15:04] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:15:04] [INFO ] Browser closed
+[2026-03-12 12:15:12] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-12 12:15:12] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:15:26] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-12 12:15:26] [INFO ] Duration: 21.97 sec
+[2026-03-12 12:15:26] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:15:26] [INFO ] Browser closed
+[2026-03-12 12:15:34] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-12 12:15:34] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:15:42] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-12 12:15:42] [INFO ] Duration: 15.48 sec
+[2026-03-12 12:15:42] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:15:42] [INFO ] Browser closed
+[2026-03-12 12:15:49] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-12 12:15:49] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:15:55] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-12 12:15:55] [INFO ] Duration: 12.90 sec
+[2026-03-12 12:15:55] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:15:55] [INFO ] Browser closed
+[2026-03-12 12:16:01] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 12:16:01] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:16:07] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 12:16:07] [INFO ] Duration: 12.34 sec
+[2026-03-12 12:16:07] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:16:08] [INFO ] Browser closed
+[2026-03-12 12:16:13] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 12:16:13] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:16:21] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 12:16:21] [INFO ] Duration: 13.79 sec
+[2026-03-12 12:16:21] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:16:22] [INFO ] Browser closed
+[2026-03-12 12:16:27] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 12:16:27] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:16:35] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 12:16:35] [INFO ] Duration: 13.93 sec
+[2026-03-12 12:16:35] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:16:36] [INFO ] Browser closed
+[2026-03-12 12:16:42] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-12 12:16:42] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:16:47] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-12 12:16:47] [INFO ] Duration: 11.79 sec
+[2026-03-12 12:16:47] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:16:48] [INFO ] Browser closed
+[2026-03-12 12:16:53] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 12:16:53] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:16:59] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 12:16:59] [INFO ] Duration: 11.79 sec
+[2026-03-12 12:16:59] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:16:59] [INFO ] Browser closed
+[2026-03-12 12:17:06] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 12:17:06] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:17:33] [FAIL ] ===== TEST FAILED: TC_023_LeaveTableDisplayed | Reason:   Leave table should be displayed.
+  Expected: True
+  But was:  False
+ =====
+[2026-03-12 12:17:33] [INFO ] Duration: 33.28 sec
+[2026-03-12 12:17:33] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:17:33] [INFO ] Browser closed
+[2026-03-12 12:17:39] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 12:17:39] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:17:50] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 12:17:50] [INFO ] Duration: 16.92 sec
+[2026-03-12 12:17:50] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:17:50] [INFO ] Browser closed
+[2026-03-12 12:17:56] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 12:17:56] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:18:08] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 12:18:08] [INFO ] Duration: 17.63 sec
+[2026-03-12 12:18:08] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:18:08] [INFO ] Browser closed
+[2026-03-12 12:18:14] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 12:18:14] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:18:20] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 12:18:20] [INFO ] Duration: 11.59 sec
+[2026-03-12 12:18:20] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:18:20] [INFO ] Browser closed
+[2026-03-12 12:18:26] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 12:18:26] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:18:34] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 12:18:34] [INFO ] Duration: 14.38 sec
+[2026-03-12 12:18:34] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:18:34] [INFO ] Browser closed
+[2026-03-12 12:18:40] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 12:18:40] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:18:52] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 12:18:52] [INFO ] Duration: 17.36 sec
+[2026-03-12 12:18:52] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:18:52] [INFO ] Browser closed
+[2026-03-12 12:19:05] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-12 12:19:05] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:19:16] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-12 12:19:16] [INFO ] Duration: 24.10 sec
+[2026-03-12 12:19:16] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:19:16] [INFO ] Browser closed
+[2026-03-12 12:19:24] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 12:19:24] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:19:41] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 12:19:41] [INFO ] Duration: 24.81 sec
+[2026-03-12 12:19:41] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:19:41] [INFO ] Browser closed
+[2026-03-12 12:24:24] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-12 12:24:24] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:24:29] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-12 12:24:29] [INFO ] Duration: 17.71 sec
+[2026-03-12 12:24:29] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:24:29] [INFO ] Browser closed
+[2026-03-12 12:24:37] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-12 12:24:37] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:24:42] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-03-12 12:24:42] [INFO ] Duration: 12.85 sec
+[2026-03-12 12:24:42] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:24:42] [INFO ] Browser closed
+[2026-03-12 12:24:50] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-12 12:24:50] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:25:03] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-03-12 12:25:03] [INFO ] Duration: 20.42 sec
+[2026-03-12 12:25:03] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:25:03] [INFO ] Browser closed
+[2026-03-12 12:25:12] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-12 12:25:12] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:25:35] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-12 12:25:35] [INFO ] Duration: 31.66 sec
+[2026-03-12 12:25:35] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:25:35] [INFO ] Browser closed
+[2026-03-12 12:25:43] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-12 12:25:43] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:25:43] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-03-12 12:25:43] [INFO ] Duration: 8.15 sec
+[2026-03-12 12:25:43] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:25:43] [INFO ] Browser closed
+[2026-03-12 12:25:51] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-12 12:25:51] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:25:59] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-12 12:25:59] [INFO ] Duration: 15.67 sec
+[2026-03-12 12:25:59] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:25:59] [INFO ] Browser closed
+[2026-03-12 12:26:07] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-12 12:26:07] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:26:11] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-12 12:26:11] [INFO ] Duration: 12.17 sec
+[2026-03-12 12:26:11] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:26:11] [INFO ] Browser closed
+[2026-03-12 12:26:18] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-12 12:26:18] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:26:22] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-12 12:26:22] [INFO ] Duration: 10.86 sec
+[2026-03-12 12:26:22] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:26:22] [INFO ] Browser closed
+[2026-03-12 12:26:28] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-12 12:26:28] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:26:32] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-12 12:26:32] [INFO ] Duration: 10.43 sec
+[2026-03-12 12:26:32] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:26:33] [INFO ] Browser closed
+[2026-03-12 12:26:40] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 12:26:40] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:26:48] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 12:26:48] [INFO ] Duration: 15.26 sec
+[2026-03-12 12:26:48] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:26:48] [INFO ] Browser closed
+[2026-03-12 12:26:55] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-12 12:26:55] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:27:02] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-12 12:27:02] [INFO ] Duration: 13.82 sec
+[2026-03-12 12:27:02] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:27:02] [INFO ] Browser closed
+[2026-03-12 12:27:09] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-12 12:27:09] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:27:16] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-12 12:27:16] [INFO ] Duration: 14.62 sec
+[2026-03-12 12:27:16] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:27:17] [INFO ] Browser closed
+[2026-03-12 12:27:24] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 12:27:24] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:27:31] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 12:27:31] [INFO ] Duration: 14.14 sec
+[2026-03-12 12:27:31] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:27:31] [INFO ] Browser closed
+[2026-03-12 12:27:39] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-12 12:27:39] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:27:45] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-12 12:27:45] [INFO ] Duration: 14.47 sec
+[2026-03-12 12:27:45] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:27:45] [INFO ] Browser closed
+[2026-03-12 12:27:53] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-12 12:27:53] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:27:59] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-12 12:27:59] [INFO ] Duration: 13.88 sec
+[2026-03-12 12:27:59] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:27:59] [INFO ] Browser closed
+[2026-03-12 12:28:07] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-12 12:28:07] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:28:14] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-12 12:28:14] [INFO ] Duration: 14.19 sec
+[2026-03-12 12:28:14] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:28:14] [INFO ] Browser closed
+[2026-03-12 12:28:20] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-12 12:28:20] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:28:26] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-12 12:28:26] [INFO ] Duration: 12.48 sec
+[2026-03-12 12:28:26] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:28:26] [INFO ] Browser closed
+[2026-03-12 12:28:35] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 12:28:35] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:28:42] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 12:28:42] [INFO ] Duration: 16.13 sec
+[2026-03-12 12:28:42] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:28:43] [INFO ] Browser closed
+[2026-03-12 12:28:54] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 12:28:54] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:29:19] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 12:29:19] [INFO ] Duration: 36.09 sec
+[2026-03-12 12:29:19] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:29:19] [INFO ] Browser closed
+[2026-03-12 12:29:34] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 12:29:34] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:29:44] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 12:29:44] [INFO ] Duration: 24.86 sec
+[2026-03-12 12:29:44] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:29:44] [INFO ] Browser closed
+[2026-03-12 12:29:51] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-12 12:29:51] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:29:59] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-12 12:29:59] [INFO ] Duration: 15.11 sec
+[2026-03-12 12:29:59] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:29:59] [INFO ] Browser closed
+[2026-03-12 12:30:07] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 12:30:07] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:30:16] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 12:30:16] [INFO ] Duration: 17.37 sec
+[2026-03-12 12:30:16] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:30:17] [INFO ] Browser closed
+[2026-03-12 12:30:25] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 12:30:25] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:30:34] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 12:30:34] [INFO ] Duration: 17.10 sec
+[2026-03-12 12:30:34] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:30:34] [INFO ] Browser closed
+[2026-03-12 12:30:43] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 12:30:43] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:30:58] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 12:30:58] [INFO ] Duration: 23.86 sec
+[2026-03-12 12:30:58] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:30:58] [INFO ] Browser closed
+[2026-03-12 12:31:05] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 12:31:05] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:31:16] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 12:31:16] [INFO ] Duration: 18.43 sec
+[2026-03-12 12:31:16] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:31:16] [INFO ] Browser closed
+[2026-03-12 12:31:42] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 12:31:42] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:31:51] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 12:31:51] [INFO ] Duration: 34.68 sec
+[2026-03-12 12:31:51] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:31:51] [INFO ] Browser closed
+[2026-03-12 12:32:20] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 12:32:20] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:32:27] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 12:32:27] [INFO ] Duration: 36.06 sec
+[2026-03-12 12:32:27] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:32:27] [INFO ] Browser closed
+[2026-03-12 12:32:35] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 12:32:35] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:32:47] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 12:32:47] [INFO ] Duration: 19.74 sec
+[2026-03-12 12:32:47] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:32:47] [INFO ] Browser closed
+[2026-03-12 12:32:55] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-12 12:32:55] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:33:06] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-12 12:33:06] [INFO ] Duration: 18.36 sec
+[2026-03-12 12:33:06] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:33:06] [INFO ] Browser closed
+[2026-03-12 12:33:18] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 12:33:18] [INFO ] Browser opened and login page loaded
+[2026-03-12 12:33:29] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 12:33:29] [INFO ] Duration: 23.20 sec
+[2026-03-12 12:33:29] [INFO ] ─────────────────────────────────────────
+[2026-03-12 12:33:29] [INFO ] Browser closed
+[2026-03-12 13:05:17] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-12 13:05:17] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:05:21] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-12 13:05:21] [INFO ] Duration: 20.00 sec
+[2026-03-12 13:05:21] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:05:21] [INFO ] Browser closed
+[2026-03-12 13:05:29] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-12 13:05:29] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:05:34] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-03-12 13:05:34] [INFO ] Duration: 12.28 sec
+[2026-03-12 13:05:34] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:05:34] [INFO ] Browser closed
+[2026-03-12 13:05:42] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-12 13:05:42] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:05:47] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-03-12 13:05:47] [INFO ] Duration: 13.24 sec
+[2026-03-12 13:05:47] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:05:47] [INFO ] Browser closed
+[2026-03-12 13:05:56] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-12 13:05:56] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:06:18] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-12 13:06:18] [INFO ] Duration: 30.99 sec
+[2026-03-12 13:06:18] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:06:18] [INFO ] Browser closed
+[2026-03-12 13:06:31] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-12 13:06:31] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:06:31] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-03-12 13:06:31] [INFO ] Duration: 12.63 sec
+[2026-03-12 13:06:31] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:06:31] [INFO ] Browser closed
+[2026-03-12 13:06:40] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-12 13:06:40] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:06:46] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-12 13:06:46] [INFO ] Duration: 14.49 sec
+[2026-03-12 13:06:46] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:06:46] [INFO ] Browser closed
+[2026-03-12 13:06:56] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-12 13:06:56] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:07:01] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-12 13:07:01] [INFO ] Duration: 15.33 sec
+[2026-03-12 13:07:01] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:07:01] [INFO ] Browser closed
+[2026-03-12 13:07:19] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-12 13:07:19] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:07:25] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-12 13:07:25] [INFO ] Duration: 24.08 sec
+[2026-03-12 13:07:25] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:07:25] [INFO ] Browser closed
+[2026-03-12 13:07:34] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-12 13:07:34] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:07:39] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-12 13:07:39] [INFO ] Duration: 13.37 sec
+[2026-03-12 13:07:39] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:07:39] [INFO ] Browser closed
+[2026-03-12 13:07:57] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 13:07:57] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:08:10] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 13:08:10] [INFO ] Duration: 31.30 sec
+[2026-03-12 13:08:10] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:08:10] [INFO ] Browser closed
+[2026-03-12 13:08:25] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-12 13:08:25] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:08:36] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-12 13:08:36] [INFO ] Duration: 25.47 sec
+[2026-03-12 13:08:36] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:08:36] [INFO ] Browser closed
+[2026-03-12 13:08:47] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-12 13:08:47] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:09:09] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-12 13:09:09] [INFO ] Duration: 32.70 sec
+[2026-03-12 13:09:09] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:09:09] [INFO ] Browser closed
+[2026-03-12 13:09:19] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 13:09:19] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:09:40] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 13:09:40] [INFO ] Duration: 30.85 sec
+[2026-03-12 13:09:40] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:09:40] [INFO ] Browser closed
+[2026-03-12 13:09:56] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-12 13:09:56] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:10:04] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-12 13:10:04] [INFO ] Duration: 24.17 sec
+[2026-03-12 13:10:04] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:10:04] [INFO ] Browser closed
+[2026-03-12 13:10:14] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-12 13:10:14] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:10:25] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-12 13:10:25] [INFO ] Duration: 20.36 sec
+[2026-03-12 13:10:25] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:10:25] [INFO ] Browser closed
+[2026-03-12 13:10:38] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-12 13:10:38] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:10:54] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-12 13:10:54] [INFO ] Duration: 28.24 sec
+[2026-03-12 13:10:54] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:10:54] [INFO ] Browser closed
+[2026-03-12 13:11:06] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-12 13:11:06] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:11:19] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-12 13:11:19] [INFO ] Duration: 24.88 sec
+[2026-03-12 13:11:19] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:11:19] [INFO ] Browser closed
+[2026-03-12 13:11:30] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 13:11:30] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:11:41] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 13:11:41] [INFO ] Duration: 22.28 sec
+[2026-03-12 13:11:41] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:11:41] [INFO ] Browser closed
+[2026-03-12 13:11:53] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 13:11:53] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:12:03] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 13:12:03] [INFO ] Duration: 22.18 sec
+[2026-03-12 13:12:03] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:12:04] [INFO ] Browser closed
+[2026-03-12 13:12:22] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 13:12:22] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:12:32] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 13:12:32] [INFO ] Duration: 28.62 sec
+[2026-03-12 13:12:32] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:12:32] [INFO ] Browser closed
+[2026-03-12 13:12:41] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-12 13:12:41] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:12:50] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-12 13:12:50] [INFO ] Duration: 17.95 sec
+[2026-03-12 13:12:50] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:12:50] [INFO ] Browser closed
+[2026-03-12 13:13:00] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 13:13:00] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:13:06] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 13:13:06] [INFO ] Duration: 15.43 sec
+[2026-03-12 13:13:06] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:13:06] [INFO ] Browser closed
+[2026-03-12 13:13:16] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 13:13:16] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:13:24] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 13:13:24] [INFO ] Duration: 17.80 sec
+[2026-03-12 13:13:24] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:13:24] [INFO ] Browser closed
+[2026-03-12 13:13:33] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 13:13:33] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:13:45] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 13:13:45] [INFO ] Duration: 21.03 sec
+[2026-03-12 13:13:45] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:13:45] [INFO ] Browser closed
+[2026-03-12 13:13:53] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 13:13:53] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:14:04] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 13:14:04] [INFO ] Duration: 19.28 sec
+[2026-03-12 13:14:04] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:14:05] [INFO ] Browser closed
+[2026-03-12 13:14:13] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 13:14:13] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:14:19] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 13:14:19] [INFO ] Duration: 14.82 sec
+[2026-03-12 13:14:19] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:14:20] [INFO ] Browser closed
+[2026-03-12 13:14:27] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 13:14:27] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:14:39] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 13:14:39] [INFO ] Duration: 18.90 sec
+[2026-03-12 13:14:39] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:14:39] [INFO ] Browser closed
+[2026-03-12 13:14:47] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 13:14:47] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:15:07] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 13:15:07] [INFO ] Duration: 28.08 sec
+[2026-03-12 13:15:07] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:15:07] [INFO ] Browser closed
+[2026-03-12 13:15:16] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-12 13:15:16] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:15:23] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-12 13:15:23] [INFO ] Duration: 15.56 sec
+[2026-03-12 13:15:23] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:15:23] [INFO ] Browser closed
+[2026-03-12 13:15:32] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 13:15:32] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:15:45] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 13:15:45] [INFO ] Duration: 22.62 sec
+[2026-03-12 13:15:45] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:15:46] [INFO ] Browser closed
+[2026-03-12 13:20:55] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-03-12 13:20:55] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:20:59] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-03-12 13:20:59] [INFO ] Duration: 11.44 sec
+[2026-03-12 13:20:59] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:20:59] [INFO ] Browser closed
+[2026-03-12 13:21:21] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-03-12 13:21:21] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:21:28] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-03-12 13:21:28] [INFO ] Duration: 28.67 sec
+[2026-03-12 13:21:28] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:21:28] [INFO ] Browser closed
+[2026-03-12 13:21:37] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-03-12 13:21:37] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:21:42] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-03-12 13:21:42] [INFO ] Duration: 13.90 sec
+[2026-03-12 13:21:42] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:21:42] [INFO ] Browser closed
+[2026-03-12 13:21:50] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-03-12 13:21:50] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:22:12] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-03-12 13:22:12] [INFO ] Duration: 30.23 sec
+[2026-03-12 13:22:12] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:22:12] [INFO ] Browser closed
+[2026-03-12 13:22:19] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-03-12 13:22:19] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:22:19] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-03-12 13:22:19] [INFO ] Duration: 6.92 sec
+[2026-03-12 13:22:19] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:22:19] [INFO ] Browser closed
+[2026-03-12 13:22:28] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-03-12 13:22:28] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:22:34] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-03-12 13:22:34] [INFO ] Duration: 14.07 sec
+[2026-03-12 13:22:34] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:22:34] [INFO ] Browser closed
+[2026-03-12 13:22:41] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-03-12 13:22:41] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:22:44] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-03-12 13:22:44] [INFO ] Duration: 10.65 sec
+[2026-03-12 13:22:44] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:22:45] [INFO ] Browser closed
+[2026-03-12 13:22:52] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-03-12 13:22:52] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:22:56] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-03-12 13:22:56] [INFO ] Duration: 11.96 sec
+[2026-03-12 13:22:56] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:22:57] [INFO ] Browser closed
+[2026-03-12 13:23:15] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-03-12 13:23:15] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:23:20] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-03-12 13:23:20] [INFO ] Duration: 23.44 sec
+[2026-03-12 13:23:20] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:23:20] [INFO ] Browser closed
+[2026-03-12 13:23:28] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 13:23:28] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:23:36] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-03-12 13:23:36] [INFO ] Duration: 15.40 sec
+[2026-03-12 13:23:36] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:23:36] [INFO ] Browser closed
+[2026-03-12 13:23:44] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-03-12 13:23:44] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:23:50] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-03-12 13:23:50] [INFO ] Duration: 14.48 sec
+[2026-03-12 13:23:50] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:23:51] [INFO ] Browser closed
+[2026-03-12 13:23:59] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-03-12 13:23:59] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:24:07] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-03-12 13:24:07] [INFO ] Duration: 16.45 sec
+[2026-03-12 13:24:07] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:24:07] [INFO ] Browser closed
+[2026-03-12 13:24:16] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 13:24:16] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:24:23] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-03-12 13:24:23] [INFO ] Duration: 15.98 sec
+[2026-03-12 13:24:23] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:24:23] [INFO ] Browser closed
+[2026-03-12 13:24:37] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-03-12 13:24:37] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:24:44] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-03-12 13:24:44] [INFO ] Duration: 21.05 sec
+[2026-03-12 13:24:44] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:24:45] [INFO ] Browser closed
+[2026-03-12 13:24:54] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-03-12 13:24:54] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:25:01] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-03-12 13:25:01] [INFO ] Duration: 16.39 sec
+[2026-03-12 13:25:01] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:25:01] [INFO ] Browser closed
+[2026-03-12 13:25:12] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-03-12 13:25:12] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:25:20] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-03-12 13:25:20] [INFO ] Duration: 18.41 sec
+[2026-03-12 13:25:20] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:25:20] [INFO ] Browser closed
+[2026-03-12 13:25:29] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-03-12 13:25:29] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:25:36] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-03-12 13:25:36] [INFO ] Duration: 16.52 sec
+[2026-03-12 13:25:36] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:25:36] [INFO ] Browser closed
+[2026-03-12 13:25:45] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 13:25:45] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:25:54] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-03-12 13:25:54] [INFO ] Duration: 17.10 sec
+[2026-03-12 13:25:54] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:25:54] [INFO ] Browser closed
+[2026-03-12 13:26:01] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 13:26:01] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:26:10] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-03-12 13:26:10] [INFO ] Duration: 16.77 sec
+[2026-03-12 13:26:10] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:26:11] [INFO ] Browser closed
+[2026-03-12 13:26:19] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 13:26:19] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:26:29] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-03-12 13:26:29] [INFO ] Duration: 17.53 sec
+[2026-03-12 13:26:29] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:26:29] [INFO ] Browser closed
+[2026-03-12 13:26:41] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-03-12 13:26:41] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:26:48] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-03-12 13:26:48] [INFO ] Duration: 19.27 sec
+[2026-03-12 13:26:48] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:26:48] [INFO ] Browser closed
+[2026-03-12 13:27:00] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 13:27:00] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:27:07] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-03-12 13:27:07] [INFO ] Duration: 18.55 sec
+[2026-03-12 13:27:07] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:27:07] [INFO ] Browser closed
+[2026-03-12 13:27:18] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 13:27:18] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:27:24] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-03-12 13:27:24] [INFO ] Duration: 17.40 sec
+[2026-03-12 13:27:24] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:27:25] [INFO ] Browser closed
+[2026-03-12 13:27:34] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 13:27:34] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:27:45] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-03-12 13:27:45] [INFO ] Duration: 20.71 sec
+[2026-03-12 13:27:45] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:27:45] [INFO ] Browser closed
+[2026-03-12 13:27:54] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 13:27:54] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:28:06] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-03-12 13:28:06] [INFO ] Duration: 20.13 sec
+[2026-03-12 13:28:06] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:28:06] [INFO ] Browser closed
+[2026-03-12 13:28:15] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 13:28:15] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:28:22] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-03-12 13:28:22] [INFO ] Duration: 15.74 sec
+[2026-03-12 13:28:22] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:28:22] [INFO ] Browser closed
+[2026-03-12 13:28:30] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 13:28:30] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:28:37] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-03-12 13:28:37] [INFO ] Duration: 15.39 sec
+[2026-03-12 13:28:37] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:28:37] [INFO ] Browser closed
+[2026-03-12 13:28:50] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 13:28:50] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:29:05] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-03-12 13:29:05] [INFO ] Duration: 27.27 sec
+[2026-03-12 13:29:05] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:29:05] [INFO ] Browser closed
+[2026-03-12 13:29:18] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-03-12 13:29:18] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:29:32] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-03-12 13:29:32] [INFO ] Duration: 27.65 sec
+[2026-03-12 13:29:32] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:29:33] [INFO ] Browser closed
+[2026-03-12 13:29:43] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 13:29:43] [INFO ] Browser opened and login page loaded
+[2026-03-12 13:29:53] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-03-12 13:29:53] [INFO ] Duration: 20.41 sec
+[2026-03-12 13:29:53] [INFO ] ─────────────────────────────────────────
+[2026-03-12 13:29:53] [INFO ] Browser closed

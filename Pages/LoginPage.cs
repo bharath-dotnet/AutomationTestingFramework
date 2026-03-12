@@ -10,12 +10,11 @@ namespace AutomationFramework.Pages
         private By usernameField = By.Name("username");
         private By passwordField = By.Name("password");
         private By loginButton = By.XPath("//button[@type='submit']");
-        private By errorMessage = By.CssSelector(".oxd-alert-content-text");
-        private By errorRequired = By.CssSelector(".oxd-input-field-error-message");
-        private By loginHeader = By.XPath("//h5[text()='Login']");
+        private By errorMessage = By.XPath("//*[contains(@class,'oxd-alert-content-text')]");
+        private By errorRequired = By.XPath("//*[contains(@class,'oxd-input-field-error-message')]");
+        private By loginHeader = By.XPath("//h5[contains(text(),'Login')]");
 
         // ─── Actions ──────────────────────────────────────────────────────────────
-
         public void EnterUsername(string username)
         {
             EnterText(usernameField, username);

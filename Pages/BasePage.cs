@@ -13,7 +13,7 @@ namespace AutomationFramework.Pages
         public BasePage(IWebDriver driver)
         {
             this.driver = driver;
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
         }
 
         protected IWebElement WaitForElement(By locator)
