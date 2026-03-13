@@ -13,11 +13,11 @@ jobs:
     steps:
       # Step 1 - Checkout code
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Step 2 - Setup .NET 8
       - name: Setup .NET 8
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
 
@@ -27,16 +27,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
 
-      # Step 4 - Install ChromeDriver matching Chrome version
-      - name: Install ChromeDriver
-        run: |
-          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+' | head -1)
-          echo "Chrome version: $CHROME_VERSION"
-          npx @puppeteer/browsers install chromedriver@$CHROME_VERSION || true
-          # Use selenium manager as fallback
-          echo "Using Selenium Manager for ChromeDriver"
-
-      # Step 5 - Install system dependencies
+      # Step 4 - Install system dependencies
       - name: Install Dependencies
         run: |
           sudo apt-get install -y \
@@ -51,23 +42,23 @@ jobs:
             libcups2 \
             libgtk-3-0
 
-      # Step 6 - Restore NuGet packages
+      # Step 5 - Restore NuGet packages
       - name: Restore Dependencies
         run: dotnet restore
 
-      # Step 7 - Build project
+      # Step 6 - Build project
       - name: Build Project
         run: dotnet build --no-restore
 
-      # Step 8 - Run all tests
+      # Step 7 - Run all tests
       - name: Run Tests
         env:
           CI: true
         run: dotnet test --no-build --verbosity normal
 
-      # Step 9 - Upload test results
+      # Step 8 - Upload test results
       - name: Upload Test Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: test-results
