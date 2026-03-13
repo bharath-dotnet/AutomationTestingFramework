@@ -5,29 +5,29 @@ namespace AutomationFramework.Utilities
 {
     public class ConfigReader
     {
-        private static IConfigurationRoot configuration;
+        private static IConfiguration _config;
 
         static ConfigReader()
         {
-            var builder = new ConfigurationBuilder()
+            _config = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
-            configuration = builder.Build();
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .Build();
         }
 
         public static string GetBrowser()
         {
-            return configuration["browser"];
+            return _config["Browser"] ?? "chrome";
         }
 
         public static string GetUrl()
         {
-            return configuration["url"];
+            return _config["Url"] ?? "";
         }
 
-        public static string GetPaymentUrl()
+        public static string GetHeadless()
         {
-            return configuration["paymentUrl"];
+            return _config["Headless"] ?? "false";
         }
     }
 }

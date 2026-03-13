@@ -10,34 +10,42 @@ namespace AutomationFramework.Utilities
         public static IWebDriver GetBrowser()
         {
             string browser = ConfigReader.GetBrowser().ToLower();
-            switch (browser)
+
+            if (browser == "edge")
             {
-                case "chrome":
-                    return new ChromeDriver(GetChromeOptions());
-                case "edge":
-                    return new EdgeDriver();
-                default:
-                    throw new Exception("Browser not supported. Use chrome or edge.");
+                var edgeOptions = new EdgeOptions();
+                if (IsHeadless())
+                {
+                    edgeOptions.AddArgument("--headless");
+                    edgeOptions.AddArgument("--no-sandbox");
+                    edgeOptions.AddArgument("--disable-gpu");
+                    edgeOptions.AddArgument("--disable-dev-shm-usage");
+                }
+                return new EdgeDriver(edgeOptions);
+            }
+            else
+            {
+                var chromeOptions = new ChromeOptions();
+                chromeOptions.AddArgument("--no-sandbox");
+                chromeOptions.AddArgument("--disable-dev-shm-usage");
+                chromeOptions.AddArgument("--disable-gpu");
+                chromeOptions.AddArgument("--window-size=1920,1080");
+
+                if (IsHeadless())
+                {
+                    chromeOptions.AddArgument("--headless");
+                }
+
+                return new ChromeDriver(chromeOptions);
             }
         }
 
-        private static ChromeOptions GetChromeOptions()
+        private static bool IsHeadless()
         {
-            var options = new ChromeOptions();
-
-            // ── Suppress "Change your password" popup ────────────────────────────
-            options.AddUserProfilePreference("credentials_enable_service", false);
-            options.AddUserProfilePreference("profile.password_manager_enabled", false);
-            options.AddUserProfilePreference("profile.password_manager_leak_detection", false);
-
-            // ── Suppress other Chrome popups ──────────────────────────────────────
-            options.AddArgument("--disable-notifications");
-            options.AddArgument("--disable-popup-blocking");
-            options.AddArgument("--disable-infobars");
-            options.AddArgument("--no-first-run");
-            options.AddArgument("--no-default-browser-check");
-
-            return options;
+            // Run headless in CI/CD environment
+            string ci = Environment.GetEnvironmentVariable("CI") ?? "";
+            string headless = ConfigReader.GetHeadless();
+            return ci == "true" || headless.ToLower() == "true";
         }
     }
 }
