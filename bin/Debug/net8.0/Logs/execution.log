@@ -2275,3 +2275,183 @@ from unknown error: web view not found
 [2026-03-12 13:29:53] [INFO ] Duration: 20.41 sec
 [2026-03-12 13:29:53] [INFO ] ─────────────────────────────────────────
 [2026-03-12 13:29:53] [INFO ] Browser closed
+[2026-04-01 21:22:05] [INFO ] ===== TEST STARTED: TC_001_ValidLogin =====
+[2026-04-01 21:22:05] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:22:08] [PASS ] ===== TEST PASSED: TC_001_ValidLogin =====
+[2026-04-01 21:22:08] [INFO ] Duration: 10.37 sec
+[2026-04-01 21:22:08] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:22:08] [INFO ] Browser closed
+[2026-04-01 21:22:25] [INFO ] ===== TEST STARTED: TC_002_InvalidUsername =====
+[2026-04-01 21:22:25] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:22:30] [PASS ] ===== TEST PASSED: TC_002_InvalidUsername =====
+[2026-04-01 21:22:30] [INFO ] Duration: 21.72 sec
+[2026-04-01 21:22:30] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:22:30] [INFO ] Browser closed
+[2026-04-01 21:22:48] [INFO ] ===== TEST STARTED: TC_003_InvalidPassword =====
+[2026-04-01 21:22:48] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:22:53] [PASS ] ===== TEST PASSED: TC_003_InvalidPassword =====
+[2026-04-01 21:22:53] [INFO ] Duration: 22.91 sec
+[2026-04-01 21:22:53] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:22:53] [INFO ] Browser closed
+[2026-04-01 21:23:02] [INFO ] ===== TEST STARTED: TC_004_EmptyFields =====
+[2026-04-01 21:23:02] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:23:24] [PASS ] ===== TEST PASSED: TC_004_EmptyFields =====
+[2026-04-01 21:23:24] [INFO ] Duration: 31.68 sec
+[2026-04-01 21:23:24] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:23:25] [INFO ] Browser closed
+[2026-04-01 21:23:34] [INFO ] ===== TEST STARTED: TC_005_LoginPageDisplayed =====
+[2026-04-01 21:23:34] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:23:34] [PASS ] ===== TEST PASSED: TC_005_LoginPageDisplayed =====
+[2026-04-01 21:23:34] [INFO ] Duration: 9.12 sec
+[2026-04-01 21:23:34] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:23:34] [INFO ] Browser closed
+[2026-04-01 21:23:44] [INFO ] ===== TEST STARTED: TC_006_DashboardLoads =====
+[2026-04-01 21:23:44] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:23:49] [PASS ] ===== TEST PASSED: TC_006_DashboardLoads =====
+[2026-04-01 21:23:49] [INFO ] Duration: 14.95 sec
+[2026-04-01 21:23:49] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:23:49] [INFO ] Browser closed
+[2026-04-01 21:24:04] [INFO ] ===== TEST STARTED: TC_007_DashboardUrlContains =====
+[2026-04-01 21:24:04] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:24:09] [PASS ] ===== TEST PASSED: TC_007_DashboardUrlContains =====
+[2026-04-01 21:24:09] [INFO ] Duration: 19.68 sec
+[2026-04-01 21:24:09] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:24:09] [INFO ] Browser closed
+[2026-04-01 21:24:23] [INFO ] ===== TEST STARTED: TC_008_SidebarMenuVisible =====
+[2026-04-01 21:24:23] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:24:28] [PASS ] ===== TEST PASSED: TC_008_SidebarMenuVisible =====
+[2026-04-01 21:24:28] [INFO ] Duration: 19.13 sec
+[2026-04-01 21:24:28] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:24:28] [INFO ] Browser closed
+[2026-04-01 21:24:38] [INFO ] ===== TEST STARTED: TC_009_AdminMenuVisible =====
+[2026-04-01 21:24:38] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:24:45] [PASS ] ===== TEST PASSED: TC_009_AdminMenuVisible =====
+[2026-04-01 21:24:45] [INFO ] Duration: 17.06 sec
+[2026-04-01 21:24:45] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:24:46] [INFO ] Browser closed
+[2026-04-01 21:24:58] [INFO ] ===== TEST STARTED: TC_010_LogoutRedirectsToLogin =====
+[2026-04-01 21:24:58] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:25:07] [PASS ] ===== TEST PASSED: TC_010_LogoutRedirectsToLogin =====
+[2026-04-01 21:25:07] [INFO ] Duration: 20.80 sec
+[2026-04-01 21:25:07] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:25:07] [INFO ] Browser closed
+[2026-04-01 21:25:14] [INFO ] ===== TEST STARTED: TC_011_ProfilePageLoaded =====
+[2026-04-01 21:25:14] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:25:22] [PASS ] ===== TEST PASSED: TC_011_ProfilePageLoaded =====
+[2026-04-01 21:25:22] [INFO ] Duration: 14.71 sec
+[2026-04-01 21:25:22] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:25:22] [INFO ] Browser closed
+[2026-04-01 21:25:30] [INFO ] ===== TEST STARTED: TC_012_ProfileUrlContains =====
+[2026-04-01 21:25:30] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:25:39] [PASS ] ===== TEST PASSED: TC_012_ProfileUrlContains =====
+[2026-04-01 21:25:39] [INFO ] Duration: 17.57 sec
+[2026-04-01 21:25:39] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:25:39] [INFO ] Browser closed
+[2026-04-01 21:25:48] [INFO ] ===== TEST STARTED: TC_013_FirstNameFieldVisible =====
+[2026-04-01 21:25:48] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:25:55] [PASS ] ===== TEST PASSED: TC_013_FirstNameFieldVisible =====
+[2026-04-01 21:25:55] [INFO ] Duration: 15.67 sec
+[2026-04-01 21:25:55] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:25:55] [INFO ] Browser closed
+[2026-04-01 21:26:09] [INFO ] ===== TEST STARTED: TC_014_LastNameFieldVisible =====
+[2026-04-01 21:26:09] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:26:17] [PASS ] ===== TEST PASSED: TC_014_LastNameFieldVisible =====
+[2026-04-01 21:26:17] [INFO ] Duration: 21.60 sec
+[2026-04-01 21:26:17] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:26:17] [INFO ] Browser closed
+[2026-04-01 21:26:30] [INFO ] ===== TEST STARTED: TC_015_SaveButtonVisible =====
+[2026-04-01 21:26:30] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:26:40] [PASS ] ===== TEST PASSED: TC_015_SaveButtonVisible =====
+[2026-04-01 21:26:40] [INFO ] Duration: 22.64 sec
+[2026-04-01 21:26:40] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:26:40] [INFO ] Browser closed
+[2026-04-01 21:26:47] [INFO ] ===== TEST STARTED: TC_016_VacanciesPageLoads =====
+[2026-04-01 21:26:47] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:26:54] [PASS ] ===== TEST PASSED: TC_016_VacanciesPageLoads =====
+[2026-04-01 21:26:54] [INFO ] Duration: 13.89 sec
+[2026-04-01 21:26:54] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:26:54] [INFO ] Browser closed
+[2026-04-01 21:27:04] [INFO ] ===== TEST STARTED: TC_017_VacanciesUrlContains =====
+[2026-04-01 21:27:04] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:27:11] [PASS ] ===== TEST PASSED: TC_017_VacanciesUrlContains =====
+[2026-04-01 21:27:11] [INFO ] Duration: 16.71 sec
+[2026-04-01 21:27:11] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:27:11] [INFO ] Browser closed
+[2026-04-01 21:27:22] [INFO ] ===== TEST STARTED: TC_018_VacancyTableDisplayed =====
+[2026-04-01 21:27:22] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:27:29] [PASS ] ===== TEST PASSED: TC_018_VacancyTableDisplayed =====
+[2026-04-01 21:27:29] [INFO ] Duration: 17.87 sec
+[2026-04-01 21:27:29] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:27:29] [INFO ] Browser closed
+[2026-04-01 21:27:37] [INFO ] ===== TEST STARTED: TC_019_AddVacancyPageLoads =====
+[2026-04-01 21:27:37] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:27:46] [PASS ] ===== TEST PASSED: TC_019_AddVacancyPageLoads =====
+[2026-04-01 21:27:46] [INFO ] Duration: 16.64 sec
+[2026-04-01 21:27:46] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:27:46] [INFO ] Browser closed
+[2026-04-01 21:27:59] [INFO ] ===== TEST STARTED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-04-01 21:27:59] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:28:09] [PASS ] ===== TEST PASSED: TC_020_SaveWithoutFieldsShowsError =====
+[2026-04-01 21:28:09] [INFO ] Duration: 22.65 sec
+[2026-04-01 21:28:09] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:28:09] [INFO ] Browser closed
+[2026-04-01 21:28:19] [INFO ] ===== TEST STARTED: TC_021_MyLeavePageLoads =====
+[2026-04-01 21:28:19] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:28:27] [PASS ] ===== TEST PASSED: TC_021_MyLeavePageLoads =====
+[2026-04-01 21:28:27] [INFO ] Duration: 17.82 sec
+[2026-04-01 21:28:27] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:28:27] [INFO ] Browser closed
+[2026-04-01 21:28:54] [INFO ] ===== TEST STARTED: TC_022_MyLeaveUrlContains =====
+[2026-04-01 21:28:54] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:29:01] [PASS ] ===== TEST PASSED: TC_022_MyLeaveUrlContains =====
+[2026-04-01 21:29:01] [INFO ] Duration: 34.31 sec
+[2026-04-01 21:29:01] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:29:01] [INFO ] Browser closed
+[2026-04-01 21:29:12] [INFO ] ===== TEST STARTED: TC_023_LeaveTableDisplayed =====
+[2026-04-01 21:29:12] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:29:19] [PASS ] ===== TEST PASSED: TC_023_LeaveTableDisplayed =====
+[2026-04-01 21:29:19] [INFO ] Duration: 17.65 sec
+[2026-04-01 21:29:19] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:29:19] [INFO ] Browser closed
+[2026-04-01 21:29:43] [INFO ] ===== TEST STARTED: TC_024_ApplyLeavePageLoads =====
+[2026-04-01 21:29:43] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:29:57] [PASS ] ===== TEST PASSED: TC_024_ApplyLeavePageLoads =====
+[2026-04-01 21:29:57] [INFO ] Duration: 38.14 sec
+[2026-04-01 21:29:57] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:29:57] [INFO ] Browser closed
+[2026-04-01 21:30:05] [INFO ] ===== TEST STARTED: TC_025_ApplyLeaveUrlContains =====
+[2026-04-01 21:30:05] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:30:16] [PASS ] ===== TEST PASSED: TC_025_ApplyLeaveUrlContains =====
+[2026-04-01 21:30:16] [INFO ] Duration: 18.62 sec
+[2026-04-01 21:30:16] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:30:16] [INFO ] Browser closed
+[2026-04-01 21:30:22] [INFO ] ===== TEST STARTED: TC_026_EmployeeListPageLoads =====
+[2026-04-01 21:30:22] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:30:29] [PASS ] ===== TEST PASSED: TC_026_EmployeeListPageLoads =====
+[2026-04-01 21:30:29] [INFO ] Duration: 13.40 sec
+[2026-04-01 21:30:29] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:30:30] [INFO ] Browser closed
+[2026-04-01 21:30:37] [INFO ] ===== TEST STARTED: TC_027_EmployeeListUrlContains =====
+[2026-04-01 21:30:37] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:30:48] [PASS ] ===== TEST PASSED: TC_027_EmployeeListUrlContains =====
+[2026-04-01 21:30:48] [INFO ] Duration: 18.38 sec
+[2026-04-01 21:30:48] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:30:48] [INFO ] Browser closed
+[2026-04-01 21:31:21] [INFO ] ===== TEST STARTED: TC_028_EmployeeTableDisplayed =====
+[2026-04-01 21:31:21] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:31:31] [PASS ] ===== TEST PASSED: TC_028_EmployeeTableDisplayed =====
+[2026-04-01 21:31:31] [INFO ] Duration: 42.46 sec
+[2026-04-01 21:31:31] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:31:31] [INFO ] Browser closed
+[2026-04-01 21:31:41] [INFO ] ===== TEST STARTED: TC_029_AddButtonDisplayed =====
+[2026-04-01 21:31:41] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:31:49] [PASS ] ===== TEST PASSED: TC_029_AddButtonDisplayed =====
+[2026-04-01 21:31:49] [INFO ] Duration: 17.62 sec
+[2026-04-01 21:31:49] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:31:49] [INFO ] Browser closed
+[2026-04-01 21:32:02] [INFO ] ===== TEST STARTED: TC_030_AddEmployeePageLoads =====
+[2026-04-01 21:32:02] [INFO ] Browser opened and login page loaded
+[2026-04-01 21:32:13] [PASS ] ===== TEST PASSED: TC_030_AddEmployeePageLoads =====
+[2026-04-01 21:32:13] [INFO ] Duration: 23.76 sec
+[2026-04-01 21:32:13] [INFO ] ─────────────────────────────────────────
+[2026-04-01 21:32:13] [INFO ] Browser closed
